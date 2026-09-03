@@ -1,2 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Marcellus&display=swap');
 @import "tailwindcss";
 
+.marcellus, .font-marcellus {
+  font-family: "Marcellus", serif;
+}
+
+.arimo, .font-arimo {
+  font-family: "Arimo", sans-serif;
+}
