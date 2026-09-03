@@ -63,4 +63,25 @@
 
 .font-arimo, .arimo {
   font-family: var(--font-arimo), "Arimo", sans-serif !important;
+  --font-marcellus: "Marcellus", serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-dm-serif-display: "DM Serif Display", serif;
+  --font-geist: "Geist", sans-serif;
+  --font-marck-script: "Marck Script", cursive;
+  --font-marcellus-sc: "Marcellus SC", serif;
+  --font-arimo: "Arimo", sans-serif;
+}
+
+.font-dm-serif-text, .dm-serif-text {
+  font-family: "DM Serif Text", serif;
+}
+
+.font-marcellus, .marcellus {
+  font-family: "Marcellus", serif;
+}
+
+.font-arimo, .arimo {
+  font-family: "Arimo", sans-serif;
 }
