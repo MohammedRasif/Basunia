@@ -139,13 +139,13 @@ export default function Navbar() {
                 className="w-full h-full object-contain p-1.5 sm:p-2"
               />
             </div>
-            <span className="marcellus text-base sm:text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-tight group-hover:text-[#8E1831] transition-colors">
+            <span className="font-marcellus text-base sm:text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-tight group-hover:text-[#8E1831] transition-colors">
               Basunia & Associate
             </span>
           </Link>
 
           {/* Center Desktop Navigation Links (Arimo Font) */}
-          <nav className="hidden lg:flex items-center gap-7 arimo font-bold text-slate-800 text-sm sm:text-base">
+          <nav className="hidden lg:flex items-center gap-7 font-arimo font-bold text-slate-800 text-sm sm:text-base">
             
             {/* Home */}
             <div className="relative group py-2">
