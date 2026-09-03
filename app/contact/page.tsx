@@ -14,9 +14,9 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 pt-24 sm:pt-28">
       {/* 1. Hero Banner Section */}
-      <section className="relative w-full h-[240px] sm:h-[320px] md:h-[380px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-[280px] sm:h-[360px] md:h-[420px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/assets/images/Frame 2147229286.png"
+          src="/assets/images/Frame 2147229286.svg"
           alt="Contact Us Banner"
           fill
           priority
