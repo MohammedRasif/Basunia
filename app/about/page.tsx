@@ -27,7 +27,7 @@ export default function AboutPage() {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-          <h1 className="marcellus text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-3 sm:mb-4">
+          <h1 className="font-dm-serif-text text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-3 sm:mb-4">
             About us
           </h1>
           <p className="arimo text-slate-200 text-sm sm:text-base md:text-lg max-w-xl mx-auto leading-relaxed font-medium">
@@ -39,7 +39,7 @@ export default function AboutPage() {
       {/* 2. Our Story Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-8 py-16 sm:py-24">
         <div className="text-center mb-10 sm:mb-12">
-          <span className="marcellus text-xs uppercase tracking-[0.35em] font-bold text-slate-500">
+          <span className="marcellus text-2xl lg:text-20px uppercase tracking-[0.10em] font-bold text-slate-500">
             OUR STORY
           </span>
         </div>

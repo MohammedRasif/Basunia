@@ -16,3 +16,15 @@
   --font-marcellus-sc: "Marcellus SC", serif;
   --font-arimo: "Arimo", sans-serif;
 }
+
+.font-dm-serif-text, .dm-serif-text {
+  font-family: "DM Serif Text", serif;
+}
+
+.font-marcellus, .marcellus {
+  font-family: "Marcellus", serif;
+}
+
+.font-arimo, .arimo {
+  font-family: "Arimo", sans-serif;
+}
