@@ -1,8 +1,7 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -19,7 +18,7 @@ export default function HeroSection() {
           {/* Cursive Subtitle */}
           <p
             className="font-marck-script text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#222222] tracking-wide mb-1 sm:mb-2 select-none"
-            style={{ fontFamily: "var(--font-marck-script), 'Marck Script', cursive" }}
+
           >
             We help good people
           </p>
@@ -27,7 +26,6 @@ export default function HeroSection() {
           {/* Main Headline */}
           <h1
             className="font-dm-serif-text text-4xl sm:text-5xl md:text-6xl lg:text-[64px] text-[#141414] tracking-tight leading-[1.12] mb-4 sm:mb-5"
-            style={{ fontFamily: '"Marcellus", serif' }}
           >
             Through the bad time
           </h1>
@@ -126,8 +124,7 @@ export default function HeroSection() {
                 </svg>
               </div>
               <span
-                className=" font-semibold text-slate-800 text-sm sm:text-base tracking-tight"
-                
+                className=" font-semibold text-slate-800 text-sm sm:text-base tracking-tight"               
               >
                 Get a Free Consultation
               </span>
