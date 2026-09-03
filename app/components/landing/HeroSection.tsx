@@ -17,7 +17,7 @@ export default function HeroSection() {
           
           {/* Cursive Subtitle */}
           <p
-            className="font-marck-script text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#222222] tracking-wide mb-1 sm:mb-2 select-none"
+            className="font-marck-script text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#222222]  mb-1 sm:mb-2 "
 
           >
             We help good people
