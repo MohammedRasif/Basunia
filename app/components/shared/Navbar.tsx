@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import AnimatedButton from "./AnimatedButton";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -296,7 +297,7 @@ export default function Navbar() {
                     Our Firm
                   </div>
                   <Link
-                    href="/categories"
+                    href="/about"
                     className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
                   >
                     About Us
@@ -361,12 +362,9 @@ export default function Navbar() {
             <div className="h-6 w-[1px] bg-slate-300 mx-3" />
 
             {/* Get a free consultation CTA Button */}
-            <Link
-              href="/contact"
-              className="arimo font-semibold text-xs sm:text-sm text-white bg-[#8E1831] hover:bg-[#721327] px-5 py-3 transition-all shadow-sm hover:shadow-md cursor-pointer shrink-0"
-            >
+            <AnimatedButton href="/contact" className="py-2.5 px-4">
               Get a free consultation
-            </Link>
+            </AnimatedButton>
           </div>
 
           {/* Mobile & Tablet Toggle Controls */}
@@ -527,7 +525,7 @@ export default function Navbar() {
                 {mobileAboutOpen && (
                   <div className="pl-3 mt-2 space-y-2 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30">
                     <Link
-                      href="/categories"
+                      href="/about"
                       onClick={() => setMobileMenuOpen(false)}
                       className="block py-1 hover:text-[#8E1831]"
                     >
