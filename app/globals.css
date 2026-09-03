@@ -5,6 +5,9 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-dm-serif-text: "DM Serif Text", serif;
+  --font-poppins: var(--font-poppins), "Poppins", sans-serif;
+  --font-dm-serif-text: var(--font-dm-serif-text), "DM Serif Text", serif;
+  --font-dm-serif-display: var(--font-dm-serif-display), "DM Serif Display", serif;
   --font-switzer: "Switzer", sans-serif;
   --font-marcellus: "Marcellus", serif;
   --font-manrope: "Manrope", sans-serif;
@@ -15,16 +18,61 @@
   --font-marck-script: "Marck Script", cursive;
   --font-marcellus-sc: "Marcellus SC", serif;
   --font-arimo: "Arimo", sans-serif;
+  --font-marcellus: var(--font-marcellus), "Marcellus", serif;
+  --font-marcellus-sc: var(--font-marcellus-sc), "Marcellus SC", serif;
+  --font-manrope: var(--font-manrope), "Manrope", sans-serif;
+  --font-inter: var(--font-inter), "Inter", sans-serif;
+  --font-jakarta: var(--font-jakarta), "Plus Jakarta Sans", sans-serif;
+  --font-geist: var(--font-geist), "Geist", sans-serif;
+  --font-marck-script: var(--font-marck-script), "Marck Script", cursive;
+  --font-arimo: var(--font-arimo), "Arimo", sans-serif;
+}
+
+/* Explicit CSS Utility Classes so both `font-<name>` and `<name>` work unconditionally */
+.font-poppins, .poppins {
+  font-family: var(--font-poppins), "Poppins", sans-serif !important;
 }
 
 .font-dm-serif-text, .dm-serif-text {
-  font-family: "DM Serif Text", serif;
+  font-family: var(--font-dm-serif-text), "DM Serif Text", serif !important;
+}
+
+.font-dm-serif-display, .dm-serif-display {
+  font-family: var(--font-dm-serif-display), "DM Serif Display", serif !important;
+}
+
+.font-switzer, .switzer {
+  font-family: "Switzer", sans-serif !important;
 }
 
 .font-marcellus, .marcellus {
-  font-family: "Marcellus", serif;
+  font-family: var(--font-marcellus), "Marcellus", serif !important;
+}
+
+.font-marcellus-sc, .marcellus-sc {
+  font-family: var(--font-marcellus-sc), "Marcellus SC", serif !important;
+}
+
+.font-manrope, .manrope {
+  font-family: var(--font-manrope), "Manrope", sans-serif !important;
+}
+
+.font-inter, .inter {
+  font-family: var(--font-inter), "Inter", sans-serif !important;
+}
+
+.font-jakarta, .jakarta, .font-plus-jakarta-sans, .plus-jakarta-sans {
+  font-family: var(--font-jakarta), "Plus Jakarta Sans", sans-serif !important;
+}
+
+.font-geist, .geist {
+  font-family: var(--font-geist), "Geist", sans-serif !important;
+}
+
+.font-marck-script, .marck-script {
+  font-family: var(--font-marck-script), "Marck Script", cursive !important;
 }
 
 .font-arimo, .arimo {
-  font-family: "Arimo", sans-serif;
+  font-family: var(--font-arimo), "Arimo", sans-serif !important;
 }
