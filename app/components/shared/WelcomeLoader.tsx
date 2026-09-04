@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import WaterfallLoading from "./WaterfallLoading";
 
 export default function WelcomeLoader({
@@ -8,23 +8,48 @@ export default function WelcomeLoader({
 }: {
   children: React.ReactNode;
 }) {
-  const [loadingComplete, setLoadingComplete] = useState(false);
+  const [loadingComplete, setLoadingComplete] = useState<boolean>(true);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    const hasSeenLoader = sessionStorage.getItem("welcome_loader_shown");
+    if (!hasSeenLoader) {
+      setLoadingComplete(false);
+    } else {
+      setLoadingComplete(true);
+    }
+  }, []);
+
+  const handleComplete = () => {
+    try {
+      sessionStorage.setItem("welcome_loader_shown", "true");
+    } catch {
+      // safe fallback
+    }
+    setLoadingComplete(true);
+  };
+
+  if (!isClient || loadingComplete) {
+    return <>{children}</>;
+  }
 
   return (
     <>
-      {!loadingComplete && (
-        <WaterfallLoading
-          brandText="Basunia & Associates"
-          subText="Trusted Legal Solutions"
-          onComplete={() => setLoadingComplete(true)}
-        />
-      )}
+      <WaterfallLoading
+        brandText="Basunia & Associates"
+        subText="Trusted Legal Solutions"
+        onComplete={handleComplete}
+      />
       <div
-        className={`transition-opacity duration-700 ${loadingComplete ? "opacity-100" : "opacity-0 pointer-events-none"
-          }`}
+        className={`transition-opacity duration-700 ${
+          loadingComplete ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
       >
         {children}
       </div>
     </>
   );
 }
+
+
