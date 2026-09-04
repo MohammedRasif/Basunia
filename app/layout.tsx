@@ -114,8 +114,8 @@ export default function RootLayout({
   ].join(" ");
 
   return (
-    <html lang="en" className={`h-full antialiased scroll-smooth ${fontVariables}`}>
-      <body className="min-h-full flex flex-col font-sans text-slate-900 bg-slate-50 selection:bg-indigo-500 selection:text-white">
+    <html lang="en" className={`h-full antialiased scroll-smooth ${fontVariables}`} suppressHydrationWarning>
+      <body className="min-h-full flex flex-col font-sans text-slate-900 bg-slate-50 selection:bg-indigo-500 selection:text-white" suppressHydrationWarning>
         <ToastProvider />
         <Navbar />
         <main className="flex-1 min-h-[calc(100vh-16rem)]">{children}</main>
