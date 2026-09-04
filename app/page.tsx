@@ -3,8 +3,9 @@
 import WelcomeLoader from "./components/shared/WelcomeLoader";
 import HeroSection from "./components/landing/HeroSection";
 import AboutSection from "./components/landing/AboutSection";
-import WhoWeAreSection from "./components/landing/WhoWeAreSection";
 import PracticeAreaSection from "./components/landing/PracticeAreaSection";
+import WhoWeAreSection from "./components/landing/WhoWeAreSection";
+import TeamSection from "./components/landing/TeamSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <AboutSection />
         <PracticeAreaSection />
         <WhoWeAreSection />
+        <TeamSection />
       </div>
     </WelcomeLoader>
   );
