@@ -101,7 +101,7 @@ export default function AboutSection() {
               {count}+
             </div>
             <p className="font-marcellus-sc text-sm sm:text-base lg:text-[18px] text-[#1e1e1e] uppercase tracking-[0.14em] mt-3 sm:mt-4 font-normal">
-              YEARS EXPERIANCE
+              YEARS EXPERIENCE
             </p>
           </div>
 
