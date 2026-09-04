@@ -186,7 +186,7 @@ export default function PracticeAreaSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <span className="font-marcellus text-xs sm:text-sm md:text-[16px] tracking-[0.2em] text-[#333333] uppercase font-normal inline-block mb-3 sm:mb-4">
+          <span className="font-marcellus text-xs sm:text-sm md:text-[24px] tracking-[0.2em] text-[#333333] uppercase font-normal inline-block mb-3 sm:mb-4">
             PRACTICE AREA
           </span>
 
