@@ -67,7 +67,7 @@ export default function AboutSection() {
           
           {/* 1. Left Div: Heading & Detailed Description */}
           <div className="w-full lg:max-w-[430px] flex flex-col justify-center text-left">
-            <h2 className="font-dm-serif-text text-3xl sm:text-4xl md:text-[40px] lg:text-[42px] xl:text-[46px] text-[#141414] font-normal leading-[1.18] tracking-tight mb-6 sm:mb-7">
+            <h2 className="font-dm-serif-text text-3xl sm:text-4xl md:text-[36px] text-[#262626] font-normal leading-[1.18] tracking-tight mb-6 sm:mb-7">
               Founded To Fight.
               <br />
               Built Around You.

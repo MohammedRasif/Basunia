@@ -22,7 +22,7 @@ const practiceRows: [PracticeItem, PracticeItem][] = [
       href: "/categories/corporate-commercial-law",
     },
     {
-      id: "05",
+      id: "06",
       uniqueKey: "item-05",
       title: "Corporate & Commercial Law",
       description: "Structuring commercial partnerships, trade negotiations, and corporate advisory.",
@@ -38,7 +38,7 @@ const practiceRows: [PracticeItem, PracticeItem][] = [
       href: "/categories/litigation-dispute-resolution",
     },
     {
-      id: "06",
+      id: "07",
       uniqueKey: "item-06",
       title: "Family & Estate Planning Law",
       description: "Comprehensive matrimonial, guardianship, and trust management services.",
@@ -54,7 +54,7 @@ const practiceRows: [PracticeItem, PracticeItem][] = [
       href: "/categories/family-estate-planning-law",
     },
     {
-      id: "07",
+      id: "08",
       uniqueKey: "item-07",
       title: "Intellectual Property Rights Her",
       description: "Enforcing patent protection, IP infringement lawsuits, and brand security.",
@@ -70,7 +70,7 @@ const practiceRows: [PracticeItem, PracticeItem][] = [
       href: "/categories/intellectual-property-rights",
     },
     {
-      id: "08",
+      id: "09",
       uniqueKey: "item-08",
       title: "Intellectual Property Rights Her",
       description: "Digital copyright defense, trade secrets, and media law consultancy.",
@@ -86,7 +86,7 @@ const practiceRows: [PracticeItem, PracticeItem][] = [
       href: "/categories/intellectual-property-rights",
     },
     {
-      id: "09",
+      id: "10",
       uniqueKey: "item-08b",
       title: "Intellectual Property Rights Her",
       description: "Global trademark registrations and international IP conflict management.",
@@ -106,64 +106,69 @@ export default function PracticeAreaSection() {
         key={item.uniqueKey}
         href={item.href}
         onMouseEnter={() => setActiveKey(item.uniqueKey)}
-        className={`group relative flex items-center justify-between px-6 sm:px-8 md:px-10 lg:px-12 h-[155px] sm:h-[165px] lg:h-[175px] transition-colors duration-300 cursor-pointer overflow-hidden ${
-          isActive
-            ? "bg-[#8E1831] text-white z-10"
-            : "bg-[#FAFAFA] hover:bg-[#8E1831] text-[#1e1e1e] hover:text-white"
-        }`}
+        className="group relative flex items-center justify-between px-6 sm:px-8 md:px-10 lg:px-12 h-[155px] sm:h-[165px] lg:h-[175px] bg-[#FAFAFA] cursor-pointer overflow-hidden select-none"
       >
-        {/* Left Side: Number & (Title + Description) - Perfectly Centered */}
-        <div className="flex items-center gap-6 sm:gap-8 md:gap-10 pr-4 flex-1">
+        {/* Gentle, Luxury Background Fade Layer */}
+        <div
+          className={`absolute inset-0 bg-[#8E1831] transition-opacity duration-600 ease-[cubic-bezier(0.25,1,0.5,1)] pointer-events-none ${
+            isActive ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        {/* Left Side: Number & (Title + Description) */}
+        <div className="relative z-10 flex items-center gap-6 sm:gap-8 md:gap-10 pr-4 flex-1">
           {/* Number */}
           <span
-            className={`font-switzer text-lg sm:text-xl md:text-[22px] font-normal shrink-0 transition-colors duration-300 ${
-              isActive ? "text-white" : "text-[#222222] group-hover:text-white"
+            className={`font-switzer text-lg sm:text-xl md:text-[22px] font-normal shrink-0 transition-colors duration-500 ease-out ${
+              isActive ? "text-white" : "text-[#222222]"
             }`}
           >
             {item.id}
           </span>
 
-          {/* Title & Description Block */}
-          <div className="flex flex-col justify-center">
+          {/* Title & Description Container */}
+          <div className="flex flex-col justify-center flex-1">
             {/* Title */}
             <h3
-              className={`font-switzer text-xl sm:text-2xl md:text-[24px]  font-normal leading-tight tracking-tight transition-colors duration-300 ${
-                isActive ? "text-white" : "text-[#141414] group-hover:text-white"
+              className={`font-switzer text-xl sm:text-2xl md:text-[24px] font-normal leading-tight tracking-tight transition-colors duration-500 ease-out ${
+                isActive ? "text-white" : "text-[#141414]"
               }`}
             >
               {item.title}
             </h3>
 
-            {/* Description: Positioned naturally right under the title */}
+            {/* Description: Gentle, Silky-Smooth Reveal & Collapse */}
             {item.description && (
               <div
-                className={`transition-all duration-300 ease-out overflow-hidden ${
+                className={`grid transition-[grid-template-rows,margin] duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
                   isActive
-                    ? "max-h-24 opacity-100 mt-2 sm:mt-2.5"
-                    : "max-h-0 opacity-0 mt-0 group-hover:max-h-24 group-hover:opacity-100 group-hover:mt-2 sm:group-hover:mt-2.5"
+                    ? "grid-rows-[1fr] mt-2 sm:mt-2.5"
+                    : "grid-rows-[0fr] mt-0 pointer-events-none"
                 }`}
               >
-                <p
-                  className={`font-switzer text-xs sm:text-sm md:text-[14.5px] leading-snug sm:leading-relaxed max-w-sm sm:max-w-md transition-colors duration-300 ${
-                    isActive
-                      ? "text-white"
-                      : "text-slate-500 group-hover:text-white"
-                  }`}
-                >
-                  {item.description}
-                </p>
+                <div className="overflow-hidden">
+                  <p
+                    className={`font-switzer text-xs sm:text-sm md:text-[14.5px] leading-snug sm:leading-relaxed max-w-sm sm:max-w-md transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+                      isActive
+                        ? "opacity-100 translate-y-0 text-white/95"
+                        : "opacity-0 -translate-y-2 text-transparent"
+                    }`}
+                  >
+                    {item.description}
+                  </p>
+                </div>
               </div>
             )}
           </div>
         </div>
 
-        {/* Right Side: Sleek Arrow */}
-        <div className="shrink-0 pl-2">
+        {/* Right Side: Smooth Sliding Arrow */}
+        <div className="relative z-10 shrink-0 pl-2">
           <svg
-            className={`w-6 h-6 sm:w-7 sm:h-7 transition-all duration-300 ${
+            className={`w-6 h-6 sm:w-7 sm:h-7 transition-all duration-600 ease-[cubic-bezier(0.25,1,0.5,1)] ${
               isActive
-                ? "text-white translate-x-1.5"
-                : "text-[#8E1831] group-hover:text-white group-hover:translate-x-1.5"
+                ? "text-white translate-x-2"
+                : "text-[#8E1831] translate-x-0"
             }`}
             viewBox="0 0 28 28"
             fill="none"
@@ -190,7 +195,7 @@ export default function PracticeAreaSection() {
             PRACTICE AREA
           </span>
 
-          <h2 className="font-dm-serif-text text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-[#141414] font-normal leading-[1.15] tracking-tight">
+          <h2 className="font-dm-serif-text text-3xl md:text-[36px] text-[#262626] font-normal leading-[1.15] tracking-tight">
             Legal Expertise Across
             <br />
             Every Stage of Your Needs
@@ -198,7 +203,7 @@ export default function PracticeAreaSection() {
         </div>
 
         {/* Practice Areas Grid Box with #E5E5E5 Borders and Dividers */}
-        <div className="w-full border border-[#E5E5E5] bg-[#E5E5E5] shadow-sm">
+        <div className="w-full border border-[#E5E5E5] bg-[#E5E5E5] shadow-xs">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1px]">
             {practiceRows.map(([leftItem, rightItem]) => (
               <div key={leftItem.uniqueKey + rightItem.uniqueKey} className="contents">
@@ -210,7 +215,7 @@ export default function PracticeAreaSection() {
         </div>
 
         {/* Bottom Callout Banner: Need Help Finding the Right Legal Service? */}
-        <div className="relative w-full mt-6 sm:mt-8 border border-[#E5E5E5] bg-[#FAFAFA] overflow-hidden p-6 sm:p-8 md:px-10 md:py-8 lg:px-12 lg:py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-sm">
+        <div className="relative w-full mt-6 sm:mt-8 border border-[#E5E5E5] bg-[#FAFAFA] overflow-hidden p-6 sm:p-8 md:px-10 md:py-8 lg:px-12 lg:py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-xs">
           {/* Background Watermark Image: practice.avif */}
           <div className="absolute inset-0 pointer-events-none select-none">
             <Image
@@ -222,7 +227,7 @@ export default function PracticeAreaSection() {
           </div>
 
           {/* Left Text Block */}
-          <div className="relative z-10 ">
+          <div className="relative z-10">
             <h3 className="font-inter text-lg sm:text-xl md:text-[20px] font-bold text-[#141414] tracking-tight">
               Need Help Finding the Right Legal Service?
             </h3>
@@ -257,6 +262,3 @@ export default function PracticeAreaSection() {
     </section>
   );
 }
-
-
-
