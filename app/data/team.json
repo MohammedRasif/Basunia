@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Senior Partner & Corporate Counsel",
+    "image": "/assets/images/team/member1.jpg",
+    "email": "rohim.partner@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "12+ Years Experience",
+    "specialization": "Corporate Law, Mergers & Acquisitions",
+    "slug": "rohim-1"
+  },
+  {
+    "id": "2",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Litigation Advocate & Legal Strategist",
+    "image": "/assets/images/team/member2.jpg",
+    "email": "rohim.litigation@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "10+ Years Experience",
+    "specialization": "Civil & Criminal Dispute Resolution",
+    "slug": "rohim-2"
+  },
+  {
+    "id": "3",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Commercial & Arbitration Consultant",
+    "image": "/assets/images/team/member3.jpg",
+    "email": "rohim.commercial@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "15+ Years Experience",
+    "specialization": "Banking, Finance & Maritime Law",
+    "slug": "rohim-3"
+  },
+  {
+    "id": "4",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Intellectual Property Specialist",
+    "image": "/assets/images/team/member4.jpg",
+    "email": "rohim.ip@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "8+ Years Experience",
+    "specialization": "Trademarks, Patents & Tech Compliance",
+    "slug": "rohim-4"
+  },
+  {
+    "id": "5",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Senior Associate & Legal Advisor",
+    "image": "/assets/images/team/member1.jpg",
+    "email": "rohim.associate1@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "7+ Years Experience",
+    "specialization": "Employment & Labor Regulations",
+    "slug": "rohim-5"
+  },
+  {
+    "id": "6",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Barrister & Courtroom Advocate",
+    "image": "/assets/images/team/member2.jpg",
+    "email": "rohim.barrister@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "9+ Years Experience",
+    "specialization": "High Court & Appellate Advocacy",
+    "slug": "rohim-6"
+  },
+  {
+    "id": "7",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Taxation & Customs Law Consultant",
+    "image": "/assets/images/team/member3.jpg",
+    "email": "rohim.tax@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "11+ Years Experience",
+    "specialization": "Tax Advisory, VAT & Customs",
+    "slug": "rohim-7"
+  },
+  {
+    "id": "8",
+    "name": "Rohim",
+    "role": "Experienced Professionals",
+    "designation": "Family & Estate Planning Counsel",
+    "image": "/assets/images/team/member4.jpg",
+    "email": "rohim.family@basunialaw.com",
+    "phone": "+880 1956 565462",
+    "experience": "6+ Years Experience",
+    "specialization": "Family Law, Succession & Trusts",
+    "slug": "rohim-8"
+  }
+]

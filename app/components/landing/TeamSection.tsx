@@ -2,58 +2,7 @@
 
 import Image from "next/image";
 import { useRef, useState } from "react";
-
-interface TeamMember {
-  id: string;
-  name: string;
-  role: string;
-  image: string;
-}
-
-const teamMembers: TeamMember[] = [
-  {
-    id: "1",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member1.jpg",
-  },
-  {
-    id: "2",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member2.jpg",
-  },
-  {
-    id: "3",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member3.jpg",
-  },
-  {
-    id: "4",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member4.jpg",
-  },
-  {
-    id: "5",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member2.jpg",
-  },
-  {
-    id: "6",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member1.jpg",
-  },
-  {
-    id: "7",
-    name: "Rohim",
-    role: "Experienced Professionals",
-    image: "/assets/images/team/member3.jpg",
-  },
-];
+import { teamMembers } from "@/app/data/team";
 
 export default function TeamSection() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
