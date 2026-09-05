@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 4 160 114" fill="none">
+  <!-- City Bank Origami / Kite Symbol -->
+  <g>
+    <!-- Top-left Red Diamond -->
+    <polygon points="120,8 104,36 120,44 136,36" fill="#D32027" />
+    <!-- Center Left Red Segment -->
+    <polygon points="90,40 104,36 120,44 106,48" fill="#D32027" />
+    <!-- Bottom Red Big Diamond Wing -->
+    <polygon points="106,48 86,92 120,72 136,60" fill="#D32027" />
+    <!-- Right White/Grey Fold -->
+    <polygon points="120,44 136,36 154,60 136,60" fill="#EAEAEA" />
+    <polygon points="120,44 136,60 120,72" fill="#D32027" />
+    <polygon points="136,60 154,60 166,88 140,80" fill="#EAEAEA" />
+  </g>
+  <!-- Text: city bank -->
+  <text x="120" y="98" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#D32027" text-anchor="middle" letter-spacing="-0.5">city bank</text>
+  <!-- Subtext: making sense of money -->
+  <text x="120" y="112" font-family="Arial, sans-serif" font-size="10.5" fill="#666666" text-anchor="middle">making sense of money</text>
+</svg>

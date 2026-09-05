@@ -7,6 +7,7 @@ import PracticeAreaSection from "./components/landing/PracticeAreaSection";
 import WhoWeAreSection from "./components/landing/WhoWeAreSection";
 import TeamSection from "./components/landing/TeamSection";
 import GallerySection from "./components/landing/GallerySection";
+import TrustedBySection from "./components/landing/TrustedBySection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <WhoWeAreSection />
         <TeamSection />
         <GallerySection />
+        <TrustedBySection />
       </div>
     </WelcomeLoader>
   );

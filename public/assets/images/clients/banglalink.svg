@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 8 215 54" fill="none">
+  <!-- Orange Banglalink Monogram Loop -->
+  <g fill="#FF6600">
+    <path d="M16 35 C16 22, 28 14, 40 22 C48 28, 52 38, 44 48 C36 56, 22 52, 18 44" stroke="#FF6600" stroke-width="7" stroke-linecap="round" fill="none" />
+    <circle cx="28" cy="35" r="4" fill="#FF6600" />
+  </g>
+  <!-- Text: banglalink -->
+  <text x="64" y="45" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="#1C1D1F" letter-spacing="-0.5">banglalink</text>
+</svg>

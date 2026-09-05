@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 8 208 58" fill="none">
+  <!-- Rokomari Bengali Wordmark -->
+  <g fill="#231F20">
+    <!-- Stylized Bengali Text রকমারি -->
+    <text x="10" y="52" font-family="'SolaimanLipi', 'Bangla', 'Arial Unicode MS', sans-serif" font-size="46" font-weight="900" fill="#231F20" letter-spacing="0">রকমারি</text>
+  </g>
+  <!-- Vertical .com on right -->
+  <g transform="translate(195, 20)">
+    <text x="0" y="32" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#666666" transform="rotate(-90 0,32)">.com</text>
+  </g>
+</svg>
