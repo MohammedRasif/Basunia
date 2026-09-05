@@ -4,12 +4,22 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
+  roleTag?: string;
+  courtTitle?: string;
   designation?: string;
   image: string;
   email?: string;
   phone?: string;
   experience?: string;
   specialization?: string;
+  careerHistory?: string[];
+  qualifications?: string[];
+  education?: string[];
+  socialLinks?: {
+    twitter?: string;
+    facebook?: string;
+    youtube?: string;
+  };
   slug?: string;
 }
 

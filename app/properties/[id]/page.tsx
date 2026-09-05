@@ -38,8 +38,8 @@ export default async function LawyerDetailPage({ params }: Props) {
   }
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 pt-28 sm:pt-32 pb-20">
+    <main className="min-h-screen bg-white text-slate-900">
       <LawyerProfileSection member={member} />
-    </div>
+    </main>
   );
 }
