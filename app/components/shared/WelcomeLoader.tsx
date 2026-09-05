@@ -1,25 +1,32 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useSyncExternalStore } from "react";
 import WaterfallLoading from "./WaterfallLoading";
+
+function subscribe(callback: () => void) {
+  window.addEventListener("storage", callback);
+  return () => window.removeEventListener("storage", callback);
+}
+
+function getSnapshot() {
+  try {
+    return sessionStorage.getItem("welcome_loader_shown") === "true";
+  } catch {
+    return true;
+  }
+}
+
+function getServerSnapshot() {
+  return true;
+}
 
 export default function WelcomeLoader({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [loadingComplete, setLoadingComplete] = useState<boolean>(true);
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-    const hasSeenLoader = sessionStorage.getItem("welcome_loader_shown");
-    if (!hasSeenLoader) {
-      setLoadingComplete(false);
-    } else {
-      setLoadingComplete(true);
-    }
-  }, []);
+  const hasSeenLoader = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const [done, setDone] = useState(false);
 
   const handleComplete = () => {
     try {
@@ -27,10 +34,12 @@ export default function WelcomeLoader({
     } catch {
       // safe fallback
     }
-    setLoadingComplete(true);
+    setDone(true);
   };
 
-  if (!isClient || loadingComplete) {
+  const isLoaded = hasSeenLoader || done;
+
+  if (isLoaded) {
     return <>{children}</>;
   }
 
@@ -43,7 +52,7 @@ export default function WelcomeLoader({
       />
       <div
         className={`transition-opacity duration-700 ${
-          loadingComplete ? "opacity-100" : "opacity-0 pointer-events-none"
+          isLoaded ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >
         {children}
@@ -51,5 +60,3 @@ export default function WelcomeLoader({
     </>
   );
 }
-
-
