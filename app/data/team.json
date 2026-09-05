@@ -1,98 +1,258 @@
 [
   {
     "id": "1",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Senior Partner & Corporate Counsel",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member1.jpg",
-    "email": "rohim.partner@basunialaw.com",
+    "email": "rahim.associate@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "12+ Years Experience",
-    "specialization": "Corporate Law, Mergers & Acquisitions",
-    "slug": "rohim-1"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-1"
   },
   {
     "id": "2",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Litigation Advocate & Legal Strategist",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member2.jpg",
-    "email": "rohim.litigation@basunialaw.com",
+    "email": "rahim.advocate@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "10+ Years Experience",
-    "specialization": "Civil & Criminal Dispute Resolution",
-    "slug": "rohim-2"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-2"
   },
   {
     "id": "3",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Commercial & Arbitration Consultant",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member3.jpg",
-    "email": "rohim.commercial@basunialaw.com",
+    "email": "rahim.senior@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "15+ Years Experience",
-    "specialization": "Banking, Finance & Maritime Law",
-    "slug": "rohim-3"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-3"
   },
   {
     "id": "4",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Intellectual Property Specialist",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member4.jpg",
-    "email": "rohim.ip@basunialaw.com",
+    "email": "rahim.ip@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "8+ Years Experience",
-    "specialization": "Trademarks, Patents & Tech Compliance",
-    "slug": "rohim-4"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-4"
   },
   {
     "id": "5",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Senior Associate & Legal Advisor",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member1.jpg",
-    "email": "rohim.associate1@basunialaw.com",
+    "email": "rahim.counsel@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "7+ Years Experience",
-    "specialization": "Employment & Labor Regulations",
-    "slug": "rohim-5"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-5"
   },
   {
     "id": "6",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Barrister & Courtroom Advocate",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member2.jpg",
-    "email": "rohim.barrister@basunialaw.com",
+    "email": "rahim.litigation2@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "9+ Years Experience",
-    "specialization": "High Court & Appellate Advocacy",
-    "slug": "rohim-6"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-6"
   },
   {
     "id": "7",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Taxation & Customs Law Consultant",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member3.jpg",
-    "email": "rohim.tax@basunialaw.com",
+    "email": "rahim.tax2@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "11+ Years Experience",
-    "specialization": "Tax Advisory, VAT & Customs",
-    "slug": "rohim-7"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-7"
   },
   {
     "id": "8",
-    "name": "Rohim",
+    "name": "Rahim",
     "role": "Experienced Professionals",
-    "designation": "Family & Estate Planning Counsel",
+    "roleTag": "ASSOCIATE",
+    "courtTitle": "Advocate, Supreme Court",
     "image": "/assets/images/team/member4.jpg",
-    "email": "rohim.family@basunialaw.com",
+    "email": "rahim.family2@basunialaw.com",
     "phone": "+880 1956 565462",
-    "experience": "6+ Years Experience",
-    "specialization": "Family Law, Succession & Trusts",
-    "slug": "rohim-8"
+    "careerHistory": [
+      "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+      "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+      "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+      "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums."
+    ],
+    "qualifications": [
+      "Of Lincoln's Inn Barrister-at-law",
+      "Advocate, Supreme Court of Bangladesh",
+      "Associate, Kazi Law Chamber"
+    ],
+    "education": [
+      "Corporate & Commercial Law",
+      "Banking & Finance | Real Estate",
+      "Labour | Criminal Defense & Litigation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "youtube": "https://youtube.com"
+    },
+    "slug": "rahim-8"
   }
 ]

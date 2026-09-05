@@ -2,176 +2,184 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { TeamMember, teamMembers } from "@/app/data/team";
+import { FaXTwitter, FaFacebookF, FaYoutube } from "react-icons/fa6";
+import { TeamMember } from "@/app/data/team";
 
 interface LawyerProfileSectionProps {
   member: TeamMember;
-  otherMembers?: TeamMember[];
 }
 
-export default function LawyerProfileSection({
-  member,
-  otherMembers = teamMembers.filter((m) => m.id !== member.id).slice(0, 4),
-}: LawyerProfileSectionProps) {
-  return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
-      {/* Breadcrumb Navigation */}
-      <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 mb-8 font-inter">
-        <Link href="/" className="hover:text-[#8E1831] transition-colors">
-          Home
-        </Link>
-        <span>/</span>
-        <Link href="/properties" className="hover:text-[#8E1831] transition-colors">
-          Our Lawyers
-        </Link>
-        <span>/</span>
-        <span className="text-[#141414] font-medium">{member.name}</span>
-      </div>
+const defaultCareerHistory: string[] = [
+  "Barrister Rasheduzzaman Chowdhury is a seasoned advocate at the district and sessions court in Dhaka, specializing in corporate, commercial, and criminal litigation. Known for his robust legal advisory, trial advocacy, and appellate litigation skills, Rasheduzzaman has established a formidable reputation as an outstanding associate.",
+  "As an Associate at Kazi Law Chamber, he plays a critical role in managing corporate advisory, high-stakes litigation, and appeals before the Lower Courts. His responsibilities include navigating commercial disputes, ensuring regulatory compliance, corporate structuring, and providing strategic legal representation for high-profile clients. His dedication to legal excellence, strategic litigation, and client advocacy marks him as a remarkable associate.",
+  "Rasheduzzaman's legal career commenced in December 2018 as an intern at Chowdhury & Associates, gaining practical experience in case preparation and legal research. In 2019, he became a Research Associate at A.S & Associates, contributing to Bangladesh's One Stop Service Project (OSS) and performing due diligence for corporate clients.",
+  "Between 2020 and 2022, he served as an Associate at Sadat Sarwat & Associates, refining his expertise in corporate litigation, contract drafting, company law disputes, and regulatory compliance. His duties encompassed managing corporate agreements, company petitions, writ petitions, and representing corporate clients before various tribunals and judicial forums.",
+];
 
-      {/* Lawyer Profile Card */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start bg-[#FAFAFA] border border-[#E5E7EB] rounded-2xl p-6 sm:p-8 lg:p-10 mb-16 shadow-xs">
-        {/* Left Column: Lawyer Portrait Photo */}
-        <div className="lg:col-span-4 w-full">
-          <div className="relative w-full aspect-[4/4.8] bg-[#F2F3F5] rounded-xl overflow-hidden shadow-sm border border-[#E5E7EB]">
+const defaultQualifications: string[] = [
+  "Of Lincoln's Inn Barrister-at-law",
+  "Advocate, Supreme Court of Bangladesh",
+  "Associate, Kazi Law Chamber",
+];
+
+const defaultEducation: string[] = [
+  "Corporate & Commercial Law",
+  "Banking & Finance | Real Estate",
+  "Labour | Criminal Defense & Litigation",
+];
+
+export default function LawyerProfileSection({ member }: LawyerProfileSectionProps) {
+  const careerHistory = member.careerHistory || defaultCareerHistory;
+  const qualifications = member.qualifications || defaultQualifications;
+  const education = member.education || defaultEducation;
+
+  return (
+    <section className="relative w-full bg-white pt-28 sm:pt-32 md:pt-36 pb-20 sm:pb-24 lg:pb-32 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+        
+        {/* ================= 1. Top Lawyer Profile Header ================= */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8 md:gap-10 lg:gap-12">
+          
+          {/* Lawyer Portrait Frame */}
+          <div className="relative w-[170px] sm:w-[200px] md:w-[220px] aspect-[4/4.7] bg-[#F0F1F3] overflow-hidden shrink-0">
             <Image
               src={member.image}
               alt={`${member.name} - ${member.role}`}
               fill
               priority
-              sizes="(max-width: 1024px) 100vw, 33vw"
+              sizes="(max-width: 640px) 170px, 220px"
               className="object-cover object-top"
             />
           </div>
-        </div>
 
-        {/* Right Column: Lawyer Details & Bio */}
-        <div className="lg:col-span-8 flex flex-col justify-between h-full">
-          <div>
-            {/* Badge */}
-            <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#8E1831]/10 text-[#8E1831] mb-3">
-              {member.experience || "Senior Legal Counsel"}
-            </div>
+          {/* Lawyer Basic Information & Actions */}
+          <div className="flex flex-col justify-center flex-1">
+            {/* Tag / Role: ASSOCIATE */}
+            <span className="font-marcellus text-xs sm:text-[16px] tracking-[0.14em] text-[#262626]  uppercase mb-1">
+              {member.roleTag || "ASSOCIATE"}
+            </span>
 
-            {/* Name & Role */}
-            <h1 className="font-dm-serif-text text-3xl sm:text-4xl text-[#141414] tracking-tight mb-1">
+            {/* Lawyer Name */}
+            <h1 className="font-dm-serif-text text-3xl md:text-[32px] text-[#525252] font-normal leading-tight mb-2 sm:mb-2.5">
               {member.name}
             </h1>
-            <p className="font-inter text-base sm:text-lg font-medium text-[#8E1831] mb-4">
-              {member.designation || member.role}
+
+            {/* Court / Title Bullet */}
+            <p className="font-switzer text-xs sm:text-base text-[#525252] font-normal mb-5 sm:mb-6 flex items-center gap-1.5">
+              <span className="text-[10px] text-[#525252]">•</span>
+              <span>{member.courtTitle || "Advocate, Supreme Court"}</span>
             </p>
 
-            <hr className="border-[#E5E7EB] my-5" />
+            {/* Actions: Button + Social Media Outlined Icons */}
+            <div className="flex flex-wrap items-center gap-3.5 sm:gap-4">
+              {/* Book an appointment Button */}
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 rounded-[3px] bg-[#8E1831] text-white text-xs sm:text-sm font-semibold hover:bg-[#761328] active:scale-[0.98] transition-all shadow-xs"
+              >
+                Book an appoitment
+              </Link>
 
-            {/* Details Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm font-inter mb-6">
-              <div>
-                <span className="text-slate-500 block text-xs uppercase tracking-wider mb-1">
-                  Specialization
-                </span>
-                <span className="font-semibold text-slate-800">
-                  {member.specialization || "Corporate, Commercial & Dispute Resolution"}
-                </span>
-              </div>
-
-              <div>
-                <span className="text-slate-500 block text-xs uppercase tracking-wider mb-1">
-                  Direct Email
-                </span>
+              {/* Social Media Outlined Circular Icons */}
+              <div className="flex items-center gap-2">
                 <a
-                  href={`mailto:${member.email || "info@basunialaw.com"}`}
-                  className="font-medium text-[#8E1831] hover:underline"
+                  href={member.socialLinks?.twitter || "https://x.com"}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Twitter / X"
+                  className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-[#737373]/50 flex items-center justify-center text-[#444444] hover:text-[#8E1831] hover:border-[#8E1831] transition-all"
                 >
-                  {member.email || "info@basunialaw.com"}
+                  <FaXTwitter className="w-3.5 h-3.5" />
+                </a>
+
+                <a
+                  href={member.socialLinks?.facebook || "https://facebook.com"}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Facebook"
+                  className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-[#737373]/50 flex items-center justify-center text-[#444444] hover:text-[#8E1831] hover:border-[#8E1831] transition-all"
+                >
+                  <FaFacebookF className="w-3.5 h-3.5" />
+                </a>
+
+                <a
+                  href={member.socialLinks?.youtube || "https://youtube.com"}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="YouTube"
+                  className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-[#737373]/50 flex items-center justify-center text-[#444444] hover:text-[#8E1831] hover:border-[#8E1831] transition-all"
+                >
+                  <FaYoutube className="w-3.5 h-3.5" />
                 </a>
               </div>
-
-              <div>
-                <span className="text-slate-500 block text-xs uppercase tracking-wider mb-1">
-                  Phone / Consultation
-                </span>
-                <a
-                  href={`tel:${member.phone || "01956565462"}`}
-                  className="font-medium text-slate-800 hover:text-[#8E1831]"
-                >
-                  {member.phone || "+880 1956 565462"}
-                </a>
-              </div>
-
-              <div>
-                <span className="text-slate-500 block text-xs uppercase tracking-wider mb-1">
-                  Chamber Location
-                </span>
-                <span className="font-semibold text-slate-800">
-                  Dhaka &amp; London Practice
-                </span>
-              </div>
-            </div>
-
-            {/* Bio Summary */}
-            <div className="space-y-3 font-inter text-xs sm:text-sm text-slate-600 leading-relaxed">
-              <p>
-                With extensive background in courtroom advocacy, commercial negotiation, and regulatory compliance, {member.name} provides strategic legal counsel tailored to corporate entities, institutions, and individuals across high-stakes matters.
-              </p>
-              <p>
-                Specializing in complex statutory interpretation, contract drafting, and dispute management, our team prioritizes client trust, rigorous preparation, and ethical legal solutions.
-              </p>
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="pt-8 flex flex-wrap items-center gap-4">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-[#8E1831] text-white font-medium hover:bg-[#761328] transition-colors shadow-sm"
-            >
-              <span>Book a Consultation</span>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+        </div>
 
-            <Link
-              href="/properties"
-              className="inline-flex items-center justify-center px-6 py-3.5 rounded-lg border border-[#D1D5DB] text-slate-700 font-medium hover:bg-slate-100 transition-colors"
-            >
-              ← Back to Team
-            </Link>
+        {/* ================= Horizontal Separator Divider ================= */}
+        <div className="w-full border-b border-[#EDEDED] my-10 sm:my-14 lg:my-16" />
+
+        {/* ================= 2. Main Content (Career History + Expertise) ================= */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 xl:gap-16 items-start">
+          
+          {/* Left Column: CAREER HISTORY */}
+          <div className="lg:col-span-7 xl:col-span-7">
+            <h2 className="font-marcellus text-lg text-xl  text-[#262626] uppercase tracking-[0.08em] font-normal mb-6 sm:mb-8">
+              CAREER HISTORY
+            </h2>
+
+            <div className=" font-switzer flex flex-col gap-5 sm:gap-6 font-inter text-xs sm:text-sm md:text-[14px] text-[#525252] leading-[1.75] font-normal">
+              {careerHistory.map((paragraph, index) => (
+                <p key={index}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
-        </div>
-      </div>
 
-      {/* Other Team Members Section */}
-      <div>
-        <h2 className="font-dm-serif-text text-2xl sm:text-3xl text-[#141414] tracking-tight mb-8">
-          Other Legal Professionals
-        </h2>
+          {/* Right Column: EXPERTISE Box */}
+          <div className="lg:col-span-5 xl:col-span-5">
+            <div className="bg-[#F5F5F7] p-6 sm:p-8 lg:p-10 rounded-[2px]">
+              
+              <h2 className="font-marcellus text-xl  text-[#222222] uppercase tracking-[0.08em] font-normal mb-6 sm:mb-7">
+                EXPERTISE
+              </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
-          {otherMembers.map((other) => (
-            <Link
-              key={other.id}
-              href={`/properties/${other.id}`}
-              className="group block bg-white border border-[#E5E7EB] rounded-lg p-3.5 transition-all duration-300 hover:shadow-lg hover:border-[#CBD5E1]"
-            >
-              <div className="relative w-full aspect-[4/4.8] bg-[#F2F3F5] rounded-[4px] overflow-hidden mb-3">
-                <Image
-                  src={other.image}
-                  alt={other.name}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                />
+              {/* Qualifications Sub-section */}
+              <div className="mb-6 sm:mb-8">
+                <h3 className="font-dm-serif-text text-xs sm:text-[14px] tracking-wider text-[#8E1831] uppercase mb-2.5">
+                  QUALIFICATIONS
+                </h3>
+                <ul className="font-switzer flex flex-col gap-1.5 font-inter text-xs sm:text-sm text-[#525252] leading-relaxed">
+                  {qualifications.map((item, index) => (
+                    <li key={index}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <h3 className="font-inter font-bold text-base text-[#141414] group-hover:text-[#8E1831] transition-colors">
-                {other.name}
-              </h3>
-              <p className="font-inter text-xs text-[#666666] mt-0.5">
-                {other.role}
-              </p>
-            </Link>
-          ))}
+
+              {/* Education Sub-section */}
+              <div>
+                <h3 className="font-dm-serif-text text-xs sm:text-[14px] tracking-wider text-[#8E1831] uppercase mb-2.5">
+                  EDUCATION
+                </h3>
+                <ul className="font-switzer flex flex-col gap-1.5 font-inter text-xs sm:text-sm text-[#525252] leading-relaxed">
+                  {education.map((item, index) => (
+                    <li key={index}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </div>
+    </section>
   );
 }
