@@ -10,6 +10,7 @@ export interface PracticeArea {
   uniqueKey: string;
   slug: string;
   title: string;
+  bannerTitle?: string;
   shortDescription: string;
   description: string;
   icon: string;
