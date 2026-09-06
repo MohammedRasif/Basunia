@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllPracticeAreas, getPracticeAreaBySlug } from "@/app/data/practiceAreas";
+import { getCategoryRelevantArticles } from "@/app/data/blogs";
 import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
 import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
 import CategoryServicesSection from "@/app/components/categories/CategoryServicesSection";
+import CategoryRelevantArticlesSection from "@/app/components/categories/CategoryRelevantArticlesSection";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -44,6 +46,8 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
     notFound();
   }
 
+  const relevantArticles = getCategoryRelevantArticles(categorySlug, 3);
+
   return (
     <div className="min-h-screen bg-white text-slate-900 pt-24 sm:pt-28">
       {/* 1. Hero Banner Section with Category-wise Title & Centered HD Boardroom Background */}
@@ -67,6 +71,15 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
       <CategoryServicesSection
         badge="SERVICES"
         services={area.detailedServices || area.services || []}
+      />
+
+      {/* 4. Relevant Articles Section */}
+      <CategoryRelevantArticlesSection
+        title="Relevant"
+        badgeWord="ARTICEL"
+        seeAllText="See All airtical"
+        seeAllHref={`/blog/${categorySlug}`}
+        articles={relevantArticles}
       />
     </div>
   );

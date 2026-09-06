@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
 import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
 import CategoryServicesSection from "@/app/components/categories/CategoryServicesSection";
+import CategoryRelevantArticlesSection from "@/app/components/categories/CategoryRelevantArticlesSection";
 import { practiceAreas } from "@/app/data/practiceAreas";
+import { getCategoryRelevantArticles } from "@/app/data/blogs";
 
 export const metadata: Metadata = {
   title: "Our Expertise & Practice Areas | Basunia & Associate",
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
 
 export default function CategoriesPage() {
   const defaultArea = practiceAreas[0];
+  const relevantArticles = getCategoryRelevantArticles("corporate-commercial-law", 3);
 
   return (
     <div className="min-h-screen bg-white text-slate-900 pt-24 sm:pt-28">
@@ -35,6 +38,15 @@ export default function CategoriesPage() {
       <CategoryServicesSection
         badge="SERVICES"
         services={defaultArea?.detailedServices || defaultArea?.services || []}
+      />
+
+      {/* 4. Relevant Articles Section */}
+      <CategoryRelevantArticlesSection
+        title="Relevant"
+        badgeWord="ARTICEL"
+        seeAllText="See All airtical"
+        seeAllHref="/blog"
+        articles={relevantArticles}
       />
     </div>
   );
