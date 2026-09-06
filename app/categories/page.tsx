@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
 import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
+import CategoryServicesSection from "@/app/components/categories/CategoryServicesSection";
 import { practiceAreas } from "@/app/data/practiceAreas";
 
 export const metadata: Metadata = {
@@ -28,6 +29,12 @@ export default function CategoriesPage() {
         heading={defaultArea?.overviewHeading || "Corporate Law Firm in Dhaka"}
         paragraphs={defaultArea?.overviewParagraphs || []}
         imageSrc={defaultArea?.overviewImage || "/assets/images/category.png"}
+      />
+
+      {/* 3. Services Section from JSON */}
+      <CategoryServicesSection
+        badge="SERVICES"
+        services={defaultArea?.detailedServices || defaultArea?.services || []}
       />
     </div>
   );

@@ -5,6 +5,11 @@ export interface PracticeAreaStat {
   label: string;
 }
 
+export interface PracticeAreaServiceItem {
+  title: string;
+  description?: string;
+}
+
 export interface PracticeArea {
   id: string;
   uniqueKey: string;
@@ -21,6 +26,7 @@ export interface PracticeArea {
   image?: string;
   stat?: PracticeAreaStat;
   services?: string[];
+  detailedServices?: PracticeAreaServiceItem[];
   keyHighlights?: string[];
 }
 

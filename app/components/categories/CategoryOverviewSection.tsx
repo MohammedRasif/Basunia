@@ -15,7 +15,7 @@ export default function CategoryOverviewSection({
 }: CategoryOverviewSectionProps) {
   return (
     <section className="relative w-full bg-white py-14 sm:py-18 lg:py-20 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 1. Top Centered Badge: OVERVIEW */}
         <div className="text-center mb-8 sm:mb-12">
           <span className="font-marcellus text-base tracking-[0.25em] text-[#262626] uppercase font-normal inline-block">

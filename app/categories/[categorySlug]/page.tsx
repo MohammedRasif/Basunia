@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getAllPracticeAreas, getPracticeAreaBySlug } from "@/app/data/practiceAreas";
 import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
 import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
+import CategoryServicesSection from "@/app/components/categories/CategoryServicesSection";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -60,6 +61,12 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
         heading={area.overviewHeading || `${area.title} in Dhaka`}
         paragraphs={area.overviewParagraphs || [area.description]}
         imageSrc={area.overviewImage || "/assets/images/category.png"}
+      />
+
+      {/* 3. Services Section: Dashed Header + Dynamic Expandable Accordion */}
+      <CategoryServicesSection
+        badge="SERVICES"
+        services={area.detailedServices || area.services || []}
       />
     </div>
   );
