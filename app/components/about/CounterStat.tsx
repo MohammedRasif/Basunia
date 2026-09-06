@@ -64,11 +64,11 @@ export default function CounterStat({
 
   return (
     <div ref={elementRef} className="flex flex-col">
-      <div className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#8E1831] font-marcellus tracking-tight">
+      <div className="text-4xl sm:text-5xl md:text-[40px] font-extrabold text-[#8E1831] font-manrope leading-none mb-2 tracking-tight">
         {count}
         {suffix}
       </div>
-      <p className="text-xs sm:text-sm text-slate-500 font-medium font-arimo mt-1">
+      <p className="text-xs sm:text-[13.5px] md:text-sm text-[#525252] font-normal font-switzer">
         {label}
       </p>
     </div>
