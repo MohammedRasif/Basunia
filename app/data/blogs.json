@@ -1,0 +1,372 @@
+[
+  {
+    "id": "1",
+    "slug": "corporate-commercial-law",
+    "title": "Corporate & Commercial Law",
+    "icon": "briefcase",
+    "shortDescription": "Comprehensive legal advisory on corporate structuring, mergers & acquisitions, governance, and cross-border commercial contracts.",
+    "readTime": "5 min read",
+    "publishedDate": "May 18, 2025",
+    "author": {
+      "name": "Barrister Md. Badruddoza",
+      "role": "Managing Partner & Senior Advocate",
+      "image": "/assets/images/team/team-1.png"
+    },
+    "coverImage": "/assets/images/articles/article-1.jpg",
+    "badge": "Corporate Practice",
+    "overview": "Navigating complex corporate regulations and commercial agreements requires meticulous drafting, proactive compliance, and deep industry knowledge. Basunia & Associates provides strategic counsel to multinational corporations, startups, and financial institutions.",
+    "sections": [
+      {
+        "heading": "Strategic Commercial Transactions & Contracts",
+        "body": "In today's fast-evolving business landscape, contracts form the bedrock of corporate success. We draft, review, and negotiate joint venture agreements, shareholder pacts, distribution arrangements, and technology transfers to mitigate commercial risks and preserve business relationships."
+      },
+      {
+        "heading": "Mergers, Acquisitions & Due Diligence",
+        "body": "Our M&A practice covers every stage of acquisition and divestiture. From preliminary regulatory clearance to exhaustive legal due diligence and closing, our team ensures complete statutory compliance with the Registrar of Joint Stock Companies and Firms (RJSC) and Bangladesh Securities and Exchange Commission (BSEC)."
+      },
+      {
+        "heading": "Corporate Governance & Regulatory Compliance",
+        "body": "We guide board members and executives on compliance with company laws, anti-money laundering frameworks, ESG guidelines, and annual filing protocols, shielding organizations from potential legal liabilities."
+      }
+    ],
+    "keyTakeaways": [
+      "Bespoke contract drafting tailored to regional and international jurisdictions.",
+      "Thorough risk assessment and regulatory due diligence before major transactions.",
+      "Comprehensive corporate compliance support across all operational tiers."
+    ],
+    "tags": ["Corporate", "M&A", "RJSC", "Commercial Contracts", "Compliance"]
+  },
+  {
+    "id": "2",
+    "slug": "family-estate-planning-law",
+    "title": "Family & Estate Planning Law",
+    "icon": "family",
+    "shortDescription": "Sensitive and confidential counsel on wealth distribution, wills, probate, trusts, family disputes, and succession planning.",
+    "readTime": "6 min read",
+    "publishedDate": "June 02, 2025",
+    "author": {
+      "name": "Advocate Shamima Nasrin",
+      "role": "Partner - Family & Succession Law",
+      "image": "/assets/images/team/team-2.png"
+    },
+    "coverImage": "/assets/images/articles/article-2.jpg",
+    "badge": "Estate & Succession",
+    "overview": "Preserving generational wealth and resolving sensitive family matters demands empathy, confidentiality, and deep legal proficiency. We assist high-net-worth families and individuals in safeguarding their legacy.",
+    "sections": [
+      {
+        "heading": "Wills, Trusts & Generational Succession",
+        "body": "Crafting enforceable testamentary documents and private trusts ensures asset transfer according to your wishes. Our team structures estate plans in adherence with personal statutory laws, minimizing future probate conflicts."
+      },
+      {
+        "heading": "Probate Administration & Letters of Administration",
+        "body": "We represent clients before the District Courts and High Court Division for obtaining probate and letters of administration, navigating complex heirship challenges with speed and precision."
+      },
+      {
+        "heading": "Family Settlements & Dispute Resolution",
+        "body": "When familial disputes arise over inherited property or marital separations, we prioritize private mediation and structured settlements to protect family dignity and financial interests."
+      }
+    ],
+    "keyTakeaways": [
+      "Customized wills and trusts aligned with personal religious and civil laws.",
+      "Smooth probate proceedings with complete litigation support if contested.",
+      "Discreet family mediation for peaceful wealth and asset partition."
+    ],
+    "tags": ["Estate Planning", "Probate", "Wills & Trusts", "Family Law", "Succession"]
+  },
+  {
+    "id": "3",
+    "slug": "litigation-dispute-resolution",
+    "title": "Litigation & Dispute Resolution",
+    "icon": "gavel",
+    "shortDescription": "Formidable courtroom representation and alternative dispute resolution (ADR) across civil, commercial, and constitutional domains.",
+    "readTime": "7 min read",
+    "publishedDate": "June 24, 2025",
+    "author": {
+      "name": "Barrister Md. Badruddoza",
+      "role": "Managing Partner & Senior Advocate",
+      "image": "/assets/images/team/team-1.png"
+    },
+    "coverImage": "/assets/images/articles/article-3.jpg",
+    "badge": "Courtroom Advocacy",
+    "overview": "Basunia & Associates holds a three-decade reputation for robust advocacy in the High Court Division, Appellate Division, and specialized commercial tribunals.",
+    "sections": [
+      {
+        "heading": "High Court & Appellate Division Representation",
+        "body": "Our litigation advocates have argued seminal writ petitions, commercial appeals, and constitutional challenges. We construct rigorous legal arguments anchored in precedent and statutory interpretation."
+      },
+      {
+        "heading": "Commercial Arbitration & Mediation",
+        "body": "We frequently represent clients in domestic and international arbitrations under UNCITRAL, ICC, and BIAC rules, providing efficient dispute resolution without protracted court battles."
+      },
+      {
+        "heading": "Injunctions & Emergency Relief",
+        "body": "When commercial assets or constitutional rights are under immediate threat, our team acts swiftly to obtain stay orders, interim injunctions, and preservation directives."
+      }
+    ],
+    "keyTakeaways": [
+      "Proven track record in high-stakes civil, writ, and corporate litigation.",
+      "Certified arbitration specialists with international dispute experience.",
+      "Rapid response for ex-parte injunctions and urgent legal protections."
+    ],
+    "tags": ["Litigation", "Arbitration", "ADR", "High Court", "Appeals"]
+  },
+  {
+    "id": "4",
+    "slug": "criminal-defense-investigation",
+    "title": "Criminal Defense & Investigation",
+    "icon": "shield",
+    "shortDescription": "Strategic criminal defense, white-collar crime counsel, anti-corruption proceedings, and representation in specialized criminal courts.",
+    "readTime": "5 min read",
+    "publishedDate": "July 11, 2025",
+    "author": {
+      "name": "Advocate Tariqul Islam",
+      "role": "Senior Criminal Defense Counsel",
+      "image": "/assets/images/team/team-3.png"
+    },
+    "coverImage": "/assets/images/articles/article-1.jpg",
+    "badge": "Criminal Defense",
+    "overview": "Facing criminal allegations requires an immediate, vigorous defense grounded in evidentiary analysis and procedural constitutional safeguards. We defend clients with integrity and diligence.",
+    "sections": [
+      {
+        "heading": "White-Collar & Financial Crime Defense",
+        "body": "We advise corporate executives and businesses facing allegations of fiscal irregularity, money laundering, fraud, and cybercrime under the Digital Security framework."
+      },
+      {
+        "heading": "Bail Hearings & Trial Representation",
+        "body": "Our advocates appear regularly before Metropolitan Sessions Courts and the High Court Division for anticipatory bail, regular bail, and full trial defense."
+      },
+      {
+        "heading": "Anti-Corruption Commission (ACC) Matters",
+        "body": "We guide clients through inquiries, summons, notice responses, and defense proceedings initiated by regulatory authorities and the ACC."
+      }
+    ],
+    "keyTakeaways": [
+      "24/7 emergency response for arrest, remand, and anticipatory bail petitions.",
+      "Specialized acumen in financial investigations and corporate compliance.",
+      "Relentless cross-examination and forensic evidence scrutiny."
+    ],
+    "tags": ["Criminal Law", "White Collar", "Bail", "ACC", "Defense"]
+  },
+  {
+    "id": "5",
+    "slug": "intellectual-property-law",
+    "title": "Intellectual Property & Tech Law",
+    "icon": "lightbulb",
+    "shortDescription": "Registration, enforcement, patent prosecution, trademark disputes, and software licensing for innovative brands.",
+    "readTime": "4 min read",
+    "publishedDate": "July 28, 2025",
+    "author": {
+      "name": "Advocate Nadia Chowdhury",
+      "role": "Associate - IP & Technology",
+      "image": "/assets/images/team/team-4.png"
+    },
+    "coverImage": "/assets/images/articles/article-2.jpg",
+    "badge": "IP & Technology",
+    "overview": "In the digital economy, your brand and proprietary technology are invaluable assets. We secure, monetize, and defend trademarks, patents, copyrights, and trade secrets.",
+    "sections": [
+      {
+        "heading": "Trademark & Copyright Registration",
+        "body": "We handle trademark clearance searches, filing with the Department of Patents, Designs and Trademarks (DPDT), oppositions, and copyright enforcement."
+      },
+      {
+        "heading": "IP Infringement & Counterfeiting Litigation",
+        "body": "Our litigation department takes aggressive legal action against counterfeiters, domain squatters, and IP infringers through Anton Piller orders and damages claims."
+      },
+      {
+        "heading": "Software Licensing & SaaS Contracts",
+        "body": "We draft robust End-User License Agreements (EULA), API licenses, data protection policies, and cloud service contracts for tech enterprises."
+      }
+    ],
+    "keyTakeaways": [
+      "Comprehensive trademark and patent registration and portfolio management.",
+      "Zero tolerance IP enforcement and anti-counterfeiting litigation.",
+      "Technology and SaaS contractual frameworks aligned with international norms."
+    ],
+    "tags": ["Intellectual Property", "Trademarks", "Patents", "Copyright", "Tech Law"]
+  },
+  {
+    "id": "6",
+    "slug": "real-estate-property-law",
+    "title": "Real Estate & Property Law",
+    "icon": "building",
+    "shortDescription": "Title vetting, land acquisition, lease agreements, builder-buyer disputes, and property litigation.",
+    "readTime": "6 min read",
+    "publishedDate": "August 09, 2025",
+    "author": {
+      "name": "Barrister Md. Badruddoza",
+      "role": "Managing Partner & Senior Advocate",
+      "image": "/assets/images/team/team-1.png"
+    },
+    "coverImage": "/assets/images/articles/article-3.jpg",
+    "badge": "Real Estate Practice",
+    "overview": "Property investments require rigorous title search, clear documentation, and proactive risk mitigation against disputed land records (CS, SA, RS, BS khatians).",
+    "sections": [
+      {
+        "heading": "Title Search & 30-Year Chain of Title Vetting",
+        "body": "We conduct thorough investigations at sub-registry and revenue offices to establish indisputable ownership history before any purchase or bank mortgage."
+      },
+      {
+        "heading": "Real Estate Development & Joint Ventures",
+        "body": "We draft and structure developer-landowner agreements, sales contracts, and resolve non-delivery or mutation disputes under RAJUK and CDA jurisdiction."
+      },
+      {
+        "heading": "Partition Suits & Land Recovery Litigation",
+        "body": "Our courtroom advocates handle title suits, partition suits, and injunctions to protect client possession against unlawful encroachments."
+      }
+    ],
+    "keyTakeaways": [
+      "Uncompromising 30-year chain of title verification and search reports.",
+      "Clear, airtight developer-landowner joint venture agreements.",
+      "Dedicated representation in Land Survey Tribunals and Civil Courts."
+    ],
+    "tags": ["Real Estate", "Land Law", "Title Vetting", "Property Dispute", "RAJUK"]
+  },
+  {
+    "id": "7",
+    "slug": "banking-finance-law",
+    "title": "Banking, Finance & FinTech",
+    "icon": "landmark",
+    "shortDescription": "Syndicated financing, loan security documentation, NPL recovery under Artha Rin Adalat, and FinTech regulatory licensing.",
+    "readTime": "5 min read",
+    "publishedDate": "August 22, 2025",
+    "author": {
+      "name": "Advocate Tariqul Islam",
+      "role": "Partner - Banking & Finance",
+      "image": "/assets/images/team/team-3.png"
+    },
+    "coverImage": "/assets/images/articles/article-1.jpg",
+    "badge": "Banking & Finance",
+    "overview": "We serve commercial banks, non-banking financial institutions (NBFIs), and FinTech innovators in loan syndication, debt recovery, and Bangladesh Bank regulatory compliance.",
+    "sections": [
+      {
+        "heading": "Loan Structuring & Security Documentation",
+        "body": "We prepare bulletproof mortgage deeds, hypothecation agreements, letters of guarantee, and escrow contracts for major credit facilities."
+      },
+      {
+        "heading": "Artha Rin Adalat & NPL Recovery",
+        "body": "Our litigation specialists vigorously pursue non-performing loan (NPL) recovery under the Money Loan Court Act and Section 138 of the Negotiable Instruments Act."
+      },
+      {
+        "heading": "FinTech & Payment Systems Licensing",
+        "body": "We counsel payment service providers (PSP) and digital wallets on obtaining regulatory NOCs and licenses from Bangladesh Bank."
+      }
+    ],
+    "keyTakeaways": [
+      "Extensive experience in banking documentation and syndicated credit.",
+      "Proven recovery rate in Artha Rin Adalat and NI Act 138 proceedings.",
+      "Strategic advisory for digital financial services and payment gateways."
+    ],
+    "tags": ["Banking", "Finance", "Artha Rin", "FinTech", "Debt Recovery"]
+  },
+  {
+    "id": "8",
+    "slug": "employment-labor-law",
+    "title": "Employment & Labor Relations",
+    "icon": "users",
+    "shortDescription": "Labor code compliance, employment contracts, union negotiations, workplace policies, and Labour Court representation.",
+    "readTime": "5 min read",
+    "publishedDate": "September 04, 2025",
+    "author": {
+      "name": "Advocate Shamima Nasrin",
+      "role": "Partner - Employment Law",
+      "image": "/assets/images/team/team-2.png"
+    },
+    "coverImage": "/assets/images/articles/article-2.jpg",
+    "badge": "Labor & Employment",
+    "overview": "Balancing organizational agility with strict adherence to Bangladesh Labour Act 2006 (and amendments) is vital for industrial harmony and reputation management.",
+    "sections": [
+      {
+        "heading": "HR Policies, Handbooks & Executive Contracts",
+        "body": "We draft legally robust service rules, non-disclosure agreements (NDAs), non-compete clauses, and disciplinary procedures for corporations and factories."
+      },
+      {
+        "heading": "Disciplinary Inquiries & Termination Protocols",
+        "body": "We guide employers through domestic inquiries, show-cause notices, and retrenchment protocols to avoid wrongful termination claims."
+      },
+      {
+        "heading": "Labour Court & Labour Appellate Tribunal Defense",
+        "body": "Our advocates defend organizations against unfair labor practice claims, wage disputes, and workers' compensation litigation."
+      }
+    ],
+    "keyTakeaways": [
+      "Custom employee handbooks compliant with current labor regulations.",
+      "Structured domestic inquiry facilitation to prevent court appeals.",
+      "Experienced courtroom representation in specialized Labour Courts."
+    ],
+    "tags": ["Labor Law", "Employment", "Labour Court", "HR Compliance", "Contracts"]
+  },
+  {
+    "id": "9",
+    "slug": "tax-customs-regulatory-law",
+    "title": "Tax, Customs & Regulatory Law",
+    "icon": "calculator",
+    "shortDescription": "Direct taxation, VAT tribunals, customs classification disputes, transfer pricing, and NBR alternative dispute resolution.",
+    "readTime": "6 min read",
+    "publishedDate": "September 19, 2025",
+    "author": {
+      "name": "Barrister Md. Badruddoza",
+      "role": "Managing Partner & Senior Advocate",
+      "image": "/assets/images/team/team-1.png"
+    },
+    "coverImage": "/assets/images/articles/article-3.jpg",
+    "badge": "Tax & Customs",
+    "overview": "Complex fiscal laws require precise interpretation. We guide corporations and high-income individuals in tax structuring, customs hearings, and fiscal appellate appeals.",
+    "sections": [
+      {
+        "heading": "Corporate Tax Strategy & Planning",
+        "body": "We provide strategic tax advisory under the Income Tax Act 2023, identifying legitimate exemptions, capital gains optimization, and cross-border tax credits."
+      },
+      {
+        "heading": "Customs Valuation & Port Release Disputes",
+        "body": "We assist importers and exporters in resolving customs tariff classification, bond licensing issues, and expedited port clearance before Customs authorities."
+      },
+      {
+        "heading": "Taxes Appellate Tribunal & Writ Challenges",
+        "body": "When arbitrary tax assessments occur, we represent clients before the Taxes Appellate Tribunal, Customs Tribunal, and High Court Division."
+      }
+    ],
+    "keyTakeaways": [
+      "Proactive tax optimization under new statutory income tax frameworks.",
+      "Rapid resolution of customs bonded warehouse and duty disputes.",
+      "Formidable appellate and constitutional representation against arbitrary tax orders."
+    ],
+    "tags": ["Tax Law", "VAT", "Customs", "NBR", "Tribunals"]
+  },
+  {
+    "id": "10",
+    "slug": "admiralty-maritime-law",
+    "title": "Admiralty, Maritime & Trade Law",
+    "icon": "ship",
+    "shortDescription": "Ship arrest, bill of lading disputes, charterparty claims, marine insurance, and representation in the High Court Admiralty Court.",
+    "readTime": "7 min read",
+    "publishedDate": "October 01, 2025",
+    "author": {
+      "name": "Barrister Md. Badruddoza",
+      "role": "Managing Partner & Senior Advocate",
+      "image": "/assets/images/team/team-1.png"
+    },
+    "coverImage": "/assets/images/articles/article-1.jpg",
+    "badge": "Admiralty & Maritime",
+    "overview": "Admiralty law demands rapid action when vessels dock at Chittagong or Mongla ports. Basunia & Associates is renowned for immediate vessel arrest and cargo protection.",
+    "sections": [
+      {
+        "heading": "Ship Arrest & Maritime Lien Enforcement",
+        "body": "We secure urgent ship arrest orders in the High Court Division under Admiralty jurisdiction for unpaid bunker claims, crew wages, and collision damages."
+      },
+      {
+        "heading": "Bill of Lading & Cargo Damage Claims",
+        "body": "We represent shipowners, charterers, P&I clubs, and freight forwarders in resolving cargo contamination, short delivery, and demurrage disputes."
+      },
+      {
+        "heading": "Marine Insurance & Salvage Agreements",
+        "body": "We advise underwriters and vessel owners on Hull & Machinery claims, Protection and Indemnity (P&I) cover, and Lloyd's Open Form salvage negotiations."
+      }
+    ],
+    "keyTakeaways": [
+      "Emergency 24/7 ship arrest and release capabilities in Chittagong and Mongla.",
+      "Extensive advisory to global P&I clubs and international shipping lines.",
+      "Decades of expertise in admiralty litigation before the Supreme Court."
+    ],
+    "tags": ["Admiralty", "Maritime", "Ship Arrest", "P&I", "International Trade"]
+  }
+]
