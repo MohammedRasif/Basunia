@@ -71,7 +71,7 @@ export default function BlogCategoryGrid() {
                     <div className="flex items-center justify-center w-7 h-7 text-black group-hover:scale-105 transition-transform duration-200">
                       {getIcon(item.icon)}
                     </div>
-                    <span className="arimo text-[15px] sm:text-[16px] md:text-[17px] font-medium text-black group-hover:text-[#8E1831] transition-colors duration-200 tracking-tight">
+                    <span className="font-switzer text-[15px] sm:text-[16px] md:text-[20px]  text-[#302B2B] group-hover:text-[#8E1831] transition-colors duration-200 tracking-tight">
                       {item.title}
                     </span>
                   </div>

@@ -25,7 +25,7 @@ export default function LawyersHeroBanner({
 
       {/* Centered Main Headline */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex items-center justify-center">
-        <h1 className="font-dm-serif-text text-3xl sm:text-4xl md:text-5xl lg:text-[56px] tracking-[0.08em] font-normal text-white uppercase select-none drop-shadow-sm">
+        <h1 className="font-dm-serif-text text-3xl sm:text-4xl md:text-5xl lg:text-[64px] tracking-[0.08em] font-normal text-white uppercase select-none drop-shadow-sm">
           {title}
         </h1>
       </div>

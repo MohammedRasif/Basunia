@@ -11,6 +11,16 @@ export interface BlogSection {
   body: string;
 }
 
+export interface CategoryArticleItem {
+  id: string;
+  title: string;
+  date: string;
+  description: string;
+  image: string;
+  alt: string;
+  href?: string;
+}
+
 export interface BlogItem {
   id: string;
   slug: string;
@@ -19,6 +29,8 @@ export interface BlogItem {
   shortDescription: string;
   readTime: string;
   publishedDate: string;
+  featuredArticle: CategoryArticleItem;
+  sideArticles: CategoryArticleItem[];
   author: BlogAuthor;
   coverImage: string;
   badge: string;

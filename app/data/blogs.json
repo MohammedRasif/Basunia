@@ -6,7 +6,45 @@
     "icon": "briefcase",
     "shortDescription": "Comprehensive legal advisory on corporate structuring, mergers & acquisitions, governance, and cross-border commercial contracts.",
     "readTime": "5 min read",
-    "publishedDate": "May 18, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-1",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Barrister Md. Badruddoza",
       "role": "Managing Partner & Senior Advocate",
@@ -43,7 +81,45 @@
     "icon": "family",
     "shortDescription": "Sensitive and confidential counsel on wealth distribution, wills, probate, trusts, family disputes, and succession planning.",
     "readTime": "6 min read",
-    "publishedDate": "June 02, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-2",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-2-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-2-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-2-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Advocate Shamima Nasrin",
       "role": "Partner - Family & Succession Law",
@@ -80,7 +156,45 @@
     "icon": "gavel",
     "shortDescription": "Formidable courtroom representation and alternative dispute resolution (ADR) across civil, commercial, and constitutional domains.",
     "readTime": "7 min read",
-    "publishedDate": "June 24, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-3",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-3-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-3-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-3-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Barrister Md. Badruddoza",
       "role": "Managing Partner & Senior Advocate",
@@ -117,7 +231,45 @@
     "icon": "shield",
     "shortDescription": "Strategic criminal defense, white-collar crime counsel, anti-corruption proceedings, and representation in specialized criminal courts.",
     "readTime": "5 min read",
-    "publishedDate": "July 11, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-4",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-4-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-4-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-4-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Advocate Tariqul Islam",
       "role": "Senior Criminal Defense Counsel",
@@ -154,7 +306,45 @@
     "icon": "lightbulb",
     "shortDescription": "Registration, enforcement, patent prosecution, trademark disputes, and software licensing for innovative brands.",
     "readTime": "4 min read",
-    "publishedDate": "July 28, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-5",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-5-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-5-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-5-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Advocate Nadia Chowdhury",
       "role": "Associate - IP & Technology",
@@ -191,7 +381,45 @@
     "icon": "building",
     "shortDescription": "Title vetting, land acquisition, lease agreements, builder-buyer disputes, and property litigation.",
     "readTime": "6 min read",
-    "publishedDate": "August 09, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-6",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-6-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-6-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-6-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Barrister Md. Badruddoza",
       "role": "Managing Partner & Senior Advocate",
@@ -228,7 +456,45 @@
     "icon": "landmark",
     "shortDescription": "Syndicated financing, loan security documentation, NPL recovery under Artha Rin Adalat, and FinTech regulatory licensing.",
     "readTime": "5 min read",
-    "publishedDate": "August 22, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-7",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-7-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-7-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-7-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Advocate Tariqul Islam",
       "role": "Partner - Banking & Finance",
@@ -265,7 +531,45 @@
     "icon": "users",
     "shortDescription": "Labor code compliance, employment contracts, union negotiations, workplace policies, and Labour Court representation.",
     "readTime": "5 min read",
-    "publishedDate": "September 04, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-8",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-8-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-8-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-8-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Advocate Shamima Nasrin",
       "role": "Partner - Employment Law",
@@ -302,7 +606,45 @@
     "icon": "calculator",
     "shortDescription": "Direct taxation, VAT tribunals, customs classification disputes, transfer pricing, and NBR alternative dispute resolution.",
     "readTime": "6 min read",
-    "publishedDate": "September 19, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-9",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-9-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-9-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-9-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Barrister Md. Badruddoza",
       "role": "Managing Partner & Senior Advocate",
@@ -339,7 +681,45 @@
     "icon": "ship",
     "shortDescription": "Ship arrest, bill of lading disputes, charterparty claims, marine insurance, and representation in the High Court Admiralty Court.",
     "readTime": "7 min read",
-    "publishedDate": "October 01, 2025",
+    "publishedDate": "December8,2026",
+    "featuredArticle": {
+      "id": "feat-10",
+      "title": "Last year lawLast year lawLast year lawLast year law",
+      "date": "December8,2026",
+      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "image": "/assets/images/articles/article-4.jpg",
+      "alt": "Layered poster art street texture",
+      "href": "#article-detail"
+    },
+    "sideArticles": [
+      {
+        "id": "side-10-1",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-2.jpg",
+        "alt": "Newspaper flatlay with coffee cup and glasses",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-10-2",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-3.jpg",
+        "alt": "Business news journal on wooden table",
+        "href": "#article-detail"
+      },
+      {
+        "id": "side-10-3",
+        "title": "Last year lawLast year lawLast year lawLast year law",
+        "date": "December8,2026",
+        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "image": "/assets/images/articles/article-1.jpg",
+        "alt": "Street newspaper stand with pedestrians",
+        "href": "#article-detail"
+      }
+    ],
     "author": {
       "name": "Barrister Md. Badruddoza",
       "role": "Managing Partner & Senior Advocate",
