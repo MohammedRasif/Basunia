@@ -90,8 +90,16 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Basunia & Associate",
-  description: "Basunia & Associate - Legal Firm",
+  title: "Basunia & Associate | Leading Law Firm in Bangladesh",
+  description: "Basunia & Associate - Leading Corporate & Commercial Law Firm in Bangladesh",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "64x64" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
