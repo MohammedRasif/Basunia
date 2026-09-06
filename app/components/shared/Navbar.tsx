@@ -268,7 +268,9 @@ export default function Navbar() {
                 type="button"
                 onClick={() => setAboutOpen(!aboutOpen)}
                 className={`flex items-center gap-1.5 transition-colors cursor-pointer hover:text-[#8E1831] ${
-                  aboutOpen ? "text-[#8E1831]" : "text-slate-800"
+                  aboutOpen || pathname === "/about" || pathname === "/blog"
+                    ? "text-[#8E1831]"
+                    : "text-slate-800"
                 }`}
               >
                 <span>About</span>
@@ -286,7 +288,9 @@ export default function Navbar() {
 
               <span
                 className={`absolute bottom-0 left-0 h-[2.5px] bg-[#8E1831] rounded-full transition-all duration-300 ${
-                  aboutOpen ? "w-full" : "w-0 group-hover:w-full"
+                  aboutOpen || pathname === "/about" || pathname === "/blog"
+                    ? "w-full"
+                    : "w-0 group-hover:w-full"
                 }`}
               />
 
@@ -298,13 +302,21 @@ export default function Navbar() {
                   </div>
                   <Link
                     href="/about"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
+                    className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                      isActive("/about")
+                        ? "text-[#8E1831] bg-slate-50"
+                        : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                    }`}
                   >
                     About Us
                   </Link>
                   <Link
-                    href="/categories"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
+                    href="/blog"
+                    className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                      isActive("/blog")
+                        ? "text-[#8E1831] bg-slate-50"
+                        : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                    }`}
                   >
                     Blog
                   </Link>
@@ -527,14 +539,14 @@ export default function Navbar() {
                     <Link
                       href="/about"
                       onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
+                      className={`block py-1 ${isActive("/about") ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"}`}
                     >
                       About Us
                     </Link>
                     <Link
-                      href="/categories"
+                      href="/blog"
                       onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
+                      className={`block py-1 ${isActive("/blog") ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"}`}
                     >
                       Blog
                     </Link>

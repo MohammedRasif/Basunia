@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { getAllBlogs } from "@/app/data/blogs";
 
 export interface ArticleItem {
   id: string | number;
@@ -13,38 +14,17 @@ export interface ArticleItem {
   href?: string;
 }
 
-const defaultArticles: ArticleItem[] = [
-  {
-    id: 1,
-    title: "Last year lawLast year lawLast year lawLast year law",
-    date: "December8,2026",
-    description:
-      "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-    image: "/assets/images/articles/article-1.jpg",
-    alt: "Financial and legal newspapers on display in city center",
-    href: "/articles/last-year-law-1",
-  },
-  {
-    id: 2,
-    title: "Last year lawLast year lawLast year lawLast year law",
-    date: "December8,2026",
-    description:
-      "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-    image: "/assets/images/articles/article-2.jpg",
-    alt: "Newspaper kiosk stand with legal gazette and business journals",
-    href: "/articles/last-year-law-2",
-  },
-  {
-    id: 3,
-    title: "Last year lawLast year lawLast year lawLast year law",
-    date: "December8,2026",
-    description:
-      "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-    image: "/assets/images/articles/article-3.jpg",
-    alt: "Front page business and legal newspapers on street newsstand",
-    href: "/articles/last-year-law-3",
-  },
-];
+const defaultArticles: ArticleItem[] = getAllBlogs()
+  .slice(0, 3)
+  .map((blog) => ({
+    id: blog.featuredArticle.id,
+    title: blog.featuredArticle.title,
+    date: blog.featuredArticle.date,
+    description: blog.featuredArticle.description,
+    image: blog.featuredArticle.image,
+    alt: blog.featuredArticle.alt || blog.featuredArticle.title,
+    href: blog.featuredArticle.href || `/blog/${blog.slug}/${blog.featuredArticle.id}`,
+  }));
 
 interface ArticleSectionProps {
   articles?: ArticleItem[];
@@ -57,7 +37,7 @@ export default function ArticleSection({
   articles = defaultArticles,
   title = "Explore our latest articles",
   seeAllText = "See All airtical",
-  seeAllHref = "/articles",
+  seeAllHref = "/blog",
 }: ArticleSectionProps) {
   return (
     <section className="relative w-full bg-white pb-14 sm:pb-18 lg:pb-24 overflow-hidden">
@@ -99,7 +79,7 @@ export default function ArticleSection({
             >
               {/* Featured Image Container */}
               <Link
-                href={article.href || "#"}
+                href={article.href || "/blog"}
                 className="relative block w-full aspect-[16/10] overflow-hidden rounded-[2px] bg-slate-100 mb-4 sm:mb-5 shadow-xs"
               >
                 <Image
@@ -135,7 +115,7 @@ export default function ArticleSection({
               {/* Article Headline */}
               <h3 className="mb-2.5">
                 <Link
-                  href={article.href || "#"}
+                  href={article.href || "/blog"}
                   className="font-poppins font-medium text-lg sm:text-[20px] leading-[1.35] text-[#1e1e1e] group-hover:text-[#8E1831] transition-colors line-clamp-2 block"
                 >
                   {article.title}
@@ -150,7 +130,7 @@ export default function ArticleSection({
               {/* Read More Link */}
               <div className="mt-auto">
                 <Link
-                  href={article.href || "#"}
+                  href={article.href || "/blog"}
                   className="font-switzer inline-flex items-center gap-2 text-base  text-[#8E1831] hover:text-[#761328] transition-colors"
                 >
                   <span>Read more</span>
