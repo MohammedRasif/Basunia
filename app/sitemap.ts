@@ -4,7 +4,7 @@ import { teamMembers } from "./data/team";
 import blogsData from "./data/blogs.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://basuniaandassociates.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://basuniaassociate.vercel.app";
   const now = new Date();
 
   // Core static pages
