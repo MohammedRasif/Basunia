@@ -6,6 +6,7 @@ import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
 import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
 import CategoryServicesSection from "@/app/components/categories/CategoryServicesSection";
 import CategoryRelevantArticlesSection from "@/app/components/categories/CategoryRelevantArticlesSection";
+import FaqSection from "@/app/components/landing/FaqSection";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -81,6 +82,9 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
         seeAllHref={`/blog/${categorySlug}`}
         articles={relevantArticles}
       />
+
+      {/* 5. FAQ Section */}
+      <FaqSection />
     </div>
   );
 }

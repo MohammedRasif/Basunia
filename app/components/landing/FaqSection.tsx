@@ -11,27 +11,27 @@ export interface FaqItem {
 const defaultFaqs: FaqItem[] = [
   {
     id: "faq-1",
-    question: "Are you a registered company?",
+    question: "How do I schedule an initial legal consultation?",
     answer:
-      "Yes, HokkaidoTaxi is a fully licensed and insured transportation company operating legally under Japanese transport regulations.",
+      "You can schedule a consultation by clicking 'Book A consultation', submitting our online contact form, or contacting our chambers directly. Our team will promptly review your inquiry and connect you with the appropriate practice specialist.",
   },
   {
     id: "faq-2",
-    question: "What are your payment options?",
+    question: "What practice areas does Basunia & Associates cover?",
     answer:
-      "We accept all major credit cards, debit cards, bank transfers, and secure digital payment methods for your convenience.",
+      "We provide comprehensive legal services spanning Corporate & Commercial Law, Litigation & Dispute Resolution, Family & Estate Planning, Intellectual Property, Banking & Finance, Real Estate, Criminal Defense, Taxation & Customs, Labour Law, and Admiralty.",
   },
   {
     id: "faq-3",
-    question: "Is there a cancellation policy?",
+    question: "Do you advise foreign investors and multinational corporations?",
     answer:
-      "Yes, cancellations made up to 24 hours prior to the scheduled booking receive a full refund with no hidden penalties.",
+      "Yes, we regularly counsel international corporations, foreign direct investors (FDI), and international organizations on Bangladesh regulatory compliance, BIDA approvals, cross-border contracts, joint ventures, and international arbitration.",
   },
   {
     id: "faq-4",
-    question: "How do I track my ride?",
+    question: "How are professional legal fees and retainers structured?",
     answer:
-      "You will receive a real-time live tracking link and direct contact details via SMS and email as soon as your booking is confirmed.",
+      "Our legal fee arrangements are transparent, predictable, and tailored to transaction complexity. We offer fixed-fee advisory, monthly corporate retainers, stage-based litigation schedules, and transparent hourly billing.",
   },
 ];
 
