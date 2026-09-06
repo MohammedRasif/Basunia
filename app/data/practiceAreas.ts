@@ -11,6 +11,9 @@ export interface PracticeArea {
   slug: string;
   title: string;
   bannerTitle?: string;
+  overviewHeading?: string;
+  overviewParagraphs?: string[];
+  overviewImage?: string;
   shortDescription: string;
   description: string;
   icon: string;

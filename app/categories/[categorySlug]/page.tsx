@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllPracticeAreas, getPracticeAreaBySlug } from "@/app/data/practiceAreas";
 import CategoryHeroBanner from "@/app/components/categories/CategoryHeroBanner";
+import CategoryOverviewSection from "@/app/components/categories/CategoryOverviewSection";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -51,6 +52,14 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
         imageSrc="/assets/images/expertise-banner-meeting.jpg"
         ctaText="Book A consultation"
         ctaHref="/contact"
+      />
+
+      {/* 2. Overview Section: Chamfered Image + Dynamic Heading & Paragraphs */}
+      <CategoryOverviewSection
+        badge="OVERVIEW"
+        heading={area.overviewHeading || `${area.title} in Dhaka`}
+        paragraphs={area.overviewParagraphs || [area.description]}
+        imageSrc={area.overviewImage || "/assets/images/category.png"}
       />
     </div>
   );

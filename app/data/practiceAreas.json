@@ -5,6 +5,12 @@
     "slug": "corporate-commercial-law",
     "title": "Corporate & Commercial Law",
     "bannerTitle": "Leading Corporate & Commercial Lawyers in Bangladesh",
+    "overviewHeading": "Corporate Law Firm in Dhaka",
+    "overviewParagraphs": [
+      "Our clients come from across the world. European industrial groups, Japanese corporate houses, Finnish technology companies, Singapore-headquartered businesses, French international NGOs, and a wide range of Bangladeshi corporate groups spanning garments, fertiliser, publishing, and energy have all instructed Basunia & Associates on matters requiring genuine depth, not generic checklists. We are consistently chosen by international clients because our corporate practice integrates transactional structuring, regulatory compliance, litigation capability, and practical commercial judgment into a single, coordinated service.",
+      "This page sets out the full range of corporate and commercial legal services we provide to businesses operating in or entering the Bangladesh market."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Advising on corporate governance, commercial contracts, and regulatory compliance.",
     "description": "Comprehensive corporate advisory, company incorporation, joint ventures, mergers & acquisitions, foreign direct investment, and complex commercial agreement drafting.",
     "icon": "briefcase",
@@ -33,6 +39,12 @@
     "slug": "litigation-dispute-resolution",
     "title": "Litigation & Dispute Resolution",
     "bannerTitle": "Leading Litigation & Dispute Resolution Lawyers in Bangladesh",
+    "overviewHeading": "Litigation & Dispute Resolution Chamber in Dhaka",
+    "overviewParagraphs": [
+      "Commercial disputes require swift strategic action and fearless courtroom advocacy. From multi-million dollar contractual breaches and shareholder derivative suits to urgent injunctions and arbitration proceedings, Basunia & Associates represents multinational corporations, financial institutions, and prominent business entities before the District Courts, High Court Division, and Appellate Division of the Supreme Court of Bangladesh.",
+      "We combine seasoned trial experience with alternative dispute resolution (ADR) acumen, ensuring your commercial interests and reputation are vigorously protected at every stage of litigation."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Advising on business formation, contracts, mergers, and civil court dispute resolution.",
     "description": "Strategic court representation and arbitration before District Courts, High Court Division, Appellate Division, and domestic & international tribunals.",
     "icon": "scale",
@@ -60,6 +72,12 @@
     "slug": "family-estate-planning-law",
     "title": "Family & Estate Planning Law",
     "bannerTitle": "Leading Family & Estate Planning Lawyers in Bangladesh",
+    "overviewHeading": "Family & Estate Planning Law Firm in Dhaka",
+    "overviewParagraphs": [
+      "Managing family legal affairs and wealth preservation demands utmost discretion, legal precision, and personal empathy. Basunia & Associates advises high-net-worth families, expatriates, and institutional trustees on matrimonial law, succession certificates, probate of wills, guardianship matters, and family asset distribution under Bangladesh personal laws.",
+      "Our dedicated family law team crafts resilient trusts and succession plans that safeguard multi-generational wealth, prevent contentious estate disputes, and deliver peace of mind."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Legal support for family matters, succession planning, and estate administration.",
     "description": "Comprehensive legal guidance on matrimonial disputes, child custody, succession certificates, probate of wills, trust formation, and estate distribution.",
     "icon": "users",
@@ -87,6 +105,12 @@
     "slug": "intellectual-property-rights",
     "title": "Intellectual Property Rights",
     "bannerTitle": "Leading Intellectual Property Rights Lawyers in Bangladesh",
+    "overviewHeading": "Intellectual Property Law Chamber in Dhaka",
+    "overviewParagraphs": [
+      "In a rapidly expanding global economy, brand protection and technological innovation are invaluable commercial assets. Basunia & Associates provides complete intellectual property counsel, from trademark registration, patent prosecution, and design protection to cross-border anti-counterfeiting raids and High Court copyright infringement suits.",
+      "We represent world-renowned consumer brands, pharmaceutical innovators, software corporations, and media houses in defending their proprietary rights across Bangladesh and South Asia."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Protecting trademarks, patents, copyright defense, and licensing rights.",
     "description": "End-to-end intellectual property protection including trademark registrations, patent filings, copyright enforcement, anti-counterfeiting actions, and licensing.",
     "icon": "shield",
@@ -114,6 +138,12 @@
     "slug": "banking-financial-services",
     "title": "Banking & Financial Services",
     "bannerTitle": "Leading Banking & Financial Services Lawyers in Bangladesh",
+    "overviewHeading": "Banking & Finance Law Firm in Dhaka",
+    "overviewParagraphs": [
+      "Financial markets in Bangladesh operate under strict regulatory oversight and evolving digital compliance mandates. Basunia & Associates provides comprehensive counsel to scheduled commercial banks, non-banking financial institutions (NBFIs), fintech startups, and institutional borrowers on syndicated credit facilities, bond issuances, debt restructuring, and Artha Rin Adalat proceedings.",
+      "Our banking team ensures seamless compliance with Bangladesh Bank circulars, foreign exchange control regulations, and complex mortgage charge registrations."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Strategic advisory on financial regulations, lending agreements, and capital markets.",
     "description": "Advising leading financial institutions, fintech enterprises, and corporations on credit facilities, loan syndications, Artha Rin suits, and compliance with Bangladesh Bank regulations.",
     "icon": "bank",
@@ -141,6 +171,12 @@
     "slug": "real-estate-property-law",
     "title": "Real Estate & Property Law",
     "bannerTitle": "Leading Real Estate & Property Lawyers in Bangladesh",
+    "overviewHeading": "Real Estate & Property Law Chamber in Dhaka",
+    "overviewParagraphs": [
+      "Real estate acquisition and infrastructure development in Bangladesh require exhaustive title investigation and watertight contractual drafting. Basunia & Associates guides developers, multinational corporations, industrial conglomerates, and private landowners through 25-plus years of title chain vetting, RAJUK approvals, mutation processes, and joint-venture development agreements.",
+      "We resolve intricate land boundary disputes, partition suits, and commercial lease negotiations, guaranteeing unencumbered property ownership and risk-free transactions."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Structuring commercial partnerships, trade negotiations, and corporate advisory.",
     "description": "Comprehensive property law consultancy covering title scrutiny, chain of ownership verification, land development joint ventures, lease drafting, and land mutation.",
     "icon": "building",
@@ -168,6 +204,12 @@
     "slug": "criminal-defense",
     "title": "Criminal Defense Practice",
     "bannerTitle": "Leading Criminal Defense Lawyers in Bangladesh",
+    "overviewHeading": "Criminal Defense Law Firm in Dhaka",
+    "overviewParagraphs": [
+      "When liberty, corporate reputation, and legal integrity are on the line, robust trial experience is indispensable. Basunia & Associates represents individuals, corporate directors, and public figures in criminal trials, anticipatory bail applications, Special Judge Court proceedings, Anti-Corruption Commission (ACC) inquiries, and cybercrime defense.",
+      "Our courtroom advocates act with urgency and unwavering dedication, deploying constitutional protections and meticulous evidentiary scrutiny to achieve just outcomes."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Comprehensive matrimonial, guardianship, and trust management services.",
     "description": "Vigorous criminal defense counsel representing individuals and corporations across criminal trials, anticipatory bails, ACC anti-corruption investigations, and cybercrime charges.",
     "icon": "gavel",
@@ -195,6 +237,12 @@
     "slug": "taxation-customs-law",
     "title": "Taxation & Customs Law",
     "bannerTitle": "Leading Taxation & Customs Lawyers in Bangladesh",
+    "overviewHeading": "Taxation & Customs Law Chamber in Dhaka",
+    "overviewParagraphs": [
+      "Navigating fiscal legislation, transfer pricing, and customs duty classifications requires deep statutory expertise and strategic foresight. Basunia & Associates advises domestic enterprises, foreign direct investors, and expatriates on corporate income tax planning, VAT audits, customs valuation appeals, and National Board of Revenue (NBR) disputes.",
+      "We regularly appear before Taxes Appellate Tribunals, Customs Appellate Tribunals, and the High Court Division on complex tax reference applications and revenue writ petitions."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Enforcing patent protection, IP infringement lawsuits, and brand security.",
     "description": "Fiscal law advisory providing tax structuring, corporate income tax returns, VAT appeal tribunals, customs duty classifications, and National Board of Revenue (NBR) disputes.",
     "icon": "calculator",
@@ -222,6 +270,12 @@
     "slug": "employment-labor-law",
     "title": "Employment & Labor Law",
     "bannerTitle": "Leading Employment & Labor Lawyers in Bangladesh",
+    "overviewHeading": "Employment & Labor Law Firm in Dhaka",
+    "overviewParagraphs": [
+      "Maintaining workplace harmony while ensuring full compliance with the Bangladesh Labour Act 2006 is essential for sustainable business operations. Basunia & Associates advises multinational corporations, RMG factories, tech firms, and executive management on employment contracts, HR policies, trade union negotiations, disciplinary proceedings, and Labour Court litigation.",
+      "We structure lawful redundancy protocols, provident funds, and workplace safety frameworks that protect employers from costly industrial disputes and statutory penalties."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Digital copyright defense, trade secrets, and media law consultancy.",
     "description": "Strategic counsel on Bangladesh Labour Act 2006, employment contracts, trade union discussions, executive terminations, workplace safety, and Labour Court representation.",
     "icon": "user-check",
@@ -249,6 +303,12 @@
     "slug": "admiralty-maritime-law",
     "title": "Admiralty & Maritime Law",
     "bannerTitle": "Leading Admiralty & Maritime Lawyers in Bangladesh",
+    "overviewHeading": "Admiralty & Maritime Law Chamber in Dhaka",
+    "overviewParagraphs": [
+      "With Bangladesh serving as a vital regional shipping hub, maritime disputes require specialized maritime knowledge and immediate emergency response. Basunia & Associates represents shipowners, charterers, P&I clubs, cargo underwriters, and freight forwarders in admiralty suits before the High Court Division, emergency vessel arrests, salvage claims, and bill of lading disputes.",
+      "Our maritime advocates operate across Chittagong, Mongla, and Payra ports, delivering round-the-clock legal intervention in cross-border shipping conflicts and vessel casualties."
+    ],
+    "overviewImage": "/assets/images/category.png",
     "shortDescription": "Global trademark registrations and international IP conflict management.",
     "description": "Admiralty jurisdiction counsel covering High Court admiralty suits, vessel arrests, marine cargo claims, bill of lading disputes, ship sale & purchase, and charter party arbitration.",
     "icon": "anchor",
