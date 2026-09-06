@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { practiceAreas } from "./data/practiceAreas";
 import { teamMembers } from "./data/team";
-import blogsData from "./data/blogs.json";
+import { getAllArticlesParams, getAllBlogs } from "./data/blogs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://basuniaassociate.vercel.app";
@@ -63,13 +63,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Dynamic blog category pages
+  const blogCategoryRoutes: MetadataRoute.Sitemap = getAllBlogs().map((blog) => ({
+    url: `${baseUrl}/blog/${blog.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
   // Dynamic blog article pages
-  const blogRoutes: MetadataRoute.Sitemap = blogsData.map((blog) => ({
-    url: `${baseUrl}/blog/${blog.categorySlug}/${blog.id}`,
-    lastModified: new Date(blog.publishedAt || now),
+  const articleRoutes: MetadataRoute.Sitemap = getAllArticlesParams().map(({ slug, articleId }) => ({
+    url: `${baseUrl}/blog/${slug}/${articleId}`,
+    lastModified: now,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...lawyerRoutes, ...blogRoutes];
+  return [
+    ...staticRoutes,
+    ...categoryRoutes,
+    ...lawyerRoutes,
+    ...blogCategoryRoutes,
+    ...articleRoutes,
+  ];
 }
