@@ -1,0 +1,263 @@
+[
+  {
+    "id": "01",
+    "uniqueKey": "item-01",
+    "slug": "corporate-commercial-law",
+    "title": "Corporate & Commercial Law",
+    "shortDescription": "Advising on corporate governance, commercial contracts, and regulatory compliance.",
+    "description": "Comprehensive corporate advisory, company incorporation, joint ventures, mergers & acquisitions, foreign direct investment, and complex commercial agreement drafting.",
+    "icon": "briefcase",
+    "href": "/categories/corporate-commercial-law",
+    "image": "/assets/images/articles/article-4.jpg",
+    "stat": {
+      "value": "250+",
+      "label": "Corporate Deals Advised"
+    },
+    "services": [
+      "Company Formation & RJSC Compliance",
+      "Mergers & Acquisitions (M&A)",
+      "Commercial Contracts & Cross-Border Deals",
+      "Foreign Direct Investment (FDI & BIDA)",
+      "Corporate Governance & Restructuring"
+    ],
+    "keyHighlights": [
+      "Seamless BIDA, RJSC, and BSEC regulatory clearances",
+      "Robust shareholder covenants and dispute mitigation",
+      "Multi-million dollar deal due diligence expertise"
+    ]
+  },
+  {
+    "id": "02",
+    "uniqueKey": "item-02",
+    "slug": "litigation-dispute-resolution",
+    "title": "Litigation & Dispute Resolution",
+    "shortDescription": "Advising on business formation, contracts, mergers, and civil court dispute resolution.",
+    "description": "Strategic court representation and arbitration before District Courts, High Court Division, Appellate Division, and domestic & international tribunals.",
+    "icon": "scale",
+    "href": "/categories/litigation-dispute-resolution",
+    "stat": {
+      "value": "98%",
+      "label": "Litigation Success Rate"
+    },
+    "services": [
+      "Civil & Commercial Litigation",
+      "Arbitration, Mediation & ADR",
+      "High Court Writ & Appellate Practice",
+      "Breach of Contract & Damages Claims",
+      "Interim Injunctions & Stay Petitions"
+    ],
+    "keyHighlights": [
+      "Decades of courtroom advocacy experience",
+      "Expedited dispute resolution through mediation",
+      "Representation before Supreme Court of Bangladesh"
+    ]
+  },
+  {
+    "id": "03",
+    "uniqueKey": "item-03",
+    "slug": "family-estate-planning-law",
+    "title": "Family & Estate Planning Law",
+    "shortDescription": "Legal support for family matters, succession planning, and estate administration.",
+    "description": "Comprehensive legal guidance on matrimonial disputes, child custody, succession certificates, probate of wills, trust formation, and estate distribution.",
+    "icon": "users",
+    "href": "/categories/family-estate-planning-law",
+    "stat": {
+      "value": "350+",
+      "label": "Families Assisted"
+    },
+    "services": [
+      "Matrimonial & Divorce Proceedings",
+      "Child Custody & Guardianship",
+      "Wills, Trusts & Probate Administration",
+      "Succession Certificates & Asset Division",
+      "Family Settlement & Mediation"
+    ],
+    "keyHighlights": [
+      "Empathetic, confidential and discreet client handling",
+      "Complete asset protection across generations",
+      "Prompt issuance of succession certificates and probates"
+    ]
+  },
+  {
+    "id": "04",
+    "uniqueKey": "item-04",
+    "slug": "intellectual-property-rights",
+    "title": "Intellectual Property Rights",
+    "shortDescription": "Protecting trademarks, patents, copyright defense, and licensing rights.",
+    "description": "End-to-end intellectual property protection including trademark registrations, patent filings, copyright enforcement, anti-counterfeiting actions, and licensing.",
+    "icon": "shield",
+    "href": "/categories/intellectual-property-rights",
+    "stat": {
+      "value": "500+",
+      "label": "Trademarks & IP Secured"
+    },
+    "services": [
+      "Trademark Search, Filing & Opposition",
+      "Patent Prosecution & Advisory",
+      "Copyright Protection & Anti-Piracy",
+      "IP Licensing, Franchising & Technology Transfer",
+      "IP Infringement Litigation & Border Enforcements"
+    ],
+    "keyHighlights": [
+      "Official representation before the Department of Patents, Designs and Trademarks (DPDT)",
+      "Cross-border IP asset registration and security",
+      "Fast-track anti-infringement actions"
+    ]
+  },
+  {
+    "id": "05",
+    "uniqueKey": "item-05",
+    "slug": "banking-financial-services",
+    "title": "Banking & Financial Services",
+    "shortDescription": "Strategic advisory on financial regulations, lending agreements, and capital markets.",
+    "description": "Advising leading financial institutions, fintech enterprises, and corporations on credit facilities, loan syndications, Artha Rin suits, and compliance with Bangladesh Bank regulations.",
+    "icon": "bank",
+    "href": "/categories/banking-financial-services",
+    "stat": {
+      "value": "৳500Cr+",
+      "label": "Financial Facilities Handled"
+    },
+    "services": [
+      "Loan Syndications & Project Financing",
+      "Artha Rin Adalat Recovery Suits",
+      "Fintech, Digital Payments & E-Money Regulatory",
+      "Securities, Mortgages & Charge Documentation",
+      "Bangladesh Bank Circulars Compliance"
+    ],
+    "keyHighlights": [
+      "Deep understanding of banking circulars and foreign exchange laws",
+      "High recovery rate in Artha Rin Adalat proceedings",
+      "Trusted counsel for premier private and public commercial banks"
+    ]
+  },
+  {
+    "id": "06",
+    "uniqueKey": "item-06",
+    "slug": "real-estate-property-law",
+    "title": "Real Estate & Property Law",
+    "shortDescription": "Structuring commercial partnerships, trade negotiations, and corporate advisory.",
+    "description": "Comprehensive property law consultancy covering title scrutiny, chain of ownership verification, land development joint ventures, lease drafting, and land mutation.",
+    "icon": "building",
+    "href": "/categories/real-estate-property-law",
+    "stat": {
+      "value": "1200+",
+      "label": "Property Titles Vetted"
+    },
+    "services": [
+      "Land Title Vetting & Due Diligence",
+      "Landowner-Developer Joint Venture Agreements",
+      "Commercial & Residential Lease Agreements",
+      "Mutation, Khatiyan & Land Registry Clearances",
+      "Partition Suits & Title Disputes Litigation"
+    ],
+    "keyHighlights": [
+      "Exhaustive 25+ years title chain verification",
+      "Zero-risk contracts protecting buyers and developers",
+      "Resolution of complex inheritance and partition property suits"
+    ]
+  },
+  {
+    "id": "07",
+    "uniqueKey": "item-07",
+    "slug": "criminal-defense",
+    "title": "Criminal Defense Practice",
+    "shortDescription": "Comprehensive matrimonial, guardianship, and trust management services.",
+    "description": "Vigorous criminal defense counsel representing individuals and corporations across criminal trials, anticipatory bails, ACC anti-corruption investigations, and cybercrime charges.",
+    "icon": "gavel",
+    "href": "/categories/criminal-defense",
+    "stat": {
+      "value": "400+",
+      "label": "Criminal Cases Defended"
+    },
+    "services": [
+      "Bail, Anticipatory Bail & Surrender Petitions",
+      "Anti-Corruption Commission (ACC) Defense",
+      "Cybersecurity & Digital Security Act Matters",
+      "White-Collar & Corporate Fraud Defense",
+      "High Court Criminal Revision & Appeals"
+    ],
+    "keyHighlights": [
+      "Rapid-response legal defense in urgent arrest scenarios",
+      "Strategic defense before Special Judge Courts and High Court",
+      "Client protection under constitutional safeguards"
+    ]
+  },
+  {
+    "id": "08",
+    "uniqueKey": "item-08",
+    "slug": "taxation-customs-law",
+    "title": "Taxation & Customs Law",
+    "shortDescription": "Enforcing patent protection, IP infringement lawsuits, and brand security.",
+    "description": "Fiscal law advisory providing tax structuring, corporate income tax returns, VAT appeal tribunals, customs duty classifications, and National Board of Revenue (NBR) disputes.",
+    "icon": "calculator",
+    "href": "/categories/taxation-customs-law",
+    "stat": {
+      "value": "150+",
+      "label": "Tax & Customs Appeals Won"
+    },
+    "services": [
+      "Corporate & Individual Income Tax Advisory",
+      "VAT Assessment, Audit & Tribunal Litigation",
+      "Customs Classification & Tariff Disputes",
+      "Transfer Pricing & Cross-Border Tax Structuring",
+      "High Court Tax Reference & Writ Petitions"
+    ],
+    "keyHighlights": [
+      "Direct representation before Tax & Customs Appellate Tribunals",
+      "Tax efficiency strategies for multinational entities",
+      "Resolution of long-standing NBR audit issues"
+    ]
+  },
+  {
+    "id": "09",
+    "uniqueKey": "item-09",
+    "slug": "employment-labor-law",
+    "title": "Employment & Labor Law",
+    "shortDescription": "Digital copyright defense, trade secrets, and media law consultancy.",
+    "description": "Strategic counsel on Bangladesh Labour Act 2006, employment contracts, trade union discussions, executive terminations, workplace safety, and Labour Court representation.",
+    "icon": "user-check",
+    "href": "/categories/employment-labor-law",
+    "stat": {
+      "value": "180+",
+      "label": "Enterprises Advised on Compliance"
+    },
+    "services": [
+      "Bangladesh Labour Act 2006 Statutory Compliance",
+      "Employment Agreements, HR Manuals & Policies",
+      "Disciplinary Enquiries & Lawful Dismissals",
+      "Labour Court & Labour Appellate Tribunal Defense",
+      "Provident Fund, Gratuity & WPPF Structuring"
+    ],
+    "keyHighlights": [
+      "Proven track record preventing employee strikes and litigation",
+      "Full compliance audits for industrial factories and RMG units",
+      "Strong defense in wrongful termination and compensations claims"
+    ]
+  },
+  {
+    "id": "10",
+    "uniqueKey": "item-10",
+    "slug": "admiralty-maritime-law",
+    "title": "Admiralty & Maritime Law",
+    "shortDescription": "Global trademark registrations and international IP conflict management.",
+    "description": "Admiralty jurisdiction counsel covering High Court admiralty suits, vessel arrests, marine cargo claims, bill of lading disputes, ship sale & purchase, and charter party arbitration.",
+    "icon": "anchor",
+    "href": "/categories/admiralty-maritime-law",
+    "stat": {
+      "value": "80+",
+      "label": "Admiralty Suits Handled"
+    },
+    "services": [
+      "Vessel Arrest & Release under Admiralty Jurisdiction",
+      "Marine Cargo Damage & Short Landing Claims",
+      "Charter Party & Bill of Lading Disputes",
+      "Ship Demolition, Sale & Purchase Contracts",
+      "Marine Insurance & P&I Club Advisory"
+    ],
+    "keyHighlights": [
+      "Specialized practice before the High Court Admiralty Court",
+      "Swift emergency vessel arrest actions in Chittagong & Mongla ports",
+      "International shipping and arbitration network collaboration"
+    ]
+  }
+]

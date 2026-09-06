@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import AnimatedButton from "./AnimatedButton";
+import { practiceAreas } from "@/app/data/practiceAreas";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -220,40 +221,23 @@ export default function Navbar() {
 
               {/* Animated Dropdown Menu */}
               {expertiseOpen && (
-                <div className="absolute top-full left-0 mt-0 w-64 bg-white rounded-xl shadow-2xl border border-slate-100 p-2 py-3 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                <div className="absolute top-full left-0 mt-0 w-72 bg-white rounded-xl shadow-2xl border border-slate-100 p-2 py-3 z-50 animate-in fade-in slide-in-from-top-2 duration-200 max-h-[420px] overflow-y-auto">
                   <div className="text-[11px] font-bold text-[#8E1831] uppercase tracking-wider px-3 py-1 mb-1 border-b border-slate-100 marcellus">
                     Practice Areas
                   </div>
-                  <Link
-                    href="/categories/apartments"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
-                  >
-                    Corporate & Commercial Law
-                  </Link>
-                  <Link
-                    href="/categories/villas"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
-                  >
-                    Civil Litigation & Disputes
-                  </Link>
-                  <Link
-                    href="/categories/commercial"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
-                  >
-                    Criminal Defense Practice
-                  </Link>
-                  <Link
-                    href="/categories/studios"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
-                  >
-                    Intellectual Property
-                  </Link>
-                  <Link
-                    href="/categories/beachfront"
-                    className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-[#8E1831] hover:bg-slate-50 rounded-lg transition-colors"
-                  >
-                    Real Estate & Property Law
-                  </Link>
+                  {practiceAreas.map((item) => (
+                    <Link
+                      key={item.id}
+                      href={item.href}
+                      className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                        pathname === item.href
+                          ? "text-[#8E1831] bg-slate-50"
+                          : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                      }`}
+                    >
+                      {item.title}
+                    </Link>
+                  ))}
                 </div>
               )}
             </div>
@@ -474,42 +458,19 @@ export default function Navbar() {
                 </button>
 
                 {mobileExpertiseOpen && (
-                  <div className="pl-3 mt-2 space-y-2 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30">
-                    <Link
-                      href="/categories/apartments"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
-                    >
-                      Corporate & Commercial Law
-                    </Link>
-                    <Link
-                      href="/categories/villas"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
-                    >
-                      Civil Litigation & Disputes
-                    </Link>
-                    <Link
-                      href="/categories/commercial"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
-                    >
-                      Criminal Defense Practice
-                    </Link>
-                    <Link
-                      href="/categories/studios"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
-                    >
-                      Intellectual Property
-                    </Link>
-                    <Link
-                      href="/categories/beachfront"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="block py-1 hover:text-[#8E1831]"
-                    >
-                      Real Estate & Property Law
-                    </Link>
+                  <div className="pl-3 mt-2 space-y-1 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30 max-h-[260px] overflow-y-auto">
+                    {practiceAreas.map((item) => (
+                      <Link
+                        key={item.id}
+                        href={item.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className={`block py-1.5 transition-colors ${
+                          pathname === item.href ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"
+                        }`}
+                      >
+                        {item.title}
+                      </Link>
+                    ))}
                   </div>
                 )}
               </div>

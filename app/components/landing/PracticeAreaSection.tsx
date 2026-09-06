@@ -3,102 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { getPracticeAreaRows, PracticeArea } from "@/app/data/practiceAreas";
 
-interface PracticeItem {
-  id: string;
-  uniqueKey: string;
-  title: string;
-  description?: string;
-  href: string;
-}
-
-const practiceRows: [PracticeItem, PracticeItem][] = [
-  [
-    {
-      id: "01",
-      uniqueKey: "item-01",
-      title: "Corporate & Commercial Law",
-      description: "Advising on corporate governance, commercial contracts, and regulatory compliance.",
-      href: "/categories/corporate-commercial-law",
-    },
-    {
-      id: "06",
-      uniqueKey: "item-05",
-      title: "Corporate & Commercial Law",
-      description: "Structuring commercial partnerships, trade negotiations, and corporate advisory.",
-      href: "/categories/corporate-commercial-law",
-    },
-  ],
-  [
-    {
-      id: "02",
-      uniqueKey: "item-02",
-      title: "Litigation & Dispute Resolution",
-      description: "Advising on business formation, contracts, mergers, acquisitions",
-      href: "/categories/litigation-dispute-resolution",
-    },
-    {
-      id: "07",
-      uniqueKey: "item-06",
-      title: "Family & Estate Planning Law",
-      description: "Comprehensive matrimonial, guardianship, and trust management services.",
-      href: "/categories/family-estate-planning-law",
-    },
-  ],
-  [
-    {
-      id: "03",
-      uniqueKey: "item-03",
-      title: "Family & Estate Planning Law",
-      description: "Legal support for family matters, succession planning, and estate administration.",
-      href: "/categories/family-estate-planning-law",
-    },
-    {
-      id: "08",
-      uniqueKey: "item-07",
-      title: "Intellectual Property Rights Her",
-      description: "Enforcing patent protection, IP infringement lawsuits, and brand security.",
-      href: "/categories/intellectual-property-rights",
-    },
-  ],
-  [
-    {
-      id: "04",
-      uniqueKey: "item-04",
-      title: "Intellectual Property Rights Her",
-      description: "Protecting trademarks, patents, copyright defense, and licensing rights.",
-      href: "/categories/intellectual-property-rights",
-    },
-    {
-      id: "09",
-      uniqueKey: "item-08",
-      title: "Intellectual Property Rights Her",
-      description: "Digital copyright defense, trade secrets, and media law consultancy.",
-      href: "/categories/intellectual-property-rights",
-    },
-  ],
-  [
-    {
-      id: "05",
-      uniqueKey: "item-04b",
-      title: "Intellectual Property Rights Her",
-      description: "Strategic IP portfolio advisory and cross-border trademark protection.",
-      href: "/categories/intellectual-property-rights",
-    },
-    {
-      id: "10",
-      uniqueKey: "item-08b",
-      title: "Intellectual Property Rights Her",
-      description: "Global trademark registrations and international IP conflict management.",
-      href: "/categories/intellectual-property-rights",
-    },
-  ],
-];
+const practiceRows = getPracticeAreaRows();
 
 export default function PracticeAreaSection() {
   const [activeKey, setActiveKey] = useState<string>("item-02");
 
-  const renderCard = (item: PracticeItem) => {
+  const renderCard = (item: PracticeArea) => {
     const isActive = activeKey === item.uniqueKey;
 
     return (
@@ -138,7 +50,7 @@ export default function PracticeAreaSection() {
             </h3>
 
             {/* Description: Gentle, Silky-Smooth Reveal & Collapse */}
-            {item.description && (
+            {(item.description || item.shortDescription) && (
               <div
                 className={`grid transition-[grid-template-rows,margin] duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
                   isActive
@@ -148,13 +60,13 @@ export default function PracticeAreaSection() {
               >
                 <div className="overflow-hidden">
                   <p
-                    className={`font-switzer text-xs sm:text-sm md:text-[14.5px] leading-snug sm:leading-relaxed max-w-sm sm:max-w-md transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+                    className={`font-switzer text-xs sm:text-sm md:text-[14.5px] leading-snug sm:leading-relaxed max-w-sm sm:max-w-md line-clamp-2 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
                       isActive
                         ? "opacity-100 translate-y-0 text-white/95"
                         : "opacity-0 -translate-y-2 text-transparent"
                     }`}
                   >
-                    {item.description}
+                    {item.description || item.shortDescription}
                   </p>
                 </div>
               </div>
