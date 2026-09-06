@@ -108,3 +108,36 @@ export function getArticleDetails(slug: string, articleId: string) {
     relevantArticles,
   };
 }
+
+export function getCategoryRelevantArticles(slug: string, limit: number = 3) {
+  const blog = getBlogBySlug(slug);
+  if (blog) {
+    const list: CategoryArticleItem[] = [
+      blog.featuredArticle,
+      ...(blog.sideArticles || []),
+      ...(blog.latestArticles || []),
+    ].filter(Boolean);
+
+    return list.slice(0, limit).map((art) => ({
+      id: art.id,
+      title: art.title,
+      date: art.date,
+      description: art.description,
+      image: art.image,
+      alt: art.alt || art.title,
+      href: art.href || `/blog/${blog.slug}/${art.id}`,
+    }));
+  }
+
+  // Fallback to latest featured articles from other categories if no exact match
+  return blogs.slice(0, limit).map((b) => ({
+    id: b.featuredArticle.id,
+    title: b.featuredArticle.title,
+    date: b.featuredArticle.date,
+    description: b.featuredArticle.description,
+    image: b.featuredArticle.image,
+    alt: b.featuredArticle.alt || b.featuredArticle.title,
+    href: b.featuredArticle.href || `/blog/${b.slug}/${b.featuredArticle.id}`,
+  }));
+}
+
