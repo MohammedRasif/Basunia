@@ -36,8 +36,8 @@ export default function GallerySection() {
     },
     col3Bottom: {
       src: "/assets/images/gallery/gallery-img-5.jpg",
-      alt: "Boardroom executive meeting and corporate presentation",
-      caption: "Executive Boardroom Session",
+      alt: "Case strategy and legal document analysis session",
+      caption: "Case Strategy & Document Analysis",
     },
     col4Top: {
       src: "/assets/images/gallery/gallery-img-6.jpg",
