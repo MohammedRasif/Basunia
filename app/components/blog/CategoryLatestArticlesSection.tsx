@@ -37,7 +37,7 @@ export default function CategoryLatestArticlesSection({
             >
               {/* Featured Image Container */}
               <Link
-                href={article.href || "#"}
+                href={article.href || `/blog/${blog.slug}/${article.id}`}
                 className="relative block w-full aspect-[16/10] overflow-hidden rounded-[2px] bg-slate-100 mb-4 sm:mb-5 shadow-xs"
               >
                 <Image
@@ -73,7 +73,7 @@ export default function CategoryLatestArticlesSection({
               {/* Article Headline */}
               <h3 className="mb-2.5">
                 <Link
-                  href={article.href || "#"}
+                  href={article.href || `/blog/${blog.slug}/${article.id}`}
                   className="font-poppins font-medium text-lg sm:text-[20px] leading-[1.35] text-[#262626] group-hover:text-[#8E1831] transition-colors line-clamp-2 block"
                 >
                   {article.title}
@@ -88,7 +88,7 @@ export default function CategoryLatestArticlesSection({
               {/* Read More Link */}
               <div className="mt-auto">
                 <Link
-                  href={article.href || "#"}
+                  href={article.href || `/blog/${blog.slug}/${article.id}`}
                   className="font-switzer inline-flex items-center gap-2 text-sm sm:text-base text-[#8E1831] hover:text-[#761328] transition-colors font-medium"
                 >
                   <span>Read more</span>

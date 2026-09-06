@@ -24,7 +24,7 @@ export default function CategoryFeaturedBlogsSection({
             <article className="group flex flex-col h-full bg-transparent">
               {/* Main Featured Image */}
               <Link
-                href={featured.href || "#article-detail"}
+                href={featured.href || `/blog/${blog.slug}/${featured.id}`}
                 className="relative block w-full aspect-[16/10] sm:aspect-[4/3] overflow-hidden rounded-[2px] bg-slate-100 mb-4 sm:mb-5 shadow-xs"
               >
                 <Image
@@ -59,7 +59,7 @@ export default function CategoryFeaturedBlogsSection({
               {/* Title Headline */}
               <h3 className="mb-2.5">
                 <Link
-                  href={featured.href || "#article-detail"}
+                  href={featured.href || `/blog/${blog.slug}/${featured.id}`}
                   className="font-poppins font-medium text-lg sm:text-[20px] md:text-[22px] leading-[1.35] text-[#262626] group-hover:text-[#8E1831] transition-colors block line-clamp-2"
                 >
                   {featured.title}
@@ -74,7 +74,7 @@ export default function CategoryFeaturedBlogsSection({
               {/* Read More Link */}
               <div className="mt-auto">
                 <Link
-                  href={featured.href || "#article-detail"}
+                  href={featured.href || `/blog/${blog.slug}/${featured.id}`}
                   className="font-switzer inline-flex items-center gap-2 text-sm sm:text-base text-[#8E1831] hover:text-[#761328] transition-colors font-medium"
                 >
                   <span>Read more</span>
@@ -104,7 +104,7 @@ export default function CategoryFeaturedBlogsSection({
               >
                 {/* Thumbnail Image Container */}
                 <Link
-                  href={article.href || "#article-detail"}
+                  href={article.href || `/blog/${blog.slug}/${article.id}`}
                   className="relative w-[150px] sm:w-[190px] md:w-[225px] lg:w-[245px] aspect-[4/3] sm:aspect-[16/11] shrink-0 rounded-[2px] overflow-hidden bg-slate-100 shadow-xs"
                 >
                   <Image
@@ -140,7 +140,7 @@ export default function CategoryFeaturedBlogsSection({
                   {/* Title Headline */}
                   <h4 className="mb-1.5">
                     <Link
-                      href={article.href || "#article-detail"}
+                      href={article.href || `/blog/${blog.slug}/${article.id}`}
                       className="font-poppins font-medium text-sm sm:text-[16px] md:text-[17px] leading-[1.35] text-[#262626] group-hover:text-[#8E1831] transition-colors block line-clamp-2 sm:line-clamp-3"
                     >
                       {article.title}
@@ -150,7 +150,7 @@ export default function CategoryFeaturedBlogsSection({
                   {/* Read More Link */}
                   <div>
                     <Link
-                      href={article.href || "#article-detail"}
+                      href={article.href || `/blog/${blog.slug}/${article.id}`}
                       className="font-switzer inline-flex items-center gap-1.5 text-xs sm:text-sm text-[#8E1831] hover:text-[#761328] transition-colors font-medium"
                     >
                       <span>Read more</span>

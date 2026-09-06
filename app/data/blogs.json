@@ -12,9 +12,16 @@
       "title": "Navigating Corporate Restructuring and Mergers in 2026",
       "date": "December8,2026",
       "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "paragraphs": [
+        "A branch office in Bangladesh acts as an extension of its foreign parent company, without creating a separate legal entity. This means the parent company remains fully liable for all debts, liabilities, and obligations arising from the branch's operations. Establishing a branch requires prior approval from the Bangladesh Investment Development Authority (BIDA), followed by registration with the Registrar of Joint Stock Companies and Firms (RJSC) under the Companies Act 1994. A branch may engage in commercial activities, such as invoicing and collecting payments locally, but only within the scope of activities approved by BIDA. Additionally, any outward remittance of profits or funds requires specific clearance and justification to the Inter-Ministerial Committee. While a branch allows for easier setup and winding-up procedures, its activities are tightly regulated by foreign exchange control laws, making it less flexible for businesses aiming to expand or diversify operations in Bangladesh.",
+        "Due to these limitations, many foreign investors instead choose to incorporate a local private limited company with foreign shareholding. Unlike a branch, a locally incorporated company enjoys greater operational autonomy, fewer regulatory restrictions on commercial activities, and broader access to incentives, tenders, joint ventures, and banking facilities. This structure allows for profit retention and reinvestment in Bangladesh, and provides a stronger platform for long-term growth, especially in sectors like technology, services, manufacturing, and trading. For foreign companies looking to scale operations or establish a significant local presence, forming a Bangladeshi company offers a more flexible and commercially advantageous route.",
+        "In addition, corporate restructuring demands rigorous due diligence on asset ownership, pending civil or labor disputes, and existing contractual covenants. M&A agreements must integrate robust indemnification clauses, representations and warranties, and post-closing integration protocols. Our corporate team ensures seamless clearance through BSEC, RJSC, and tax authorities, safeguarding shareholder value throughout every transaction milestone.",
+        "Furthermore, modern governance standards require alignment with anti-money laundering (AML) frameworks, environmental compliance guidelines, and minority shareholder protections. Structuring tailored voting pacts and board composition agreements avoids protracted deadlocks and preserves institutional stability.",
+        "At Basunia & Associates, our corporate advocates guide both domestic enterprises and global conglomerates through complex entity formations, regulatory licensing, and high-value acquisitions with unwavering precision."
+      ],
       "image": "/assets/images/articles/article-4.jpg",
       "alt": "Layered poster art street texture",
-      "href": "#"
+      "href": "/blog/corporate-commercial-law/feat-1"
     },
     "sideArticles": [
       {
@@ -22,27 +29,42 @@
         "title": "Cross-Border Commercial Transactions & Regulatory Compliance",
         "date": "December9,2026",
         "description": "Essential legal frameworks for international joint ventures and statutory filings under RJSC and BSEC guidelines.",
+        "paragraphs": [
+          "Cross-border commercial agreements require comprehensive harmonization between international commercial norms and domestic statutory laws. When foreign entities contract with Bangladeshi corporations, key provisions such as choice of law, dispute resolution forums, and currency repatriation protocols must be meticulously drafted.",
+          "Statutory compliance under the Foreign Exchange Regulation Act and Bangladesh Bank circulars is paramount. Failure to obtain requisite approvals prior to remitting royalty fees, technical assistance payments, or franchise fees can lead to regulatory scrutiny and enforcement penalties.",
+          "We structure tailored cross-border contracts that mitigate geopolitical risks, guarantee enforceability before international arbitration tribunals, and ensure unbroken commercial execution."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/side-1"
       },
       {
         "id": "side-2",
         "title": "Shareholder Agreements and Minority Rights Protection",
         "date": "December10,2026",
         "description": "Structuring sound dispute resolution clauses and governance protocols in private and public corporate entities.",
+        "paragraphs": [
+          "Shareholder agreements establish the foundational equilibrium among investors, founders, and executive management. Clear pre-emption rights, tag-along and drag-along mechanisms, and reserved matter lists prevent deadlock and protect minority stakeholders.",
+          "Under Section 233 of the Companies Act 1994, minority shareholders possessing requisite thresholds may seek judicial redress against oppressive or prejudicial management actions. Structuring binding dispute mechanisms safeguards institutional stability.",
+          "Our team drafts comprehensive shareholder covenants and articles of association tailored to investor expectations and long-term capitalization strategies."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal on wooden table",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/side-2"
       },
       {
         "id": "side-3",
         "title": "Corporate Governance & Anti-Money Laundering Frameworks",
         "date": "December11,2026",
         "description": "Guiding executive boards through evolving fiscal compliance and institutional risk mitigation strategies.",
+        "paragraphs": [
+          "Executive boards face heightened scrutiny under evolving Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT) mandates established by the Bangladesh Financial Intelligence Unit (BFIU).",
+          "Establishing internal compliance reporting channels, conducting regular customer due diligence (CDD), and preserving detailed transaction audits protect corporate officers from individual statutory liability.",
+          "We conduct institutional compliance audits and formulate bespoke corporate governance handbooks aligned with international best practices."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/side-3"
       }
     ],
     "latestArticles": [
@@ -51,54 +73,85 @@
         "title": "Strategic M&A Due Diligence: Mitigating Liabilities in High-Value Deals",
         "date": "December8,2026",
         "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "paragraphs": [
+          "A branch office in Bangladesh acts as an extension of its foreign parent company, without creating a separate legal entity. This means the parent company remains fully liable for all debts, liabilities, and obligations arising from the branch's operations. Establishing a branch requires prior approval from the Bangladesh Investment Development Authority (BIDA), followed by registration with the Registrar of Joint Stock Companies and Firms (RJSC) under the Companies Act 1994.",
+          "Due to these limitations, many foreign investors instead choose to incorporate a local private limited company with foreign shareholding. Unlike a branch, a locally incorporated company enjoys greater operational autonomy, fewer regulatory restrictions on commercial activities, and broader access to incentives, tenders, joint ventures, and banking facilities.",
+          "This structure allows for profit retention and reinvestment in Bangladesh, and provides a stronger platform for long-term growth, especially in sectors like technology, services, manufacturing, and trading. For foreign companies looking to scale operations or establish a significant local presence, forming a Bangladeshi company offers a more flexible and commercially advantageous route.",
+          "Strategic due diligence assesses environmental liabilities, pending civil litigations, and tax reconciliations, guaranteeing clean equity transfers and unburdened corporate assets."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Newspaper stand in city",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-1"
       },
       {
         "id": "lat-2",
         "title": "Drafting Airtight Commercial Contracts in Emerging Digital Markets",
         "date": "December10,2026",
         "description": "Key clauses, indemnities, and termination mechanisms necessary for cross-border software and service distribution agreements.",
+        "paragraphs": [
+          "Digital commerce contracts require clear allocation of data privacy obligations, service level agreements (SLAs), and intellectual property indemnities.",
+          "We draft cross-border distribution covenants and SaaS licensing agreements that protect proprietary code and limit unforeseen indirect liabilities.",
+          "Enforceability across varied jurisdictions is safeguarded through standardized UNCITRAL and ICC arbitration clauses."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper with coffee cup",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-2"
       },
       {
         "id": "lat-3",
         "title": "Securities Regulation & BSEC Compliance for Public Listing",
         "date": "December12,2026",
         "description": "Comprehensive roadmap for IPO readiness, capital market disclosures, and statutory oversight in Bangladesh.",
+        "paragraphs": [
+          "Transitioning from a private entity to an exchange-listed public corporation requires meticulous restructuring under BSEC public issue rules.",
+          "From prospectus vetting to statutory share valuations and regulatory clearances, our team navigates every phase of capital market flotation.",
+          "Post-listing ongoing disclosures and corporate governance guidelines ensure long-term regulatory harmony and market investor trust."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business financial journal",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-3"
       },
       {
         "id": "lat-4",
         "title": "Foreign Direct Investment (FDI) & BIDA Approval Protocols",
         "date": "December14,2026",
         "description": "Navigating currency repatriation, statutory licensing, and joint venture establishment for foreign enterprises.",
+        "paragraphs": [
+          "Foreign direct investment in Bangladesh is governed by BIDA registration, statutory sector limitations, and Central Bank capital inflow documentation.",
+          "Establishing joint ventures with local industrial partners demands robust protective covenants and clear intellectual property safeguards.",
+          "We streamline work permit approvals, visa recommendations, and profit repatriation clearances for foreign multinational leadership."
+        ],
         "image": "/assets/images/articles/article-5.jpg",
         "alt": "Legal contracts on desk",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-4"
       },
       {
         "id": "lat-5",
         "title": "Corporate Insolvency, Liquidation & Creditor Safeguards",
         "date": "December16,2026",
         "description": "Legal mechanisms under company legislation for orderly wind-ups, debt restructuring, and tribunal hearings.",
+        "paragraphs": [
+          "When corporate restructuring fails, statutory liquidation protocols under the Companies Act ensure orderly debt settlement and asset realization.",
+          "Creditors and liquidators must adhere to judicial priority lists, protecting secured interests and minimizing litigation exposure.",
+          "Our courtroom advocates represent creditors and corporations in High Court winding-up petitions and debt settlement negotiations."
+        ],
         "image": "/assets/images/articles/article-6.jpg",
         "alt": "Gavel on law book",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-5"
       },
       {
         "id": "lat-6",
         "title": "Navigating Boardroom Governance & Fiduciary Responsibilities",
         "date": "December18,2026",
         "description": "Practical insights on executive liability, ESG compliance criteria, and shareholder meeting resolutions.",
+        "paragraphs": [
+          "Board directors owe strict fiduciary duties of loyalty, care, and good faith to their organizations and stakeholders.",
+          "Emerging ESG benchmarks necessitate proactive environmental compliance, labor harmony audits, and transparent corporate filings.",
+          "We advise executive boards on mitigating personal statutory exposure and formulating lawful corporate policy resolutions."
+        ],
         "image": "/assets/images/articles/article-4.jpg",
         "alt": "Street urban scene",
-        "href": "#"
+        "href": "/blog/corporate-commercial-law/lat-6"
       }
     ],
     "author": {
@@ -143,9 +196,15 @@
       "title": "Preserving Generational Wealth: Wills, Trusts & Succession Law",
       "date": "December8,2026",
       "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "paragraphs": [
+        "Estate planning in Bangladesh requires understanding the interplay between personal religious inheritance laws and modern civil property statutes. Creating a comprehensive estate strategy ensures smooth asset transition while minimizing future probate litigation among legal heirs.",
+        "Private family trusts provide a secure vehicle for managing commercial properties and financial assets across multiple generations. Structuring clear trust deeds avoids contentious partitions and provides ongoing financial support for vulnerable family members.",
+        "Probate proceedings before the District Judge and High Court Division necessitate strict validation of testamentary signatures, executor appointments, and debt clearances.",
+        "Our family law practice provides discrete, confidential, and empathetic legal advisory to high-net-worth families, expatriates, and business dynasties."
+      ],
       "image": "/assets/images/articles/article-4.jpg",
       "alt": "Layered poster art street texture",
-      "href": "#"
+      "href": "/blog/family-estate-planning-law/feat-2"
     },
     "sideArticles": [
       {
@@ -153,27 +212,42 @@
         "title": "Probate and Letters of Administration in Disputed Estates",
         "date": "December9,2026",
         "description": "Navigating contentious probate petitions in the District and Supreme Courts with privacy and precision.",
+        "paragraphs": [
+          "When testamentary validity is challenged by contesting heirs, probate litigation requires rigorous evidentiary proof of the testator's sound testamentary capacity.",
+          "We represent executors and legal beneficiaries in obtaining letters of administration and contesting fraudulent wills.",
+          "Private mediation is encouraged to preserve family harmony and prevent prolonged asset freeze."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/side-2-1"
       },
       {
         "id": "side-2-2",
         "title": "Private Family Trusts & Asset Protection Structuring",
         "date": "December10,2026",
         "description": "Safeguarding family estates against future tax obligations and inheritance fragmentation.",
+        "paragraphs": [
+          "Family trusts provide a reliable framework for consolidating multi-generational properties and business ownership.",
+          "Trust deeds drafted under the Trust Act 1882 clearly delineate trustee powers, beneficiary disbursements, and winding-up terms.",
+          "We guide settlors in establishing tax-efficient trusts that insulate family legacy from commercial liabilities."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal on wooden table",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/side-2-2"
       },
       {
         "id": "side-2-3",
         "title": "Mediation in Matrimonial and Inherited Property Disputes",
         "date": "December11,2026",
         "description": "Empathetic and confidential alternative dispute resolution preserving familial dignity and financial peace.",
+        "paragraphs": [
+          "Matrimonial separations and estate partitions can lead to painful multi-forum litigation without skilled mediation.",
+          "Our certified dispute resolution advocates facilitate balanced settlements addressing dower (mahr), alimony, child custody, and property division.",
+          "Binding settlement deeds are registered to ensure permanent legal closure."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/side-2-3"
       }
     ],
     "latestArticles": [
@@ -182,54 +256,84 @@
         "title": "Essential Guidelines for Drafting Valid and Enforceable Wills",
         "date": "December8,2026",
         "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "paragraphs": [
+          "A properly executed will eliminates ambiguity and establishes unquestionable testamentary intent for property devolution.",
+          "Under statutory law, will execution requires independent attesting witnesses, registration, and strict adherence to personal law quota limits.",
+          "We structure bespoke testamentary documentation tailored to complex domestic and overseas estate holdings."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper with coffee cup",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-1"
       },
       {
         "id": "lat-2-2",
         "title": "Navigating Inheritance Rights Under Muslim and Hindu Personal Law",
         "date": "December10,2026",
         "description": "A comparative overview of statutory legal shares, partition suits, and testamentary bequest limitations.",
+        "paragraphs": [
+          "Personal religious laws govern core succession principles in Bangladesh, determining mandatory sharers and residuary legal heirs.",
+          "Navigating partition suits requires thorough title record examination (CS, SA, RS, BS khatians) and lawful mutation.",
+          "We counsel families on executing amicable partition deeds to preserve peace and fair asset value."
+        ],
         "image": "/assets/images/articles/article-5.jpg",
         "alt": "Legal documents on table",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-2"
       },
       {
         "id": "lat-2-3",
         "title": "Cross-Border Asset Inheritance: Resolving Dual-Jurisdiction Wills",
         "date": "December12,2026",
         "description": "Managing probate for overseas properties in the UK, USA, and South Asian jurisdictions.",
+        "paragraphs": [
+          "Non-resident Bangladeshis holding dual citizenship frequently face conflicting probate rules across international borders.",
+          "We coordinate with international foreign counsel to reseal probate grants and transfer cross-border estates lawfully.",
+          "Tax clearances and foreign remittance permissions are managed with complete compliance."
+        ],
         "image": "/assets/images/articles/article-6.jpg",
         "alt": "Gavel on open book",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-3"
       },
       {
         "id": "lat-2-4",
         "title": "Guardianship & Custody of Minors in Family Court Proceedings",
         "date": "December14,2026",
         "description": "Prioritizing the best interests of the child in custody arrangements and visitation rights disputes.",
+        "paragraphs": [
+          "Family Courts evaluate child welfare and emotional security as paramount factors in custody and guardianship awards.",
+          "We advocate with sensitivity to secure balanced visitation schedules and fair child maintenance orders.",
+          "Protective court orders prevent unlawful international relocation during active custody proceedings."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Newspaper stand in city",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-4"
       },
       {
         "id": "lat-2-5",
         "title": "Structuring Family Settlement Deeds to Prevent Long-Term Litigation",
         "date": "December16,2026",
         "description": "Best practices for binding amicable partitions and land record mutation among heirs.",
+        "paragraphs": [
+          "Family settlement agreements offer a conclusive alternative to multi-decade partition trials in civil courts.",
+          "Meticulous drafting guarantees all legal heirs relinquish conflicting claims and execute simultaneous mutation filings.",
+          "Our chamber assists in registering partition settlements at local sub-registry jurisdictions."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-5"
       },
       {
         "id": "lat-2-6",
         "title": "Power of Attorney in Family Matters: Execution and Revocation Protocols",
         "date": "December18,2026",
         "description": "Legal precautions when granting irrevocable general and special powers of attorney.",
+        "paragraphs": [
+          "Powers of Attorney granted to relatives or managers must comply with the Power of Attorney Act 2012 and embassy authentication rules.",
+          "Unambiguous clauses prevent misuse, unauthorized land transfers, or fraudulent mortgage creation.",
+          "We structure revocable special powers of attorney tailored to discrete administrative transactions."
+        ],
         "image": "/assets/images/articles/article-4.jpg",
         "alt": "Street urban texture",
-        "href": "#"
+        "href": "/blog/family-estate-planning-law/lat-2-6"
       }
     ],
     "author": {
@@ -274,9 +378,15 @@
       "title": "High-Stakes Commercial Litigation & Constitutional Writs",
       "date": "December8,2026",
       "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "paragraphs": [
+        "In the sphere of commercial dispute resolution, litigation before the High Court Division requires incisive statutory analysis, persuasive brief writing, and assertive courtroom advocacy. Our chamber represents leading financial institutions and multinational corporations in high-value contract claims and statutory appeals.",
+        "Constitutional writ petitions under Article 102 of the Constitution provide an essential safeguard against arbitrary regulatory decisions, unlawful public tender cancellations, and administrative overreach.",
+        "Arbitration under international frameworks like UNCITRAL and ICC enables commercial parties to achieve expedited, confidential resolutions while preserving cross-border trade partnerships.",
+        "Basunia & Associates brings over three decades of courtroom distinction across District Courts, High Court Benches, and the Appellate Division."
+      ],
       "image": "/assets/images/articles/article-4.jpg",
       "alt": "Layered poster art street texture",
-      "href": "#"
+      "href": "/blog/litigation-dispute-resolution/feat-3"
     },
     "sideArticles": [
       {
@@ -284,27 +394,42 @@
         "title": "International Commercial Arbitration under UNCITRAL Rules",
         "date": "December9,2026",
         "description": "Enforcing foreign arbitral awards and securing interim conservatory measures in cross-border disputes.",
+        "paragraphs": [
+          "Arbitration is the premier dispute mechanism for cross-border investments and commercial joint ventures.",
+          "We handle emergency tribunal appointments, conservatory measure applications, and award enforceability proceedings.",
+          "Our certified arbitrators ensure procedural rigor and prompt dispute finality."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/side-3-1"
       },
       {
         "id": "side-3-2",
         "title": "Securing Emergency Injunctions and Stay Orders in High Court",
         "date": "December10,2026",
         "description": "Urgent interlocutory relief protecting vital commercial assets and administrative rights.",
+        "paragraphs": [
+          "When business continuity or property ownership is threatened, rapid ex-parte injunction applications prevent irreparable harm.",
+          "We construct prima facie evidence dossiers establishing balance of convenience and immediate urgency.",
+          "Our advocates maintain a rapid response desk for emergency stay motions."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal on wooden table",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/side-3-2"
       },
       {
         "id": "side-3-3",
         "title": "Appellate Advocacy Before the Supreme Court of Bangladesh",
         "date": "December11,2026",
         "description": "Structuring persuasive legal arguments anchored in constitutional interpretation and precedent.",
+        "paragraphs": [
+          "Appellate advocacy demands deep understanding of constitutional jurisprudence and landmark judicial precedents.",
+          "We draft exhaustive civil and criminal leave-to-appeal petitions and represent clients before the Appellate Division.",
+          "Our senior counsel have shaped landmark interpretations in commercial and public law."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/side-3-3"
       }
     ],
     "latestArticles": [
@@ -313,54 +438,84 @@
         "title": "Tactical Approaches to Complex Civil & Commercial Trial Advocacy",
         "date": "December8,2026",
         "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "paragraphs": [
+          "Successful trial advocacy requires meticulous document discovery, targeted witness cross-examination, and cohesive legal theory.",
+          "We represent commercial litigants in breach of contract suits, specific performance claims, and damages recovery.",
+          "Our advocates ensure procedural compliance at every stage of the Code of Civil Procedure (CPC)."
+        ],
         "image": "/assets/images/articles/article-6.jpg",
         "alt": "Gavel on law book in library",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-1"
       },
       {
         "id": "lat-3-2",
         "title": "Enforcing Arbitral Awards: Overcoming Procedural Obstacles",
         "date": "December10,2026",
         "description": "Detailed analysis of the Arbitration Act 2001 and enforcement of foreign awards in domestic courts.",
+        "paragraphs": [
+          "Domestic courts enforce international arbitral awards under the New York Convention framework unless narrow public policy defenses apply.",
+          "We guide award creditors through execution petitions, bank garnishment orders, and asset attachment directives.",
+          "Our litigation team defends against frivolous award setting-aside motions."
+        ],
         "image": "/assets/images/articles/article-5.jpg",
         "alt": "Legal contracts and folders",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-2"
       },
       {
         "id": "lat-3-3",
         "title": "Constitutional Writ Jurisdiction Under Article 102: Scope & Remedies",
         "date": "December12,2026",
         "description": "Challenging arbitrary government actions, ultra vires statutory orders, and public procurement violations.",
+        "paragraphs": [
+          "Article 102 writs provide expeditious judicial review against unlawful statutory actions and fundamental rights breaches.",
+          "We draft mandamus, certiorari, and prohibition petitions challenging procurement disqualifications and regulatory fines.",
+          "Our senior advocates represent corporate and individual petitioners before the High Court Benches."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business journal newspaper",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-3"
       },
       {
         "id": "lat-3-4",
         "title": "Mediation as an Effective Pre-Trial Strategy in Commercial Conflicts",
         "date": "December14,2026",
         "description": "Saving corporate costs and preserving trade relationships through structured mediator facilitation.",
+        "paragraphs": [
+          "Pre-trial mediation under Section 89A CPC offers cost-effective conflict resolution without prolonged court delays.",
+          "We structure confidential settlement frameworks balancing financial concessions with business continuity.",
+          "Executed settlement decrees are non-appealable and immediately enforceable."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-4"
       },
       {
         "id": "lat-3-5",
         "title": "Evidence Presentation & Expert Witness Examination in Trial",
         "date": "December16,2026",
         "description": "Techniques for cross-examining financial auditors, forensic experts, and key eyewitnesses.",
+        "paragraphs": [
+          "The Evidence Act 1872 sets strict evidentiary criteria for proving electronic records, contracts, and forensic audit reports.",
+          "Our advocates prepare exhaustive cross-examination strategies exposing contradictions and invalid evidentiary chains.",
+          "We present credible independent expert testimony reinforcing our client's core legal claims."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Street newspaper stand",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-5"
       },
       {
         "id": "lat-3-6",
         "title": "Class Action & Representative Suits in Consumer & Environmental Rights",
         "date": "December18,2026",
         "description": "Defending and advancing public interest litigation before superior judicial benches.",
+        "paragraphs": [
+          "Representative suits under Order 1 Rule 8 CPC protect broader public and consumer classes against collective injury.",
+          "We represent civic groups and industrial respondents in environmental tribunal hearings and regulatory inquiries.",
+          "Our advocacy balances developmental economic interests with statutory environmental protections."
+        ],
         "image": "/assets/images/articles/article-4.jpg",
         "alt": "Layered poster art street texture",
-        "href": "#"
+        "href": "/blog/litigation-dispute-resolution/lat-3-6"
       }
     ],
     "author": {
@@ -405,9 +560,15 @@
       "title": "White-Collar Financial Crimes & Anti-Corruption Defense",
       "date": "December8,2026",
       "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+      "paragraphs": [
+        "Navigating criminal investigations requires immediate intervention, procedural vigilance, and deep evidentiary understanding. Our criminal defense team represents corporate leaders, institutions, and individuals during police investigations, remand hearings, and trials.",
+        "Anti-Corruption Commission (ACC) inquiries demand comprehensive asset reconciliation, statutory response drafting, and representation before Special Judges.",
+        "Constitutional safeguards against unlawful detention and arbitrary arrest under Articles 31 and 32 are vigorously enforced through High Court anticipatory bail petitions.",
+        "Basunia & Associates delivers robust trial advocacy, relentless witness cross-examination, and forensic digital evidence scrutiny."
+      ],
       "image": "/assets/images/articles/article-4.jpg",
       "alt": "Layered poster art street texture",
-      "href": "#"
+      "href": "/blog/criminal-defense-investigation/feat-4"
     },
     "sideArticles": [
       {
@@ -415,27 +576,42 @@
         "title": "Anticipatory Bail & Remand Hearing Representation",
         "date": "December9,2026",
         "description": "Immediate constitutional protection against unlawful detention and custodial abuse.",
+        "paragraphs": [
+          "When arrest is apprehended on baseless or politically motivated grounds, anticipatory bail before the High Court provides essential liberty protection.",
+          "We present substantiated evidence establishing bona fides and opposing police remand petitions.",
+          "Our emergency defense advocates represent clients across Metropolitan Sessions jurisdictions."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/side-4-1"
       },
       {
         "id": "side-4-2",
         "title": "Cybercrime Allegations & Digital Evidence Scrutiny",
         "date": "December10,2026",
         "description": "Defending corporate and individual clients under the Cyber Security Act and data statutes.",
+        "paragraphs": [
+          "Cybersecurity allegations involve intricate technical forensic challenges surrounding IP logs, device seizures, and electronic authentication.",
+          "We challenge unlawful digital seizures and procedural defects in forensic investigation reports.",
+          "Our defense safeguards clients against arbitrary cybercrime prosecutions."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal on wooden table",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/side-4-2"
       },
       {
         "id": "side-4-3",
         "title": "Anti-Corruption Commission (ACC) Inquiries & Responses",
         "date": "December11,2026",
         "description": "Strategic guidance during statutory summons, asset disclosures, and institutional trials.",
+        "paragraphs": [
+          "ACC inquiries require precise documentation, lawful asset verification, and prompt response to Section 19 notices.",
+          "We accompany and advise clients through inquiry interviews and trial hearings before Special Judges.",
+          "Our team secures bail and quashment of baseless criminal proceedings under Section 561A CrPC."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/side-4-3"
       }
     ],
     "latestArticles": [
@@ -444,54 +620,84 @@
         "title": "Safeguarding Executive Rights During Fiscal & Corporate Investigations",
         "date": "December8,2026",
         "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
+        "paragraphs": [
+          "Corporate executives facing regulatory probes must balance statutory disclosure obligations with their fundamental right against self-incrimination.",
+          "We formulate strategic internal audit responses and attend regulatory inquiry sessions alongside leadership.",
+          "Our defense prevents unconstitutional freezing of commercial bank accounts."
+        ],
         "image": "/assets/images/articles/article-5.jpg",
         "alt": "Legal documents on table",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-1"
       },
       {
         "id": "lat-4-2",
         "title": "Forensic Accounting & Electronic Data in Criminal Trials",
         "date": "December10,2026",
         "description": "How digital forensic trails and chain of custody challenges impact verdict outcomes.",
+        "paragraphs": [
+          "Evidence in financial crime cases hinges on establishing clear transaction trails and verifying digital data authenticity.",
+          "We cross-examine state forensic analysts on chain of custody protocols and data extraction methodology.",
+          "Our team introduces credible accounting reconciliations disproving allegations of fiscal misappropriation."
+        ],
         "image": "/assets/images/articles/article-6.jpg",
         "alt": "Gavel on law books",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-2"
       },
       {
         "id": "lat-4-3",
         "title": "Navigating Money Laundering Charges Under the BFIU Framework",
         "date": "December12,2026",
         "description": "Statutory defense protocols for financial intermediaries and corporate entities.",
+        "paragraphs": [
+          "Money laundering prosecutions under the Money Laundering Prevention Act carry severe forfeiture penalties and long sentences.",
+          "We prove lawful asset provenance and distinguish legitimate trade remittances from suspicious transaction reports.",
+          "Our advocates represent financial institutions and directors before Special Courts."
+        ],
         "image": "/assets/images/articles/article-1.jpg",
         "alt": "Newspaper kiosk stand",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-3"
       },
       {
         "id": "lat-4-4",
         "title": "Bail Jurisprudence: High Court Guidelines on Non-Bailable Offenses",
         "date": "December14,2026",
         "description": "Key factors influencing judicial discretion in regular and anticipatory bail petitions.",
+        "paragraphs": [
+          "Judicial discretion in granting bail balances individual liberty with the gravity of charges and flight risk factors.",
+          "We present precedent-backed bail applications emphasizing trial delay, health considerations, and lack of prima facie evidence.",
+          "Our chamber secures regular and interim bail across all appellate tiers."
+        ],
         "image": "/assets/images/articles/article-2.jpg",
         "alt": "Newspaper flatlay with coffee",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-4"
       },
       {
         "id": "lat-4-5",
         "title": "Cross-Border Extradition Treaties & Mutual Legal Assistance",
         "date": "December16,2026",
         "description": "International legal defense mechanisms for dual citizens and overseas jurisdictions.",
+        "paragraphs": [
+          "Extradition proceedings require strict adherence to bilateral treaty protocols and human rights guarantees.",
+          "We defend foreign and domestic citizens against unverified Interpol Red Notices and unlawful extradition demands.",
+          "Our counsel provides coordinated international defense representation."
+        ],
         "image": "/assets/images/articles/article-3.jpg",
         "alt": "Business news journal",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-5"
       },
       {
         "id": "lat-4-6",
         "title": "Private Prosecutions & Criminal Revision Petitions in Sessions Court",
         "date": "December18,2026",
         "description": "Challenging erroneous lower court orders and safeguarding victims' constitutional remedies.",
+        "paragraphs": [
+          "Criminal revision petitions under Sections 435/439 CrPC allow superior courts to rectify procedural and jurisdictional errors by magistrates.",
+          "We represent complainants and aggrieved victims in lodging private criminal complaints and seeking lawful trial progress.",
+          "Our advocates ensure justice is delivered without administrative compromise."
+        ],
         "image": "/assets/images/articles/article-4.jpg",
         "alt": "Layered poster art street texture",
-        "href": "#"
+        "href": "/blog/criminal-defense-investigation/lat-4-6"
       }
     ],
     "author": {
@@ -522,791 +728,5 @@
       "Relentless cross-examination and forensic evidence scrutiny."
     ],
     "tags": ["Criminal Law", "White Collar", "Bail", "ACC", "Defense"]
-  },
-  {
-    "id": "5",
-    "slug": "intellectual-property-law",
-    "title": "Intellectual Property & Tech Law",
-    "icon": "lightbulb",
-    "shortDescription": "Registration, enforcement, patent prosecution, trademark disputes, and software licensing for innovative brands.",
-    "readTime": "4 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-5",
-      "title": "Protecting Trademarks, Patents & Software in the AI Era",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-5-1",
-        "title": "Anti-Counterfeiting Litigation & Anton Piller Orders",
-        "date": "December9,2026",
-        "description": "Rapid judicial raids and seizure of infringing counterfeit goods across retail hubs.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-5-2",
-        "title": "SaaS Licensing, Data Privacy & Cloud Agreements",
-        "date": "December10,2026",
-        "description": "Drafting enterprise software contracts compliant with international GDPR and local data frameworks.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-5-3",
-        "title": "Patent Prosecution & Innovation Portfolio Strategy",
-        "date": "December11,2026",
-        "description": "Guiding tech innovators from invention disclosure to DPDT patent grant registration.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-5-1",
-        "title": "Managing Trademark Portfolios: Registration, Opposition & Renewals",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal",
-        "href": "#"
-      },
-      {
-        "id": "lat-5-2",
-        "title": "AI-Generated Content & Copyright Ownership Challenges",
-        "date": "December10,2026",
-        "description": "Emerging legal precedents on training data liability, fair use, and intellectual attribution.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal documents on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-5-3",
-        "title": "Trade Secret Protection: NDAs and Non-Compete Enforceability",
-        "date": "December12,2026",
-        "description": "Structuring trade secret protocols to prevent executive talent leakage and IP theft.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee",
-        "href": "#"
-      },
-      {
-        "id": "lat-5-4",
-        "title": "Domain Name Disputes & UDRP Cybersquatting Recovery",
-        "date": "December14,2026",
-        "description": "Reclaiming brand trademarks from bad-faith digital squatters before WIPO panels.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-5-5",
-        "title": "Technology Transfer Agreements in Pharmaceutical & Biotech Sectors",
-        "date": "December16,2026",
-        "description": "Structuring royalty models, patent licenses, and regulatory manufacturing clearances.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand",
-        "href": "#"
-      },
-      {
-        "id": "lat-5-6",
-        "title": "Brand Valuation & Monetization in Joint Ventures and Mergers",
-        "date": "December18,2026",
-        "description": "Leveraging intellectual property assets for corporate financing and capital appreciation.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Advocate Nadia Chowdhury",
-      "role": "Associate - IP & Technology",
-      "image": "/assets/images/team/team-4.png"
-    },
-    "coverImage": "/assets/images/articles/article-2.jpg",
-    "badge": "IP & Technology",
-    "overview": "In the digital economy, your brand and proprietary technology are invaluable assets. We secure, monetize, and defend trademarks, patents, copyrights, and trade secrets.",
-    "sections": [
-      {
-        "heading": "Trademark & Copyright Registration",
-        "body": "We handle trademark clearance searches, filing with the Department of Patents, Designs and Trademarks (DPDT), oppositions, and copyright enforcement."
-      },
-      {
-        "heading": "IP Infringement & Counterfeiting Litigation",
-        "body": "Our litigation department takes aggressive legal action against counterfeiters, domain squatters, and IP infringers through Anton Piller orders and damages claims."
-      },
-      {
-        "heading": "Software Licensing & SaaS Contracts",
-        "body": "We draft robust End-User License Agreements (EULA), API licenses, data protection policies, and cloud service contracts for tech enterprises."
-      }
-    ],
-    "keyTakeaways": [
-      "Comprehensive trademark and patent registration and portfolio management.",
-      "Zero tolerance IP enforcement and anti-counterfeiting litigation.",
-      "Technology and SaaS contractual frameworks aligned with international norms."
-    ],
-    "tags": ["Intellectual Property", "Trademarks", "Patents", "Copyright", "Tech Law"]
-  },
-  {
-    "id": "6",
-    "slug": "real-estate-property-law",
-    "title": "Real Estate & Property Law",
-    "icon": "building",
-    "shortDescription": "Title vetting, land acquisition, lease agreements, builder-buyer disputes, and property litigation.",
-    "readTime": "6 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-6",
-      "title": "30-Year Chain of Title Vetting & Land Acquisition Safeguards",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-6-1",
-        "title": "Real Estate Developer Joint Ventures & Tripartite Deeds",
-        "date": "December9,2026",
-        "description": "Structuring equitable landowner-developer agreements avoiding construction delay conflicts.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-6-2",
-        "title": "Partition Suits & Land Survey Tribunal Dispute Resolution",
-        "date": "December10,2026",
-        "description": "Resolving complex CS, SA, RS, and BS record discrepancies before specialized tribunals.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-6-3",
-        "title": "Commercial Leasing, Mutation & RAJUK Compliance",
-        "date": "December11,2026",
-        "description": "Securing occupancy permits, zoning clearances, and long-term industrial lease security.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-6-1",
-        "title": "Essential Legal Due Diligence Before Purchasing Commercial Property",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand",
-        "href": "#"
-      },
-      {
-        "id": "lat-6-2",
-        "title": "Builder-Buyer Disputes: Remedies Under the Real Estate Act",
-        "date": "December10,2026",
-        "description": "Enforcing delivery deadlines, compensation clauses, and association registration rights.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal contracts on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-6-3",
-        "title": "Agricultural to Industrial Land Conversion: NBR & Revenue NOCs",
-        "date": "December12,2026",
-        "description": "Step-by-step statutory clearances for establishing manufacturing plants and export zones.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper with coffee cup",
-        "href": "#"
-      },
-      {
-        "id": "lat-6-4",
-        "title": "Eviction Proceedings & Landlord-Tenant Rent Control Laws",
-        "date": "December14,2026",
-        "description": "Lawful possession recovery mechanisms for commercial plazas and residential complexes.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-6-5",
-        "title": "Mortgage Registration & Bank Legal Opinion Validation",
-        "date": "December16,2026",
-        "description": "Evaluating title search reports for institutional credit security and charge creation.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business journal newspaper",
-        "href": "#"
-      },
-      {
-        "id": "lat-6-6",
-        "title": "Environmental Clearances & Building Code Adherence in Real Estate",
-        "date": "December18,2026",
-        "description": "Mitigating structural compliance risks under BNBC and Department of Environment standards.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Barrister Md. Badruddoza",
-      "role": "Managing Partner & Senior Advocate",
-      "image": "/assets/images/team/team-1.png"
-    },
-    "coverImage": "/assets/images/articles/article-3.jpg",
-    "badge": "Real Estate Practice",
-    "overview": "Property investments require rigorous title search, clear documentation, and proactive risk mitigation against disputed land records (CS, SA, RS, BS khatians).",
-    "sections": [
-      {
-        "heading": "Title Search & 30-Year Chain of Title Vetting",
-        "body": "We conduct thorough investigations at sub-registry and revenue offices to establish indisputable ownership history before any purchase or bank mortgage."
-      },
-      {
-        "heading": "Real Estate Development & Joint Ventures",
-        "body": "We draft and structure developer-landowner agreements, sales contracts, and resolve non-delivery or mutation disputes under RAJUK and CDA jurisdiction."
-      },
-      {
-        "heading": "Partition Suits & Land Recovery Litigation",
-        "body": "Our courtroom advocates handle title suits, partition suits, and injunctions to protect client possession against unlawful encroachments."
-      }
-    ],
-    "keyTakeaways": [
-      "Uncompromising 30-year chain of title verification and search reports.",
-      "Clear, airtight developer-landowner joint venture agreements.",
-      "Dedicated representation in Land Survey Tribunals and Civil Courts."
-    ],
-    "tags": ["Real Estate", "Land Law", "Title Vetting", "Property Dispute", "RAJUK"]
-  },
-  {
-    "id": "7",
-    "slug": "banking-finance-law",
-    "title": "Banking, Finance & FinTech",
-    "icon": "landmark",
-    "shortDescription": "Syndicated financing, loan security documentation, NPL recovery under Artha Rin Adalat, and FinTech regulatory licensing.",
-    "readTime": "5 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-7",
-      "title": "FinTech Regulation, Digital Payments & Loan Syndication",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-7-1",
-        "title": "Artha Rin Adalat & NPL Recovery Strategies",
-        "date": "December9,2026",
-        "description": "Expediting non-performing loan recovery and auction enforcement for financial institutions.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-7-2",
-        "title": "Section 138 NI Act Dishonored Cheque Prosecutions",
-        "date": "December10,2026",
-        "description": "Statutory legal notice serving and fast-track recovery proceedings in magistrate courts.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-7-3",
-        "title": "Payment Service Provider (PSP) & MFS Regulatory Licensing",
-        "date": "December11,2026",
-        "description": "Securing Bangladesh Bank no-objection certificates and sandbox compliance frameworks.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-7-1",
-        "title": "Syndicated Lending: Security Agency & Inter-Creditor Arrangements",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal contracts on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-7-2",
-        "title": "Navigating Central Bank Guidelines on Capital Adequacy (Basel III)",
-        "date": "December10,2026",
-        "description": "Structuring Tier 1 and Tier 2 subordinated bonds for commercial banking solvency.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-7-3",
-        "title": "Cross-Border Trade Financing: Letter of Credit (LC) Dispute Resolution",
-        "date": "December12,2026",
-        "description": "Enforcing UCP 600 rules in maritime discrepancies and fraudulent document claims.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper with coffee cup",
-        "href": "#"
-      },
-      {
-        "id": "lat-7-4",
-        "title": "Asset-Backed Securitization & Islamic Sukuk Bond Structuring",
-        "date": "December14,2026",
-        "description": "Legal architectures for Shariah-compliant debt instruments and infrastructure funds.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Newspaper stand in city",
-        "href": "#"
-      },
-      {
-        "id": "lat-7-5",
-        "title": "Digital Banking & Open Banking API Compliance Protocols",
-        "date": "December16,2026",
-        "description": "Protecting customer financial data under cybersecurity and electronic fund transfer laws.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal",
-        "href": "#"
-      },
-      {
-        "id": "lat-7-6",
-        "title": "Debt Restructuring & Rescheduling Mechanisms for Defaulted Borrowers",
-        "date": "December18,2026",
-        "description": "Negotiating amicable debt settlement plans under central bank circular frameworks.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Advocate Tariqul Islam",
-      "role": "Partner - Banking & Finance",
-      "image": "/assets/images/team/team-3.png"
-    },
-    "coverImage": "/assets/images/articles/article-1.jpg",
-    "badge": "Banking & Finance",
-    "overview": "We serve commercial banks, non-banking financial institutions (NBFIs), and FinTech innovators in loan syndication, debt recovery, and Bangladesh Bank regulatory compliance.",
-    "sections": [
-      {
-        "heading": "Loan Structuring & Security Documentation",
-        "body": "We prepare bulletproof mortgage deeds, hypothecation agreements, letters of guarantee, and escrow contracts for major credit facilities."
-      },
-      {
-        "heading": "Artha Rin Adalat & NPL Recovery",
-        "body": "Our litigation specialists vigorously pursue non-performing loan (NPL) recovery under the Money Loan Court Act and Section 138 of the Negotiable Instruments Act."
-      },
-      {
-        "heading": "FinTech & Payment Systems Licensing",
-        "body": "We counsel payment service providers (PSP) and digital wallets on obtaining regulatory NOCs and licenses from Bangladesh Bank."
-      }
-    ],
-    "keyTakeaways": [
-      "Extensive experience in banking documentation and syndicated credit.",
-      "Proven recovery rate in Artha Rin Adalat and NI Act 138 proceedings.",
-      "Strategic advisory for digital financial services and payment gateways."
-    ],
-    "tags": ["Banking", "Finance", "Artha Rin", "FinTech", "Debt Recovery"]
-  },
-  {
-    "id": "8",
-    "slug": "employment-labor-law",
-    "title": "Employment & Labor Relations",
-    "icon": "users",
-    "shortDescription": "Labor code compliance, employment contracts, union negotiations, workplace policies, and Labour Court representation.",
-    "readTime": "5 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-8",
-      "title": "Modern Workplace Compliance Under the Bangladesh Labour Act",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-8-1",
-        "title": "Disciplinary Inquiries & Lawful Termination Procedures",
-        "date": "December9,2026",
-        "description": "Managing show-cause notices and domestic inquiries avoiding wrongful termination liability.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-8-2",
-        "title": "Collective Bargaining & Trade Union Dispute Resolution",
-        "date": "December10,2026",
-        "description": "Negotiating tripartite labor agreements ensuring unbroken industrial factory operations.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-8-3",
-        "title": "Executive Employment Contracts & Non-Compete Covenants",
-        "date": "December11,2026",
-        "description": "Protecting company trade secrets and key client rosters through restrictive covenants.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-8-1",
-        "title": "Workplace Health, Safety & Factory Inspection Compliance (OSH)",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand",
-        "href": "#"
-      },
-      {
-        "id": "lat-8-2",
-        "title": "Navigating Retrenchment, Layoffs & Severance Pay Calculations",
-        "date": "December10,2026",
-        "description": "Statutory notice periods and compensation formulas under sections 20 and 26 of the Labour Act.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee",
-        "href": "#"
-      },
-      {
-        "id": "lat-8-3",
-        "title": "Labour Court Litigation: Defending Unfair Labour Practice Allegations",
-        "date": "December12,2026",
-        "description": "Advocacy strategies in the Labour Appellate Tribunal and High Court Division.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-8-4",
-        "title": "Maternity Benefits & Equal Opportunity Policies in Corporate HR",
-        "date": "December14,2026",
-        "description": "Implementing statutory leave benefits and gender-neutral anti-harassment committees.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal contracts on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-8-5",
-        "title": "Gig Economy & Independent Contractor Classification Risks",
-        "date": "December16,2026",
-        "description": "Distinguishing contracts of service from contracts for service in tech startups.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal",
-        "href": "#"
-      },
-      {
-        "id": "lat-8-6",
-        "title": "Provident Fund, Gratuity & Workers Participation Fund (WPPF) Audits",
-        "date": "December18,2026",
-        "description": "Legal compliance with trustee management and statutory welfare fund disbursements.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Advocate Shamima Nasrin",
-      "role": "Partner - Employment Law",
-      "image": "/assets/images/team/team-2.png"
-    },
-    "coverImage": "/assets/images/articles/article-2.jpg",
-    "badge": "Labor & Employment",
-    "overview": "Balancing organizational agility with strict adherence to Bangladesh Labour Act 2006 (and amendments) is vital for industrial harmony and reputation management.",
-    "sections": [
-      {
-        "heading": "HR Policies, Handbooks & Executive Contracts",
-        "body": "We draft legally robust service rules, non-disclosure agreements (NDAs), non-compete clauses, and disciplinary procedures for corporations and factories."
-      },
-      {
-        "heading": "Disciplinary Inquiries & Termination Protocols",
-        "body": "We guide employers through domestic inquiries, show-cause notices, and retrenchment protocols to avoid wrongful termination claims."
-      },
-      {
-        "heading": "Labour Court & Labour Appellate Tribunal Defense",
-        "body": "Our advocates defend organizations against unfair labor practice claims, wage disputes, and workers' compensation litigation."
-      }
-    ],
-    "keyTakeaways": [
-      "Custom employee handbooks compliant with current labor regulations.",
-      "Structured domestic inquiry facilitation to prevent court appeals.",
-      "Experienced courtroom representation in specialized Labour Courts."
-    ],
-    "tags": ["Labor Law", "Employment", "Labour Court", "HR Compliance", "Contracts"]
-  },
-  {
-    "id": "9",
-    "slug": "tax-customs-regulatory-law",
-    "title": "Tax, Customs & Regulatory Law",
-    "icon": "calculator",
-    "shortDescription": "Direct taxation, VAT tribunals, customs classification disputes, transfer pricing, and NBR alternative dispute resolution.",
-    "readTime": "6 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-9",
-      "title": "Strategic Corporate Taxation Under the Income Tax Act 2023",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-9-1",
-        "title": "Customs Tariff Classification & Bond Warehouse Disputes",
-        "date": "December9,2026",
-        "description": "Expediting port release and challenging arbitrary duty assessments before Customs tribunals.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-9-2",
-        "title": "Taxes Appellate Tribunal & Writ Challenges Against NBR",
-        "date": "December10,2026",
-        "description": "Advocacy against arbitrary re-assessments, penalty notices, and frozen bank accounts.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-9-3",
-        "title": "Cross-Border Transfer Pricing & International Tax Treaties (DTAA)",
-        "date": "December11,2026",
-        "description": "Structuring intercompany transactions compliant with transfer pricing documentation rules.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-9-1",
-        "title": "Value Added Tax (VAT) Audits & Input Tax Credit Optimization",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal contracts on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-9-2",
-        "title": "Alternative Dispute Resolution (ADR) Under the NBR Framework",
-        "date": "December10,2026",
-        "description": "Settling complex tax and customs disputes without prolonged appellate litigation.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee",
-        "href": "#"
-      },
-      {
-        "id": "lat-9-3",
-        "title": "Withholding Tax (TDS) Compliance for Multinational Corporations",
-        "date": "December12,2026",
-        "description": "Filing accurate monthly returns and preventing heavy penalty interest assessments.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand",
-        "href": "#"
-      },
-      {
-        "id": "lat-9-4",
-        "title": "Customs Valuation & Section 25 Dispute Appeals",
-        "date": "December14,2026",
-        "description": "Defending imported consignment valuation and resolving demurrage claim disputes.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-9-5",
-        "title": "Individual Wealth Tax Statements & Surcharge Mitigation",
-        "date": "December16,2026",
-        "description": "Confidential tax advisory for high-net-worth directors and family trusts.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal",
-        "href": "#"
-      },
-      {
-        "id": "lat-9-6",
-        "title": "Fiscal Incentives in Special Economic Zones (BEZA & BEPZA)",
-        "date": "December18,2026",
-        "description": "Maximizing tax holidays, duty-free capital imports, and export subsidies.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Barrister Md. Badruddoza",
-      "role": "Managing Partner & Senior Advocate",
-      "image": "/assets/images/team/team-1.png"
-    },
-    "coverImage": "/assets/images/articles/article-3.jpg",
-    "badge": "Tax & Customs",
-    "overview": "Complex fiscal laws require precise interpretation. We guide corporations and high-income individuals in tax structuring, customs hearings, and fiscal appellate appeals.",
-    "sections": [
-      {
-        "heading": "Corporate Tax Strategy & Planning",
-        "body": "We provide strategic tax advisory under the Income Tax Act 2023, identifying legitimate exemptions, capital gains optimization, and cross-border tax credits."
-      },
-      {
-        "heading": "Customs Valuation & Port Release Disputes",
-        "body": "We assist importers and exporters in resolving customs tariff classification, bond licensing issues, and expedited port clearance before Customs authorities."
-      },
-      {
-        "heading": "Taxes Appellate Tribunal & Writ Challenges",
-        "body": "When arbitrary tax assessments occur, we represent clients before the Taxes Appellate Tribunal, Customs Tribunal, and High Court Division."
-      }
-    ],
-    "keyTakeaways": [
-      "Proactive tax optimization under new statutory income tax frameworks.",
-      "Rapid resolution of customs bonded warehouse and duty disputes.",
-      "Formidable appellate and constitutional representation against arbitrary tax orders."
-    ],
-    "tags": ["Tax Law", "VAT", "Customs", "NBR", "Tribunals"]
-  },
-  {
-    "id": "10",
-    "slug": "admiralty-maritime-law",
-    "title": "Admiralty, Maritime & Trade Law",
-    "icon": "ship",
-    "shortDescription": "Ship arrest, bill of lading disputes, charterparty claims, marine insurance, and representation in the High Court Admiralty Court.",
-    "readTime": "7 min read",
-    "publishedDate": "December8,2026",
-    "featuredArticle": {
-      "id": "feat-10",
-      "title": "Emergency Ship Arrest, Maritime Liens & P&I Club Advisory",
-      "date": "December8,2026",
-      "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-      "image": "/assets/images/articles/article-4.jpg",
-      "alt": "Layered poster art street texture",
-      "href": "#"
-    },
-    "sideArticles": [
-      {
-        "id": "side-10-1",
-        "title": "Bill of Lading Discrepancies & Cargo Damage Claims",
-        "date": "December9,2026",
-        "description": "Resolving demurrage, bunker contamination, and carrier liability in sea transport.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee cup and glasses",
-        "href": "#"
-      },
-      {
-        "id": "side-10-2",
-        "title": "Charterparty Disputes & Laytime / Demurrage Calculations",
-        "date": "December10,2026",
-        "description": "Arbitrating time and voyage charter conflicts under international maritime rules.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal on wooden table",
-        "href": "#"
-      },
-      {
-        "id": "side-10-3",
-        "title": "Marine Insurance, Hull & Machinery Claims and Salvage",
-        "date": "December11,2026",
-        "description": "Advising underwriters and vessel owners in Lloyd's Open Form salvage negotiations.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand with pedestrians",
-        "href": "#"
-      }
-    ],
-    "latestArticles": [
-      {
-        "id": "lat-10-1",
-        "title": "High Court Admiralty Jurisdiction: Procedural Guide to Vessel Arrest",
-        "date": "December8,2026",
-        "description": "We are proud to work with a diverse range of businesses and organizations. Our client relationships reflect the trust, professionalism, and confidence placed in our legal expertise.",
-        "image": "/assets/images/articles/article-1.jpg",
-        "alt": "Street newspaper stand",
-        "href": "#"
-      },
-      {
-        "id": "lat-10-2",
-        "title": "Chittagong and Mongla Port Cargo Contamination Disputes",
-        "date": "December10,2026",
-        "description": "Investigating cargo quality certificates and surveyor liability in port terminals.",
-        "image": "/assets/images/articles/article-5.jpg",
-        "alt": "Legal contracts on table",
-        "href": "#"
-      },
-      {
-        "id": "lat-10-3",
-        "title": "Crew Wages, Maritime Liens & Priority of Claims in Ship Auctions",
-        "date": "December12,2026",
-        "description": "Distributing sale proceeds from court-marshalled vessel liquidations.",
-        "image": "/assets/images/articles/article-6.jpg",
-        "alt": "Gavel on law books",
-        "href": "#"
-      },
-      {
-        "id": "lat-10-4",
-        "title": "Marine Collision & General Average Adjustments in International Waters",
-        "date": "December14,2026",
-        "description": "Apportioning navigational liability under COLREGS and York-Antwerp Rules.",
-        "image": "/assets/images/articles/article-2.jpg",
-        "alt": "Newspaper flatlay with coffee",
-        "href": "#"
-      },
-      {
-        "id": "lat-10-5",
-        "title": "Ship Recycling & Hong Kong Convention Environmental Compliance",
-        "date": "December16,2026",
-        "description": "Legal advisory on green ship recycling and yard licensing standards in Bangladesh.",
-        "image": "/assets/images/articles/article-3.jpg",
-        "alt": "Business news journal",
-        "href": "#"
-      },
-      {
-        "id": "lat-10-6",
-        "title": "Incoterms 2020: Risk Allocation in FOB and CIF Sea Freight Contracts",
-        "date": "December18,2026",
-        "description": "Clarifying title transfer, insurance obligations, and port terminal charge liabilities.",
-        "image": "/assets/images/articles/article-4.jpg",
-        "alt": "Layered poster art street texture",
-        "href": "#"
-      }
-    ],
-    "author": {
-      "name": "Barrister Md. Badruddoza",
-      "role": "Managing Partner & Senior Advocate",
-      "image": "/assets/images/team/team-1.png"
-    },
-    "coverImage": "/assets/images/articles/article-1.jpg",
-    "badge": "Admiralty & Maritime",
-    "overview": "Admiralty law demands rapid action when vessels dock at Chittagong or Mongla ports. Basunia & Associates is renowned for immediate vessel arrest and cargo protection.",
-    "sections": [
-      {
-        "heading": "Ship Arrest & Maritime Lien Enforcement",
-        "body": "We secure urgent ship arrest orders in the High Court Division under Admiralty jurisdiction for unpaid bunker claims, crew wages, and collision damages."
-      },
-      {
-        "heading": "Bill of Lading & Cargo Damage Claims",
-        "body": "We represent shipowners, charterers, P&I clubs, and freight forwarders in resolving cargo contamination, short delivery, and demurrage disputes."
-      },
-      {
-        "heading": "Marine Insurance & Salvage Agreements",
-        "body": "We advise underwriters and vessel owners on Hull & Machinery claims, Protection and Indemnity (P&I) cover, and Lloyd's Open Form salvage negotiations."
-      }
-    ],
-    "keyTakeaways": [
-      "Emergency 24/7 ship arrest and release capabilities in Chittagong and Mongla.",
-      "Extensive advisory to global P&I clubs and international shipping lines.",
-      "Decades of expertise in admiralty litigation before the Supreme Court."
-    ],
-    "tags": ["Admiralty", "Maritime", "Ship Arrest", "P&I", "International Trade"]
   }
 ]
