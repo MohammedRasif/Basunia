@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { teamMembers } from "@/app/data/team";
 
@@ -117,9 +118,10 @@ export default function TeamSection() {
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {teamMembers.map((member, index) => (
-            <div
+            <Link
               key={`${member.id}-${index}`}
-              className="team-card w-[275px] sm:w-[290px] lg:w-[calc(25%-18px)] min-w-[265px] sm:min-w-[280px] lg:min-w-[285px] shrink-0 border border-[#E5E5E5] bg-white p-3.5 sm:p-4 transition-all duration-300 hover:shadow-md hover:border-[#D0D0D0] group"
+              href={`/properties/${member.id}`}
+              className="team-card w-[275px] sm:w-[290px] lg:w-[calc(25%-18px)] min-w-[265px] sm:min-w-[280px] lg:min-w-[285px] shrink-0 border border-[#E5E5E5] bg-white p-3.5 sm:p-4 transition-all duration-300 hover:shadow-lg hover:border-[#D0D0D0] group block cursor-pointer"
             >
               {/* Member Image Box */}
               <div className="relative w-full aspect-[1/1.08] bg-[#F2F3F5] overflow-hidden">
@@ -134,14 +136,14 @@ export default function TeamSection() {
 
               {/* Member Info */}
               <div className="pt-3.5 sm:pt-4 pb-1">
-                <h3 className="font-switzer text-lg sm:text-[19px] font-bold text-[#141414] tracking-tight">
+                <h3 className="font-switzer text-lg sm:text-[19px] font-bold text-[#141414] tracking-tight group-hover:text-[#8E1831] transition-colors">
                   {member.name}
                 </h3>
                 <p className="font-switzer text-xs sm:text-[13.5px] text-[#737373] mt-0.5 font-normal">
                   {member.role}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
