@@ -1,0 +1,176 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { getPracticeAreaRows, PracticeArea } from "@/app/data/practiceAreas";
+
+const practiceRows = getPracticeAreaRows();
+
+export default function PracticeAreaSection() {
+  const [activeKey, setActiveKey] = useState<string>("item-02");
+
+  const renderCard = (item: PracticeArea) => {
+    const isActive = activeKey === item.uniqueKey;
+
+    return (
+      <Link
+        key={item.uniqueKey}
+        href={item.href}
+        onMouseEnter={() => setActiveKey(item.uniqueKey)}
+        className="group relative flex items-center justify-between px-6 sm:px-8 md:px-10 lg:px-12 h-[155px] sm:h-[165px] lg:h-[175px] bg-[#FAFAFA] cursor-pointer overflow-hidden select-none"
+      >
+        {/* Gentle, Luxury Background Fade Layer */}
+        <div
+          className={`absolute inset-0 bg-[#8E1831] transition-opacity duration-600 ease-[cubic-bezier(0.25,1,0.5,1)] pointer-events-none ${
+            isActive ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        {/* Left Side: Number & (Title + Description) */}
+        <div className="relative z-10 flex items-center gap-6 sm:gap-8 md:gap-10 pr-4 flex-1">
+          {/* Number */}
+          <span
+            className={`font-switzer text-lg sm:text-xl md:text-[22px] font-normal shrink-0 transition-colors duration-500 ease-out ${
+              isActive ? "text-white" : "text-[#222222]"
+            }`}
+          >
+            {item.id}
+          </span>
+
+          {/* Title & Description Container */}
+          <div className="flex flex-col justify-center flex-1">
+            {/* Title */}
+            <h3
+              className={`font-switzer text-xl sm:text-2xl md:text-[24px] font-normal leading-tight tracking-tight transition-colors duration-500 ease-out ${
+                isActive ? "text-white" : "text-[#141414]"
+              }`}
+            >
+              {item.title}
+            </h3>
+
+            {/* Description: Gentle, Silky-Smooth Reveal & Collapse */}
+            {(item.description || item.shortDescription) && (
+              <div
+                className={`grid transition-[grid-template-rows,margin] duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+                  isActive
+                    ? "grid-rows-[1fr] mt-2 sm:mt-2.5"
+                    : "grid-rows-[0fr] mt-0 pointer-events-none"
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <p
+                    className={`font-switzer text-xs sm:text-sm md:text-[14.5px] leading-snug sm:leading-relaxed max-w-sm sm:max-w-md line-clamp-2 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+                      isActive
+                        ? "opacity-100 translate-y-0 text-white/95"
+                        : "opacity-0 -translate-y-2 text-transparent"
+                    }`}
+                  >
+                    {item.description || item.shortDescription}
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Right Side: Smooth Sliding Arrow */}
+        <div className="relative z-10 shrink-0 pl-2">
+          <svg
+            className={`w-6 h-6 sm:w-7 sm:h-7 transition-all duration-600 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+              isActive
+                ? "text-white translate-x-2"
+                : "text-[#8E1831] translate-x-0"
+            }`}
+            viewBox="0 0 28 28"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+          >
+            <path
+              d="M5 14h18M16 7l7 7-7 7"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </Link>
+    );
+  };
+
+  return (
+    <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+        {/* Section Header */}
+        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+          <span className="font-marcellus text-xs sm:text-sm md:text-[24px] tracking-[0.2em] text-[#333333] uppercase font-normal inline-block mb-3 sm:mb-4">
+            PRACTICE AREA
+          </span>
+
+          <h2 className="font-dm-serif-text text-3xl md:text-[36px] text-[#262626] font-normal leading-[1.15] tracking-tight">
+            Legal Expertise Across
+            <br />
+            Every Stage of Your Needs
+          </h2>
+        </div>
+
+        {/* Practice Areas Grid Box with #E5E5E5 Borders and Dividers */}
+        <div className="w-full border border-[#E5E5E5] bg-[#E5E5E5] shadow-xs">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1px]">
+            {practiceRows.map(([leftItem, rightItem]) => (
+              <div key={leftItem.uniqueKey + rightItem.uniqueKey} className="contents">
+                {renderCard(leftItem)}
+                {renderCard(rightItem)}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Bottom Callout Banner: Need Help Finding the Right Legal Service? */}
+        <div className="relative w-full mt-6 sm:mt-8 border border-[#E5E5E5] bg-[#FAFAFA] overflow-hidden p-6 sm:p-8 md:px-10 md:py-8 lg:px-12 lg:py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-xs">
+          {/* Background Watermark Image: practice.avif */}
+          <div className="absolute inset-0 pointer-events-none select-none">
+            <Image
+              src="/assets/images/practice.avif"
+              alt="Legal Service Pattern"
+              fill
+              className="object-cover object-[center_12%] opacity-[0.14] mix-blend-multiply"
+            />
+          </div>
+
+          {/* Left Text Block */}
+          <div className="relative z-10">
+            <h3 className="font-inter text-lg sm:text-xl md:text-[20px] font-bold text-[#141414] tracking-tight">
+              Need Help Finding the Right Legal Service?
+            </h3>
+            <p className="font-inter text-xs sm:text-sm md:text-[12px] text-[#555555] mt-1.5 sm:mt-2 leading-relaxed">
+              Not sure which legal service is right for your situation? Our legal team is here to understand your needs and guide you toward the right solution.
+            </p>
+          </div>
+
+          {/* Right Action Button: Contact us ↗ */}
+          <div className="relative z-10 shrink-0">
+            <Link
+              href="/contact"
+              className="font-geist group inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 border border-[#8E1831]/30 bg-white/95 backdrop-blur-xs text-[#8E1831] text-xl sm:text-[15px] font-medium transition-all duration-300 hover:bg-[#8E1831] hover:text-white hover:border-[#8E1831] hover:shadow-md active:scale-[0.98]"
+            >
+              <span>Contact us</span>
+              <svg
+                className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="7" y1="17" x2="17" y2="7" />
+                <polyline points="7 7 17 7 17 17" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

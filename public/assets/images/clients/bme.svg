@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 6 195 64" fill="none">
+  <!-- BME Letters stylized -->
+  <g font-family="'Times New Roman', serif" font-weight="bold" font-size="44" fill="#A81C28">
+    <text x="6" y="44" letter-spacing="-2">B</text>
+    <path d="M46 14 L64 44 L82 14 L92 14 L92 44 L81 44 L81 26 L68 44 L60 44 L48 26 L48 44 L37 44 L37 14 Z" fill="#222222" />
+    <text x="96" y="44" letter-spacing="-2">E</text>
+    <text x="130" y="20" font-size="14" font-family="Arial, sans-serif" fill="#A81C28">®</text>
+  </g>
+  <!-- Subtitle -->
+  <text x="8" y="64" font-family="'Brush Script MT', 'Dancing Script', cursive, serif" font-style="italic" font-size="16" fill="#555555">A complete office solutions</text>
+</svg>
