@@ -66,6 +66,7 @@ export default function HeroSection() {
               href="https://wa.me/8801956565462"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Contact Basunia & Associate via WhatsApp"
               className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg bg-white text-slate-800  text-lg sm:text-base shadow-sm border border-slate-200/90 hover:bg-slate-50 hover:shadow-md hover:border-slate-300 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <svg
