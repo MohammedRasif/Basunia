@@ -31,6 +31,7 @@ export interface BlogItem {
   publishedDate: string;
   featuredArticle: CategoryArticleItem;
   sideArticles: CategoryArticleItem[];
+  latestArticles?: CategoryArticleItem[];
   author: BlogAuthor;
   coverImage: string;
   badge: string;

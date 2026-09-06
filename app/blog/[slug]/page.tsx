@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getAllBlogs, getBlogBySlug, BlogItem } from "@/app/data/blogs";
 import BlogHeroBanner from "@/app/components/blog/BlogHeroBanner";
 import CategoryFeaturedBlogsSection from "@/app/components/blog/CategoryFeaturedBlogsSection";
+import CategoryLatestArticlesSection from "@/app/components/blog/CategoryLatestArticlesSection";
 
 interface BlogPageProps {
   params: Promise<{
@@ -48,8 +49,11 @@ export default async function BlogDetailPage({ params }: BlogPageProps) {
       {/* 1. Hero Banner */}
       <BlogHeroBanner title={blog.title} />
 
-      {/* 2. 1st Section: Featured Blog Grid (1 Large Left + 3 Stacked Right) matching exact mockup */}
+      {/* 2. 1st Section: Featured Blog Grid (1 Large Left + 3 Stacked Right) */}
       <CategoryFeaturedBlogsSection blog={blog} />
+
+      {/* 3. 2nd Section: Explore Our Latest Articles (3-Column Grid matching mockup) */}
+      <CategoryLatestArticlesSection blog={blog} title="Explore our latest airticals" />
     </div>
   );
 }
