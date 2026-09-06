@@ -21,13 +21,13 @@ export default function GallerySection() {
     },
     col2Top: {
       src: "/assets/images/gallery/gallery-img-2.jpg",
-      alt: "Associates collaborating and discussing legal matters",
-      caption: "Collaborative Team Discussion",
+      alt: "Judicial strategy and case analysis on legal dossier",
+      caption: "Judicial Strategy & Case Analysis",
     },
     col2Bottom: {
       src: "/assets/images/gallery/gallery-img-3.jpg",
-      alt: "Legal team reviewing case files and contracts",
-      caption: "Case Strategy & Contract Examination",
+      alt: "Commercial settlement and corporate agreement in law firm",
+      caption: "Commercial Settlement & Agreement",
     },
     col3Top: {
       src: "/assets/images/gallery/gallery-img-4.jpg",
@@ -36,12 +36,12 @@ export default function GallerySection() {
     },
     col3Bottom: {
       src: "/assets/images/gallery/gallery-img-5.jpg",
-      alt: "Boardroom executive meeting and presentation",
+      alt: "Boardroom executive meeting and corporate presentation",
       caption: "Executive Boardroom Session",
     },
     col4Top: {
       src: "/assets/images/gallery/gallery-img-6.jpg",
-      alt: "Legal associates in formal suits conferring on client case",
+      alt: "Scales of justice and judicial gavel on legal desk",
       caption: "Professional Legal Representation",
     },
   };
