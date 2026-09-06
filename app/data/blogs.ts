@@ -88,9 +88,23 @@ export function getArticleDetails(slug: string, articleId: string) {
   const otherArticles = allCategoryArticles.filter((art) => art.id !== articleId);
   const sidebarArticles = (otherArticles.length >= 6 ? otherArticles : [...allCategoryArticles, ...allCategoryArticles]).slice(0, 6);
 
+  // 3 relevant articles for the bottom section
+  const relevantPool = [
+    ...(blog.latestArticles || []),
+    ...(blog.sideArticles || []),
+    blog.featuredArticle,
+  ].filter((art) => Boolean(art) && art.id !== articleId);
+
+  const relevantArticles = (
+    relevantPool.length >= 3
+      ? relevantPool.slice(0, 3)
+      : (allCategoryArticles.length >= 3 ? allCategoryArticles.slice(0, 3) : allCategoryArticles)
+  );
+
   return {
     blog,
     article,
     sidebarArticles,
+    relevantArticles,
   };
 }

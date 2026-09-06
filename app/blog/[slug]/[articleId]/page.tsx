@@ -5,6 +5,7 @@ import {
   getArticleDetails,
 } from "@/app/data/blogs";
 import SingleArticleDetailSection from "@/app/components/blog/SingleArticleDetailSection";
+import RelevantBlogsSection from "@/app/components/blog/RelevantBlogsSection";
 
 interface ArticleDetailPageProps {
   params: Promise<{
@@ -46,12 +47,19 @@ export default async function ArticleDetailPage({
   }
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 pt-28 sm:pt-32 lg:pt-36 pb-16 lg:pb-24">
-      {/* Blog Single Article Details Section (Left: Full Content + Right: 6 Stacked Articles) */}
+    <div className="min-h-screen bg-white text-slate-900 pt-28 sm:pt-32 lg:pt-36">
+      {/* 1st Section: Blog Single Article Details (Left: Full Content + Right: 6 Stacked Articles) */}
       <SingleArticleDetailSection
         blog={data.blog}
         article={data.article}
         sidebarArticles={data.sidebarArticles}
+      />
+
+      {/* 2nd Section: Relevant blogs (3 Cards Grid) */}
+      <RelevantBlogsSection
+        blog={data.blog}
+        articles={data.relevantArticles}
+        title="Relevant blogs"
       />
     </div>
   );
