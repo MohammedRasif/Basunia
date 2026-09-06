@@ -89,9 +89,74 @@ const geist = Geist({
   display: "swap",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://basuniaassociate.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Basunia & Associate | Leading Law Firm in Bangladesh",
-  description: "Basunia & Associate - Leading Corporate & Commercial Law Firm in Bangladesh",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Basunia & Associate | Leading Law Firm in Bangladesh",
+    template: "%s | Basunia & Associate",
+  },
+  description:
+    "Basunia & Associate is a premier corporate and commercial law firm in Dhaka, Bangladesh, providing top-tier legal advisory, transactional structuring, litigation, arbitration, and regulatory compliance services.",
+  keywords: [
+    "Law Firm in Bangladesh",
+    "Corporate Lawyers in Dhaka",
+    "Commercial Law Firm Bangladesh",
+    "Basunia & Associate",
+    "Supreme Court Advocates Dhaka",
+    "Banking and Finance Lawyers Bangladesh",
+    "Litigation and Dispute Resolution",
+    "Intellectual Property Lawyers Dhaka",
+    "Real Estate Law Firm Bangladesh",
+    "Employment and Labour Law Firm",
+  ],
+  authors: [{ name: "Basunia & Associate", url: siteUrl }],
+  creator: "Basunia & Associate",
+  publisher: "Basunia & Associate",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Basunia & Associate | Leading Law Firm in Bangladesh",
+    description:
+      "Premier corporate, commercial, and litigation legal counsel in Dhaka, Bangladesh.",
+    url: siteUrl,
+    siteName: "Basunia & Associate",
+    images: [
+      {
+        url: "/assets/images/expertise-banner-meeting.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Basunia & Associate - Leading Law Firm in Bangladesh",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Basunia & Associate | Leading Law Firm in Bangladesh",
+    description:
+      "Premier corporate, commercial, and litigation legal counsel in Dhaka, Bangladesh.",
+    images: ["/assets/images/expertise-banner-meeting.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png", sizes: "64x64" },
@@ -100,6 +165,45 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
     apple: "/apple-icon.png",
   },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  name: "Basunia & Associate",
+  description:
+    "Leading Corporate, Commercial, and Litigation Law Firm based in Dhaka, Bangladesh.",
+  url: siteUrl,
+  logo: `${siteUrl}/assets/images/logoo.png`,
+  image: `${siteUrl}/assets/images/expertise-banner-meeting.jpg`,
+  telephone: "+8801956565462",
+  priceRange: "$$$",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Gulshan-1",
+    addressLocality: "Dhaka",
+    postalCode: "1212",
+    addressCountry: "BD",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: "23.7925",
+    longitude: "90.4078",
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  ],
+  sameAs: [
+    "https://facebook.com",
+    "https://linkedin.com",
+    "https://youtube.com",
+    "https://twitter.com",
+  ],
 };
 
 export default function RootLayout({
@@ -123,6 +227,12 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={`h-full antialiased scroll-smooth ${fontVariables}`} suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col font-sans text-slate-900 bg-slate-50 selection:bg-indigo-500 selection:text-white" suppressHydrationWarning>
         <ToastProvider />
         <Navbar />

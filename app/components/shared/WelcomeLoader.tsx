@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
+import { useState, useSyncExternalStore, useEffect } from "react";
 import WaterfallLoading from "./WaterfallLoading";
 
 function subscribe(callback: () => void) {
@@ -28,6 +28,25 @@ export default function WelcomeLoader({
   const hasSeenLoader = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
   const [done, setDone] = useState(false);
 
+  const isLoaded = hasSeenLoader || done;
+
+  useEffect(() => {
+    if (!isLoaded) {
+      const prevBodyOverflow = document.body.style.overflow;
+      const prevHtmlOverflow = document.documentElement.style.overflow;
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+
+      return () => {
+        document.body.style.overflow = prevBodyOverflow;
+        document.documentElement.style.overflow = prevHtmlOverflow;
+      };
+    } else {
+      document.body.style.overflow = "";
+      document.documentElement.style.overflow = "";
+    }
+  }, [isLoaded]);
+
   const handleComplete = () => {
     try {
       sessionStorage.setItem("welcome_loader_shown", "true");
@@ -36,8 +55,6 @@ export default function WelcomeLoader({
     }
     setDone(true);
   };
-
-  const isLoaded = hasSeenLoader || done;
 
   if (isLoaded) {
     return <>{children}</>;
@@ -52,7 +69,7 @@ export default function WelcomeLoader({
       />
       <div
         className={`transition-opacity duration-700 ${
-          isLoaded ? "opacity-100" : "opacity-0 pointer-events-none"
+          isLoaded ? "opacity-100" : "opacity-0 pointer-events-none h-0 max-h-0 overflow-hidden"
         }`}
       >
         {children}
