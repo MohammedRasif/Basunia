@@ -113,6 +113,7 @@ export default function CategoryRelevantArticlesSection({
               <div className="mt-auto">
                 <Link
                   href={article.href || "/blog"}
+                  aria-label={`Read full article: ${article.title}`}
                   className="font-switzer inline-flex items-center gap-2 text-sm sm:text-base text-[#8E1831] hover:text-[#761328] font-medium transition-colors"
                 >
                   <span>Read more</span>
