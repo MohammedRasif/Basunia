@@ -187,6 +187,7 @@ export default function GallerySection() {
               className="inline-flex items-center justify-center gap-2 px-5 py-2.5 xl:px-6 xl:py-2.5 border border-[#8E1831] text-[#8E1831] font-switzer text-sm sm:text-[14.5px] font-normal transition-all duration-300 hover:bg-[#8E1831] hover:text-white group/btn active:scale-95 shadow-sm hover:shadow"
             >
               <span>See more</span>
+              <span className="sr-only"> about Basunia &amp; Associate law firm and our legal team</span>
               <svg
                 className="w-3.5 h-3.5 stroke-current transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
                 viewBox="0 0 24 24"
@@ -315,6 +316,7 @@ export default function GallerySection() {
               className="inline-flex items-center justify-center gap-2 px-6 py-2.5 border border-[#8E1831] text-[#8E1831] font-switzer text-sm font-medium transition-all duration-300 hover:bg-[#8E1831] hover:text-white group/btn active:scale-95 shadow-sm"
             >
               <span>See more</span>
+              <span className="sr-only"> about Basunia &amp; Associate law firm and our legal team</span>
               <svg
                 className="w-3.5 h-3.5 stroke-current transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
                 viewBox="0 0 24 24"
