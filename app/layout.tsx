@@ -229,6 +229,17 @@ export default function RootLayout({
     <html lang="en" className={`h-full antialiased scroll-smooth ${fontVariables}`} suppressHydrationWarning>
       <head>
         <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                if (sessionStorage.getItem('welcome_loader_shown') === 'true') {
+                  document.documentElement.classList.add('loader-seen');
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />

@@ -12,12 +12,12 @@ function getSnapshot() {
   try {
     return sessionStorage.getItem("welcome_loader_shown") === "true";
   } catch {
-    return true;
+    return false;
   }
 }
 
 function getServerSnapshot() {
-  return true;
+  return false;
 }
 
 export default function WelcomeLoader({
@@ -62,16 +62,14 @@ export default function WelcomeLoader({
 
   return (
     <>
-      <WaterfallLoading
-        brandText="Basunia & Associates"
-        subText="Trusted Legal Solutions"
-        onComplete={handleComplete}
-      />
-      <div
-        className={`transition-opacity duration-700 ${
-          isLoaded ? "opacity-100" : "opacity-0 pointer-events-none h-0 max-h-0 overflow-hidden"
-        }`}
-      >
+      <div id="welcome-loader-root">
+        <WaterfallLoading
+          brandText="Basunia & Associates"
+          subText="Trusted Legal Solutions"
+          onComplete={handleComplete}
+        />
+      </div>
+      <div id="welcome-content-root">
         {children}
       </div>
     </>
