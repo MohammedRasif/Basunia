@@ -1,0 +1,3124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <!-- Soft Vignette Gradient -->
+    <radialGradient id="heroVignette" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="70%" stop-color="#EDEDED" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#D8DBDF" stop-opacity="0.6" />
+    </radialGradient>
+  </defs>
+
+  <!-- Transparent background container -->
+  <rect width="1920" height="1080" fill="none" />
+
+  <!-- Scattered Small Black Gavels -->
+  <g id="scattered-gavels">
+    
+  <g transform="translate(52, 22) rotate(-74) scale(0.44)" opacity="0.19">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(235, 65) rotate(-40) scale(0.32)" opacity="0.19">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(372, 31) rotate(-8) scale(0.36)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(585, 56) rotate(63) scale(0.42)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(726, 45) rotate(-34) scale(0.36)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(905, 35) rotate(65) scale(0.37)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1015, 71) rotate(-51) scale(0.28)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1232, 103) rotate(-62) scale(0.28)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1376, 106) rotate(-41) scale(0.34)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1574, 86) rotate(75) scale(0.44)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1644, 66) rotate(19) scale(0.44)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1804, 108) rotate(-25) scale(0.31)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(123, 229) rotate(24) scale(0.37)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(205, 196) rotate(12) scale(0.36)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(364, 231) rotate(-23) scale(0.38)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(558, 246) rotate(-62) scale(0.29)" opacity="0.1">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(772, 168) rotate(15) scale(0.44)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(866, 180) rotate(70) scale(0.45)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1058, 179) rotate(30) scale(0.39)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1365, 229) rotate(-8) scale(0.4)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1539, 204) rotate(-42) scale(0.36)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1625, 231) rotate(61) scale(0.29)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1811, 174) rotate(-40) scale(0.44)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(125, 321) rotate(76) scale(0.44)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(214, 290) rotate(-1) scale(0.44)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(444, 326) rotate(25) scale(0.36)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(754, 370) rotate(-46) scale(0.41)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(909, 307) rotate(79) scale(0.28)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1033, 303) rotate(7) scale(0.32)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1168, 291) rotate(-76) scale(0.28)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1315, 309) rotate(-76) scale(0.38)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1657, 384) rotate(-7) scale(0.38)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1869, 371) rotate(78) scale(0.34)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(84, 500) rotate(-72) scale(0.37)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(210, 484) rotate(-23) scale(0.29)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(388, 441) rotate(59) scale(0.4)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(531, 511) rotate(-8) scale(0.38)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(882, 460) rotate(35) scale(0.27)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1011, 519) rotate(-67) scale(0.44)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1184, 513) rotate(-16) scale(0.3)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1363, 442) rotate(-64) scale(0.37)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1537, 475) rotate(6) scale(0.28)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1624, 509) rotate(-57) scale(0.29)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1808, 503) rotate(65) scale(0.36)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(83, 621) rotate(35) scale(0.43)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(291, 635) rotate(-7) scale(0.29)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(455, 645) rotate(-51) scale(0.38)" opacity="0.13">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(546, 582) rotate(-9) scale(0.33)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(700, 567) rotate(74) scale(0.34)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(827, 562) rotate(60) scale(0.4)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1085, 567) rotate(-27) scale(0.43)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1187, 584) rotate(-9) scale(0.28)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1306, 593) rotate(22) scale(0.44)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1559, 597) rotate(-51) scale(0.28)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(26, 704) rotate(-73) scale(0.35)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(256, 748) rotate(27) scale(0.29)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(355, 747) rotate(32) scale(0.29)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(515, 716) rotate(-55) scale(0.43)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(830, 779) rotate(-24) scale(0.32)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1059, 783) rotate(-12) scale(0.38)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1185, 757) rotate(-45) scale(0.3)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1330, 749) rotate(-37) scale(0.28)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1563, 736) rotate(-64) scale(0.43)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1627, 787) rotate(-69) scale(0.36)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1849, 759) rotate(49) scale(0.31)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(107, 871) rotate(-7) scale(0.36)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(187, 844) rotate(7) scale(0.31)" opacity="0.19">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(371, 911) rotate(-17) scale(0.31)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(520, 889) rotate(61) scale(0.42)" opacity="0.17">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(680, 882) rotate(64) scale(0.37)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(929, 869) rotate(6) scale(0.4)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1037, 868) rotate(67) scale(0.39)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1175, 859) rotate(-72) scale(0.4)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1384, 845) rotate(-53) scale(0.34)" opacity="0.1">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1545, 852) rotate(-54) scale(0.3)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1631, 836) rotate(-17) scale(0.35)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1823, 878) rotate(-12) scale(0.3)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(242, 966) rotate(39) scale(0.4)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(396, 1037) rotate(23) scale(0.43)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(538, 1050) rotate(-53) scale(0.42)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(757, 968) rotate(-53) scale(0.43)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1010, 1058) rotate(26) scale(0.37)" opacity="0.11">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1193, 1055) rotate(-35) scale(0.32)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1373, 1018) rotate(9) scale(0.3)" opacity="0.2">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1483, 1013) rotate(-37) scale(0.4)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1689, 1051) rotate(-73) scale(0.32)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1876, 1006) rotate(-72) scale(0.33)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(80, 120) rotate(-25) scale(0.38)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(260, 80) rotate(35) scale(0.32)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1750, 140) rotate(45) scale(0.42)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1840, 280) rotate(-15) scale(0.35)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(120, 920) rotate(20) scale(0.4)" opacity="0.18">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(300, 980) rotate(-40) scale(0.34)" opacity="0.15">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1680, 940) rotate(-30) scale(0.36)" opacity="0.16">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(1820, 860) rotate(50) scale(0.42)" opacity="0.19">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(960, 100) rotate(-10) scale(0.3)" opacity="0.12">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(920, 960) rotate(15) scale(0.32)" opacity="0.14">
+    <!-- Sound block base -->
+    <ellipse cx="0" cy="52" rx="34" ry="12" fill="#141414" />
+    <path d="M-34 52 C-34 58, 34 58, 34 52 L30 60 C30 66, -30 66, -30 60 Z" fill="#0A0A0A" />
+    <ellipse cx="0" cy="51" rx="28" ry="9" fill="#262626" />
+
+    <!-- Gavel Handle -->
+    <path d="M-4 12 L-6 48 C-6 52, 6 52, 6 48 L4 12 Z" fill="#141414" />
+    <!-- Handle grip rings -->
+    <circle cx="0" cy="46" r="5.5" fill="#1A1A1A" />
+    <rect x="-3.5" y="24" width="7" height="3" rx="1.5" fill="#2B2B2B" />
+    <rect x="-4" y="32" width="8" height="3" rx="1.5" fill="#2B2B2B" />
+
+    <!-- Gavel Head Center Collar -->
+    <rect x="-8" y="-12" width="16" height="24" rx="2" fill="#1F1F1F" />
+    <rect x="-7" y="-10" width="14" height="20" rx="1.5" fill="#141414" />
+    
+    <!-- Gavel Head Left Cylinder & Ring -->
+    <rect x="-38" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="-14" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M-38 -9 C-44 -9, -44 9, -38 9 Z" fill="#222222" />
+
+    <!-- Gavel Head Right Cylinder & Ring -->
+    <rect x="8" y="-9" width="30" height="18" rx="2" fill="#141414" />
+    <rect x="10" y="-11" width="4" height="22" rx="1" fill="#383838" />
+    <path d="M38 -9 C44 -9, 44 9, 38 9 Z" fill="#222222" />
+
+    <!-- Highlight Reflection on Barrel Top -->
+    <line x1="-34" y1="-5" x2="-16" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="16" y1="-5" x2="34" y2="-5" stroke="#4A4A4A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  </g>
+
+  <!-- Overlay subtle blend -->
+  <rect width="1920" height="1080" fill="url(#heroVignette)" pointer-events="none" />
+</svg>

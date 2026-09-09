@@ -222,14 +222,14 @@ export default function Navbar() {
               {/* Animated Dropdown Menu */}
               {expertiseOpen && (
                 <div className="absolute top-full left-0 mt-0 w-72 bg-white rounded-xl shadow-2xl border border-slate-100 p-2 py-3 z-50 animate-in fade-in slide-in-from-top-2 duration-200 max-h-[420px] overflow-y-auto">
-                  <div className="text-[11px] font-bold text-[#8E1831] uppercase tracking-wider px-3 py-1 mb-1 border-b border-slate-100 marcellus">
+                  <div className="text-xs font-bold text-[#8E1831] uppercase tracking-wider px-3 py-1 mb-1 border-b border-slate-100 marcellus">
                     Practice Areas
                   </div>
                   {practiceAreas.map((item) => (
                     <Link
                       key={item.id}
                       href={item.href}
-                      className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                      className={`block px-3 py-2 text-sm font-semibold rounded-sm transition-colors ${
                         pathname === item.href
                           ? "text-white bg-[#8E1831]"
                           : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
@@ -281,12 +281,12 @@ export default function Navbar() {
               {/* Animated Dropdown Menu */}
               {aboutOpen && (
                 <div className="absolute top-full left-0 mt-0 w-56 bg-white rounded-xl shadow-2xl border border-slate-100 p-2 py-3 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
-                  <div className="text-[11px] font-bold text-[#8E1831] uppercase tracking-wider px-3 py-1 mb-1 border-b border-slate-100 marcellus">
+                  <div className="text-xs font-bold text-[#8E1831] uppercase tracking-wider px-3 py-1 mb-1 border-b border-slate-100 marcellus">
                     Our Firm
                   </div>
                   <Link
                     href="/about"
-                    className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                    className={`block px-3 py-2 text-sm font-semibold rounded-sm transition-colors ${
                       isActive("/about")
                         ? "text-white bg-[#8E1831]"
                         : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
@@ -296,7 +296,7 @@ export default function Navbar() {
                   </Link>
                   <Link
                     href="/blog"
-                    className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
+                    className={`block px-3 py-2 text-sm font-semibold rounded-sm transition-colors ${
                       isActive("/blog")
                         ? "text-white bg-[#8E1831]"
                         : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
