@@ -18,19 +18,22 @@ const WaterfallLoading = ({
 }: WaterfallLoadingProps) => {
   const waterfallRef = useRef<SVGRectElement | null>(null);
   const mainWrapperRef = useRef<HTMLDivElement | null>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const shuttersRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
     const fall = waterfallRef.current;
     const wrapper = mainWrapperRef.current;
+    const container = containerRef.current;
 
-    if (!fall || !wrapper) return;
+    if (!fall || !wrapper || !container) return;
 
     // Use gsap.context for clean cleanup in React
     const ctx = gsap.context(() => {
       // Set initial positions immediately to avoid frame flashes
       gsap.set(wrapper, { force3D: true, transformOrigin: "center center" });
       gsap.set(fall, { attr: { y: 200, height: 0 } });
+      gsap.set(shuttersRef.current, { y: "-100%" });
 
       const tl = gsap.timeline();
 
@@ -48,7 +51,7 @@ const WaterfallLoading = ({
         { attr: { y: 200, height: 0 } },
         {
           attr: { y: -30, height: 230 },
-          duration: 3.1,
+          duration: 2.8,
           ease: "power1.inOut",
           onComplete: () => {
             gsap.killTweensOf(fall);
@@ -63,8 +66,8 @@ const WaterfallLoading = ({
 
         seqTl
           .to(wrapper, {
-            scale: 1.35,
-            duration: 1.2,
+            scale: 1.25,
+            duration: 0.9,
             ease: "power2.inOut",
             force3D: true,
           })
@@ -72,11 +75,25 @@ const WaterfallLoading = ({
             shuttersRef.current,
             {
               y: "0%",
-              duration: 0.7,
+              duration: 0.6,
               ease: "power3.inOut",
-              stagger: 0.1,
+              stagger: 0.07,
             },
-            "-=0.4"
+            "-=0.3"
+          )
+          .call(() => {
+            gsap.set(wrapper, { opacity: 0 });
+            gsap.set(container, { background: "transparent" });
+          })
+          .to(
+            shuttersRef.current,
+            {
+              y: "100%",
+              duration: 0.65,
+              ease: "power3.inOut",
+              stagger: 0.07,
+            },
+            "+=0.05"
           )
           .call(() => {
             if (onComplete) onComplete();
@@ -90,7 +107,10 @@ const WaterfallLoading = ({
   const shutterCount = 5;
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-b from-[#F0F0F0] to-[#CBCBCB] flex items-center justify-center z-[9999] overflow-hidden select-none px-4 sm:px-6">
+    <div
+      ref={containerRef}
+      className="fixed inset-0 bg-gradient-to-b from-[#F0F0F0] to-[#CBCBCB] flex items-center justify-center z-[9999] overflow-hidden select-none px-4 sm:px-6"
+    >
       {/* Main Container */}
       <div
         ref={mainWrapperRef}
