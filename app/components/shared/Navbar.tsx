@@ -231,8 +231,8 @@ export default function Navbar() {
                       href={item.href}
                       className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
                         pathname === item.href
-                          ? "text-[#8E1831] bg-slate-50"
-                          : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                          ? "text-white bg-[#8E1831]"
+                          : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
                       }`}
                     >
                       {item.title}
@@ -288,8 +288,8 @@ export default function Navbar() {
                     href="/about"
                     className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
                       isActive("/about")
-                        ? "text-[#8E1831] bg-slate-50"
-                        : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                        ? "text-white bg-[#8E1831]"
+                        : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
                     }`}
                   >
                     About Us
@@ -298,8 +298,8 @@ export default function Navbar() {
                     href="/blog"
                     className={`block px-3 py-2 text-xs font-semibold rounded-lg transition-colors ${
                       isActive("/blog")
-                        ? "text-[#8E1831] bg-slate-50"
-                        : "text-slate-700 hover:text-[#8E1831] hover:bg-slate-50"
+                        ? "text-white bg-[#8E1831]"
+                        : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
                     }`}
                   >
                     Blog
@@ -458,14 +458,16 @@ export default function Navbar() {
                 </button>
 
                 {mobileExpertiseOpen && (
-                  <div className="pl-3 mt-2 space-y-1 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30 max-h-[260px] overflow-y-auto">
+                  <div className="pl-2 mt-2 space-y-1 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30 max-h-[260px] overflow-y-auto">
                     {practiceAreas.map((item) => (
                       <Link
                         key={item.id}
                         href={item.href}
                         onClick={() => setMobileMenuOpen(false)}
-                        className={`block py-1.5 transition-colors ${
-                          pathname === item.href ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"
+                        className={`block px-2.5 py-1.5 rounded-md transition-colors ${
+                          pathname === item.href
+                            ? "text-white bg-[#8E1831] font-bold"
+                            : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
                         }`}
                       >
                         {item.title}
@@ -496,18 +498,26 @@ export default function Navbar() {
                 </button>
 
                 {mobileAboutOpen && (
-                  <div className="pl-3 mt-2 space-y-2 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30">
+                  <div className="pl-2 mt-2 space-y-1 text-xs font-semibold text-slate-600 border-l-2 border-[#8E1831]/30">
                     <Link
                       href="/about"
                       onClick={() => setMobileMenuOpen(false)}
-                      className={`block py-1 ${isActive("/about") ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"}`}
+                      className={`block px-2.5 py-1.5 rounded-md transition-colors ${
+                        isActive("/about")
+                          ? "text-white bg-[#8E1831] font-bold"
+                          : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
+                      }`}
                     >
                       About Us
                     </Link>
                     <Link
                       href="/blog"
                       onClick={() => setMobileMenuOpen(false)}
-                      className={`block py-1 ${isActive("/blog") ? "text-[#8E1831] font-bold" : "hover:text-[#8E1831]"}`}
+                      className={`block px-2.5 py-1.5 rounded-md transition-colors ${
+                        isActive("/blog")
+                          ? "text-white bg-[#8E1831] font-bold"
+                          : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
+                      }`}
                     >
                       Blog
                     </Link>
