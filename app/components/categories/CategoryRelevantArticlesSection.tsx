@@ -117,6 +117,7 @@ export default function CategoryRelevantArticlesSection({
                   className="font-switzer inline-flex items-center gap-2 text-sm sm:text-base text-[#8E1831] hover:text-[#761328] font-medium transition-colors"
                 >
                   <span>Read more</span>
+                  <span className="sr-only"> about {article.title}</span>
                   <svg
                     className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1.5"
                     viewBox="0 0 24 24"
