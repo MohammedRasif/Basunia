@@ -6,16 +6,20 @@ import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="relative w-full min-h-screen min-h-[100dvh] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#EDEDED] via-[#F4F5F7] to-[#E3E5E8] pt-24 sm:pt-28 md:pt-32 lg:pt-36">
-      {/* Scattered Lawyer & Legal Icons Banner Background */}
-      {/* <div className="absolute inset-0 pointer-events-none select-none z-0">
+      {/* Hero Background Banner */}
+      <div className="absolute inset-0 pointer-events-none select-none z-0">
         <Image
-          src="/assets/images/hero-legal-icons-banner.png"
-          alt="Lawyer and Legal Icons Pattern Background"
+          src="/assets/images/hero.webp"
+          alt="Basunia & Associate Legal Background"
           fill
           priority
-          className="object-cover object-center opacity-90"
+          sizes="100vw"
+          className="object-cover object-center"
         />
-      </div> */}
+        {/* Soft White Shade Overlay in the center for clear text legibility */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_62%_80%_at_48%_42%,rgba(255,255,255,0.93)_0%,rgba(255,255,255,0.80)_35%,rgba(255,255,255,0.40)_65%,rgba(255,255,255,0)_100%)]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/35 to-transparent" />
+      </div>
 
       {/* Main Hero Content Area */}
       <div className="relative flex-1 flex flex-col justify-center items-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
@@ -39,7 +43,7 @@ export default function HeroSection() {
 
           {/* Subtitle Paragraph */}
           <p
-            className="font-switzer text-slate-600 text-xs sm:text-sm md:text-base max-w-md md:max-w-lg mx-auto leading-relaxed mb-8 sm:mb-10 px-2"
+            className="font-switzer text-slate-700 text-xs sm:text-sm md:text-base max-w-md md:max-w-lg mx-auto leading-relaxed mb-8 sm:mb-10 px-2"
           >
             We strive to explain the most complex legal issues in an easy to understand manner.
           </p>
@@ -86,20 +90,6 @@ export default function HeroSection() {
             </a>
           </div>
 
-        </div>
-
-        {/* Right Side 3D Gavel - positioned cleanly at the right side */}
-        <div className="mt-8 lg:mt-0 flex justify-center lg:block lg:absolute lg:right-0 xl:right-6 2xl:right-16 lg:top-[65%] lg:-translate-y-1/2 pointer-events-none z-10">
-          <div className="relative w-48 sm:w-56 md:w-64 lg:w-[280px] xl:w-[320px] 2xl:w-[360px] aspect-square transition-transform duration-500 hover:scale-105">
-            <Image
-              src="/assets/images/gavel.png"
-              alt="Judge Gavel and Sound Block"
-              width={600}
-              height={600}
-              priority
-              className="w-full h-full object-contain select-none"
-            />
-          </div>
         </div>
 
       </div>
