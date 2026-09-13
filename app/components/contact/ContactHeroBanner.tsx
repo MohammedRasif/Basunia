@@ -9,7 +9,7 @@ interface ContactHeroBannerProps {
 export default function ContactHeroBanner({
   title = "Contact us",
   subtitle = "Get in touch with our trusted legal team for professional advice and support.",
-  imageSrc = "/assets/images/Frame 2147229286.png",
+  imageSrc = "/assets/images/Frame 2147229286.webp",
 }: ContactHeroBannerProps) {
   return (
     <section className="relative w-full h-[240px] sm:h-[320px] md:h-[380px] flex items-center justify-center overflow-hidden">

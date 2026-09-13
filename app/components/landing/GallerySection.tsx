@@ -15,32 +15,32 @@ export default function GallerySection() {
 
   const images = {
     col1Bottom: {
-      src: "/assets/images/gallery/gallery-img-1.jpg",
+      src: "/assets/images/gallery/gallery-img-1.webp",
       alt: "Legal consultation and document review in conference room",
       caption: "Legal Consultation & Document Review",
     },
     col2Top: {
-      src: "/assets/images/gallery/gallery-img-2.jpg",
+      src: "/assets/images/gallery/gallery-img-2.webp",
       alt: "Judicial strategy and case analysis on legal dossier",
       caption: "Judicial Strategy & Case Analysis",
     },
     col2Bottom: {
-      src: "/assets/images/gallery/gallery-img-3.jpg",
+      src: "/assets/images/gallery/gallery-img-3.webp",
       alt: "Commercial settlement and corporate agreement in law firm",
       caption: "Commercial Settlement & Agreement",
     },
     col3Top: {
-      src: "/assets/images/gallery/gallery-img-4.jpg",
+      src: "/assets/images/gallery/gallery-img-4.webp",
       alt: "Law library with vintage legal volumes and reference books",
       caption: "Comprehensive Legal Reference Library",
     },
     col3Bottom: {
-      src: "/assets/images/gallery/gallery-img-5.jpg",
+      src: "/assets/images/gallery/gallery-img-5.webp",
       alt: "Case strategy and legal document analysis session",
       caption: "Case Strategy & Document Analysis",
     },
     col4Top: {
-      src: "/assets/images/gallery/gallery-img-6.jpg",
+      src: "/assets/images/gallery/gallery-img-6.webp",
       alt: "Scales of justice and judicial gavel on legal desk",
       caption: "Professional Legal Representation",
     },

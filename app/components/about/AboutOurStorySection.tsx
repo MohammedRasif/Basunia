@@ -9,7 +9,7 @@ interface AboutOurStorySectionProps {
 export default function AboutOurStorySection({
   badge = "OUR STORY",
   title = "Founded To Fight. Built Around You.",
-  imageSrc = "/assets/images/story-team.jpg",
+  imageSrc = "/assets/images/story-team.webp",
 }: AboutOurStorySectionProps) {
   return (
     <section className="relative w-full bg-white py-14 sm:py-20 lg:py-24 overflow-hidden">

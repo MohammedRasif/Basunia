@@ -78,11 +78,11 @@ export default function AboutSection() {
             </p>
           </div>
 
-          {/* 2. Middle Div: Shaped Image Subtract.png */}
+          {/* 2. Middle Div: Shaped Image Subtract.webp */}
           <div className="flex justify-center items-center shrink-0 my-2 lg:my-0">
             <div className="relative w-[280px] sm:w-[320px] md:w-[340px] lg:w-[360px] xl:w-[380px] aspect-[360/460] transition-all duration-500 ease-out hover:-rotate-[3.5deg] hover:scale-105 cursor-pointer">
               <Image
-                src="/assets/images/Subtract.png"
+                src="/assets/images/Subtract.webp"
                 alt="About Basunia & Associate - Legal Advocacy"
                 width={500}
                 height={500}

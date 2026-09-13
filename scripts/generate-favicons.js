@@ -5,7 +5,7 @@ const sharp = require('sharp');
 async function makeFaviconsWithOriginalLogo() {
   const publicDir = path.join(__dirname, '..', 'public');
   const appDir = path.join(__dirname, '..', 'app');
-  const logoPath = path.join(publicDir, 'assets', 'images', 'logoo.png');
+  const logoPath = path.join(publicDir, 'assets', 'images', 'logoo.webp');
   const logoBuffer = fs.readFileSync(logoPath);
 
   const size = 512;

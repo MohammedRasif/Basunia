@@ -130,7 +130,7 @@ export const metadata: Metadata = {
     siteName: "Basunia & Associate",
     images: [
       {
-        url: "/assets/images/expertise-banner-meeting.jpg",
+        url: "/assets/images/expertise-banner-meeting.webp",
         width: 1200,
         height: 630,
         alt: "Basunia & Associate - Leading Law Firm in Bangladesh",
@@ -144,7 +144,7 @@ export const metadata: Metadata = {
     title: "Basunia & Associate | Leading Law Firm in Bangladesh",
     description:
       "Premier corporate, commercial, and litigation legal counsel in Dhaka, Bangladesh.",
-    images: ["/assets/images/expertise-banner-meeting.jpg"],
+    images: ["/assets/images/expertise-banner-meeting.webp"],
   },
   robots: {
     index: true,
@@ -174,8 +174,8 @@ const structuredData = {
   description:
     "Leading Corporate, Commercial, and Litigation Law Firm based in Dhaka, Bangladesh.",
   url: siteUrl,
-  logo: `${siteUrl}/assets/images/logoo.png`,
-  image: `${siteUrl}/assets/images/expertise-banner-meeting.jpg`,
+  logo: `${siteUrl}/assets/images/logoo.webp`,
+  image: `${siteUrl}/assets/images/expertise-banner-meeting.webp`,
   telephone: "+8801956565462",
   priceRange: "$$$",
   address: {
