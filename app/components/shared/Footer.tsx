@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 group shrink-0">
               <div className="w-10 h-10 rounded-full bg-[#8E1831] flex items-center justify-center text-white shadow-md shadow-[#8E1831]/20 group-hover:scale-105 transition-transform overflow-hidden relative shrink-0">
                 <Image
-                  src="/assets/images/logoo.png"
+                  src="/assets/images/logoo.webp"
                   alt="Basunia & Associates Logo"
                   width={100}
                   height={100}

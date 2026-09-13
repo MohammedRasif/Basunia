@@ -55,7 +55,7 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
       <CategoryHeroBanner
         title={area.bannerTitle}
         categoryTitle={area.title}
-        imageSrc="/assets/images/expertise-banner-meeting.jpg"
+        imageSrc="/assets/images/expertise-banner-meeting.webp"
         ctaText="Book A consultation"
         ctaHref="/contact"
       />
@@ -65,7 +65,7 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
         badge="OVERVIEW"
         heading={area.overviewHeading || `${area.title} in Dhaka`}
         paragraphs={area.overviewParagraphs || [area.description]}
-        imageSrc={area.overviewImage || "/assets/images/category.png"}
+        imageSrc={area.overviewImage || "/assets/images/category.webp"}
       />
 
       {/* 3. Services Section: Dashed Header + Dynamic Expandable Accordion */}

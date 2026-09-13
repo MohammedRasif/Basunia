@@ -134,7 +134,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#8E1831] flex items-center justify-center text-white shadow-md shadow-[#8E1831]/20 group-hover:scale-105 transition-transform overflow-hidden relative">
               <Image
-                src="/assets/images/logoo.png"
+                src="/assets/images/logoo.webp"
                 alt="Basunia & Associate Logo"
                 width={100}
                 height={100}

@@ -9,7 +9,7 @@ interface AboutHeroBannerProps {
 export default function AboutHeroBanner({
   title = "About us",
   subtitle = "We strive to explain the most complex legal issues in an easy to understand manner.",
-  imageSrc = "/assets/images/Frame 2147229286.png",
+  imageSrc = "/assets/images/Frame 2147229286.webp",
 }: AboutHeroBannerProps) {
   return (
     <section className="relative w-full h-[280px] sm:h-[360px] md:h-[420px] bg-slate-900 flex items-center justify-center overflow-hidden">

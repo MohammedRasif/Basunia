@@ -3,8 +3,8 @@ const path = require('path');
 const fs = require('fs');
 
 async function generateScatteredBlackGavelBanner() {
-  const inputGavel = path.join(__dirname, '../public/assets/images/gavel.png');
-  const blackGavelPath = path.join(__dirname, '../public/assets/images/gavel-black.png');
+  const inputGavel = path.join(__dirname, '../public/assets/images/gavel.webp');
+  const blackGavelPath = path.join(__dirname, '../public/assets/images/gavel-black.webp');
   const bannerOutputPath = path.join(__dirname, '../public/assets/images/hero-gavel-scattered-banner.png');
 
   console.log('1. Generating black 3D gavel source...');
