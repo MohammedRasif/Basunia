@@ -136,7 +136,7 @@ console.log(`Successfully generated scattered gavel SVG at: ${svgOutputPath}`);
 // Also render a high-res PNG version using sharp if available
 try {
   const sharp = require('sharp');
-  const pngOutputPath = path.join(__dirname, '../public/assets/images/hero-gavel-banner.png');
+  const pngOutputPath = path.join(__dirname, '../public/assets/images/hero-gavel-banner.webp');
   sharp(Buffer.from(fullSvg))
     .png()
     .toFile(pngOutputPath)

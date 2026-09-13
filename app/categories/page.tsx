@@ -22,7 +22,7 @@ export default function CategoriesPage() {
       {/* 1. Hero Banner Section (Centered HD Boardroom Background) */}
       <CategoryHeroBanner
         title={defaultArea?.bannerTitle || "Leading Corporate Lawyers in Bangladesh"}
-        imageSrc="/assets/images/expertise-banner-meeting.jpg"
+        imageSrc="/assets/images/expertise-banner-meeting.webp"
         ctaText="Book A consultation"
         ctaHref="/contact"
       />
@@ -32,7 +32,7 @@ export default function CategoriesPage() {
         badge="OVERVIEW"
         heading={defaultArea?.overviewHeading || "Corporate Law Firm in Dhaka"}
         paragraphs={defaultArea?.overviewParagraphs || []}
-        imageSrc={defaultArea?.overviewImage || "/assets/images/category.png"}
+        imageSrc={defaultArea?.overviewImage || "/assets/images/category.webp"}
       />
 
       {/* 3. Services Section from JSON */}

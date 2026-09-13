@@ -128,7 +128,7 @@ export default function WhoWeAreSection() {
             {/* Main Lawyer Image */}
             <div className="relative w-full aspect-[4/3] overflow-hidden">
               <Image
-                src="/assets/images/whoweare.png"
+                src="/assets/images/whoweare.webp"
                 alt="Basunia & Associate - Who We Are"
                 fill
                 priority

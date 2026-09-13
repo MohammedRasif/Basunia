@@ -12,7 +12,7 @@ interface CategoryHeroBannerProps {
 export default function CategoryHeroBanner({
   title,
   categoryTitle,
-  imageSrc = "/assets/images/expertise-banner-meeting.jpg",
+  imageSrc = "/assets/images/expertise-banner-meeting.webp",
   ctaText = "Book A consultation",
   ctaHref = "/contact",
 }: CategoryHeroBannerProps) {

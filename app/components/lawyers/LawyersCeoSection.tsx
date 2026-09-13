@@ -22,7 +22,7 @@ const defaultCredentials: string[] = [
 export default function LawyersCeoSection({
   subtitle = "OUR CEO",
   name = "BRISTER TOFAEL",
-  image = "/assets/images/team/member3.jpg",
+  image = "/assets/images/team/member3.webp",
   credentials = defaultCredentials,
 }: LawyersCeoSectionProps) {
   return (
