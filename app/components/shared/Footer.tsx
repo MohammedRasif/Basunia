@@ -121,6 +121,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <div className="relative group inline-block py-0.5">
+                    <Link href="/gallery" className="text-slate-300">
+                      Photo Gallery
+                    </Link>
+                    <span className="absolute -bottom-0.5 left-0 w-0 group-hover:w-full h-[2px] bg-[#8E1831] rounded-full transition-all duration-300" />
+                  </div>
+                </li>
+                <li>
+                  <div className="relative group inline-block py-0.5">
                     <Link href="/contact" className="text-slate-300">
                       Support
                     </Link>

@@ -252,7 +252,7 @@ export default function Navbar() {
                 type="button"
                 onClick={() => setAboutOpen(!aboutOpen)}
                 className={`flex items-center gap-1.5 transition-colors cursor-pointer hover:text-[#8E1831] ${
-                  aboutOpen || pathname === "/about" || pathname === "/blog"
+                  aboutOpen || pathname === "/about" || pathname === "/blog" || pathname === "/gallery"
                     ? "text-[#8E1831]"
                     : "text-slate-800"
                 }`}
@@ -272,7 +272,7 @@ export default function Navbar() {
 
               <span
                 className={`absolute bottom-0 left-0 h-[2.5px] bg-[#8E1831] rounded-full transition-all duration-300 ${
-                  aboutOpen || pathname === "/about" || pathname === "/blog"
+                  aboutOpen || pathname === "/about" || pathname === "/blog" || pathname === "/gallery"
                     ? "w-full"
                     : "w-0 group-hover:w-full"
                 }`}
@@ -303,6 +303,16 @@ export default function Navbar() {
                     }`}
                   >
                     Blog
+                  </Link>
+                  <Link
+                    href="/gallery"
+                    className={`block px-3 py-2 text-sm font-semibold rounded-sm transition-colors ${
+                      isActive("/gallery")
+                        ? "text-white bg-[#8E1831]"
+                        : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
+                    }`}
+                  >
+                    Gallery
                   </Link>
                 </div>
               )}
@@ -520,6 +530,17 @@ export default function Navbar() {
                       }`}
                     >
                       Blog
+                    </Link>
+                    <Link
+                      href="/gallery"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`block px-2.5 py-1.5 rounded-md transition-colors ${
+                        isActive("/gallery")
+                          ? "text-white bg-[#8E1831] font-bold"
+                          : "text-slate-700 hover:text-white hover:bg-[#8E1831]"
+                      }`}
+                    >
+                      Gallery
                     </Link>
                   </div>
                 )}

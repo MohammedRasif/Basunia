@@ -12,14 +12,14 @@ export default function AboutHeroBanner({
   imageSrc = "/assets/images/Frame 2147229286.webp",
 }: AboutHeroBannerProps) {
   return (
-    <section className="relative w-full h-[280px] sm:h-[360px] md:h-[420px] bg-slate-900 flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[240px] sm:h-[320px] md:h-[380px] flex items-center justify-center overflow-hidden">
       {/* Background Image Frame */}
       <Image
         src={imageSrc}
         alt={title}
         fill
         priority
-        className="object-cover"
+        className=""
       />
 
       {/* Hero Content */}
