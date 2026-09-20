@@ -112,7 +112,7 @@ export default function WhoWeAreSection() {
 
   return (
     <section className="relative w-full bg-white  pb-16 sm:pb-20  lg:pb-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <span className="font-marcellus text-xs sm:text-sm md:text-[24px] tracking-[0.2em] text-[#333333] uppercase font-normal inline-block">
@@ -137,7 +137,7 @@ export default function WhoWeAreSection() {
             </div>
 
             {/* Overlapping Floating Peach/Blush Box with Soft Gradient */}
-            <div className="absolute left-3 sm:left-6 md:left-7 bottom-[-50] w-[94%] sm:w-[90%] md:w-[88%] lg:w-[89%] max-w-[540px] bg-gradient-to-b from-[#FDF4EE] via-[#FCE8E0] to-[#F5D4C7] px-6 py-6 sm:px-8 sm:py-7 md:px-8 md:py-7 lg:px-9 lg:py-8 shadow-[0_16px_40px_rgba(0,0,0,0.06)] z-10 border border-[#F6DBD1]/40">
+            <div className="absolute left-3 sm:left-6 md:left-7 -bottom-10 sm:-bottom-12 lg:-bottom-14 w-[94%] sm:w-[90%] md:w-[88%] lg:w-[89%] max-w-[540px] bg-gradient-to-b from-[#FDF4EE] via-[#FCE8E0] to-[#F5D4C7] px-5 py-5 sm:px-8 sm:py-7 md:px-8 md:py-7 lg:px-9 lg:py-8 shadow-[0_16px_40px_rgba(0,0,0,0.06)] z-10 border border-[#F6DBD1]/40">
               <h3 className="font-dm-serif-text text-xl sm:text-2xl md:text-[21.5px] lg:text-[22.5px] text-[#262626] font-normal leading-[1.3] tracking-tight mb-3 sm:mb-3.5">
                 Trusted Legal Guidance. Proven Experience. Client-Focused Solutions.
               </h3>

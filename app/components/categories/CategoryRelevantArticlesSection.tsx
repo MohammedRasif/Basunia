@@ -23,7 +23,7 @@ export default function CategoryRelevantArticlesSection({
 
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 pt-2 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Top Header Row: Relevant ARTICEL + See All Link */}
         <div className="flex flex-row items-center justify-between gap-4 mb-8 sm:mb-10 lg:mb-12">
           {/* Main Title: "Relevant ARTICEL" */}

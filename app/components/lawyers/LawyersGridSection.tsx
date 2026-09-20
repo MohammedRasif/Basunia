@@ -16,7 +16,7 @@ export default function LawyersGridSection({
 }: LawyersGridSectionProps) {
   return (
     <section className="relative w-full py-16 sm:py-20 lg:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Section Header Title */}
         <div className="text-center mb-10 sm:mb-14 lg:mb-16">
           <h2 className="font-dm-serif-text text-2xl sm:text-3xl md:text-[36px] text-[#141414] font-normal tracking-[0.06em] uppercase leading-tight whitespace-pre-line">

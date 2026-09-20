@@ -78,7 +78,7 @@ export default function Navbar() {
           <span className="text-slate-600 hidden sm:inline">|</span>
 
           {/* Text Links */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 text-[10.5px] sm:text-xs">
             <Link
               href="/contact"
               className="hover:text-amber-400 transition-colors font-medium whitespace-nowrap"
@@ -86,11 +86,11 @@ export default function Navbar() {
               Contact us
             </Link>
 
-            <span className="text-slate-600">|</span>
+            <span className="text-slate-600 hidden min-[400px]:inline">|</span>
 
             <Link
               href="/categories"
-              className="hover:text-amber-400 transition-colors font-medium whitespace-nowrap"
+              className="hover:text-amber-400 transition-colors font-medium whitespace-nowrap hidden min-[400px]:inline"
             >
               Office location
             </Link>
@@ -128,7 +128,7 @@ export default function Navbar() {
           scrolled ? "shadow-md py-2.5" : "border-b border-slate-100 py-3"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-0 flex items-center justify-between">
           
           {/* Logo & Brand Name (Marcellus Font) */}
           <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0">

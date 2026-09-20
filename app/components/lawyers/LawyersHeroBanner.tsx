@@ -19,7 +19,7 @@ export default function LawyersHeroBanner({
         alt="Our Team Banner"
         fill
         priority
-        className=""
+        className="object-cover object-center"
       />
 
 

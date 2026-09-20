@@ -28,7 +28,7 @@ export default function CategoryServicesSection({
 
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 pt-4 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* 1. Centered Header: --- SERVICES --- with Prominent Big Dashes */}
         <div className="flex items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
           <div className="flex-1 h-[2px] flex items-center">

@@ -42,7 +42,7 @@ export default function CategoryHeroBanner({
   };
 
   return (
-    <section className="relative w-full h-[240px] sm:h-[320px] md:h-[380px] flex items-center justify-center overflow-hidden bg-slate-950">
+    <section className="relative w-full min-h-[260px] sm:min-h-[320px] md:min-h-[380px] h-auto py-8 sm:py-0 flex items-center justify-center overflow-hidden bg-slate-950">
       {/* 1. Background HD Boardroom Image */}
       <Image
         src={imageSrc}

@@ -48,7 +48,7 @@ export default function GallerySection() {
 
   return (
     <section className="relative w-full bg-white  pb-16 sm:pb-20 lg:pb-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Top Header Tag: GALLERY */}
         <div className="text-center mb-10 sm:mb-12 lg:mb-14">
           <span className="font-marcellus text-xs sm:text-sm md:text-[24px] tracking-[0.08em] text-[#262626] uppercase font-normal inline-block">

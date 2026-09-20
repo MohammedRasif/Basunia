@@ -52,7 +52,7 @@ export default function ArticleSection({
           {/* See All Link */}
           <Link
             href={seeAllHref}
-            className="group font-geist inline-flex items-center gap-1 text-xl  font-medium text-[#8E1831] hover:text-[#761328] transition-colors whitespace-nowrap"
+            className="group font-geist inline-flex items-center gap-1 text-sm sm:text-base md:text-lg lg:text-xl font-medium text-[#8E1831] hover:text-[#761328] transition-colors whitespace-nowrap shrink-0"
           >
             <span>{seeAllText}</span>
             <svg

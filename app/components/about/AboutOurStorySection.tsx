@@ -13,7 +13,7 @@ export default function AboutOurStorySection({
 }: AboutOurStorySectionProps) {
   return (
     <section className="relative w-full bg-white py-14 sm:py-20 lg:py-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         
         {/* Top Centered Section Badge */}
         <div className="text-center mb-8 sm:mb-12">

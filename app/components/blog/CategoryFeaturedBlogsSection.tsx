@@ -16,7 +16,7 @@ export default function CategoryFeaturedBlogsSection({
 
   return (
     <section className="w-full bg-white py-10 sm:py-14 lg:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 xl:gap-12 items-start">
           
           {/* 1. Left Featured Main Column */}
@@ -108,7 +108,7 @@ export default function CategoryFeaturedBlogsSection({
                 <Link
                   href={article.href || `/blog/${blog.slug}/${article.id}`}
                   aria-label={`View article: ${article.title}`}
-                  className="relative w-[150px] sm:w-[190px] md:w-[225px] lg:w-[245px] aspect-[4/3] sm:aspect-[16/11] shrink-0 rounded-[2px] overflow-hidden bg-slate-100 shadow-xs"
+                  className="relative w-[125px] sm:w-[190px] md:w-[225px] lg:w-[245px] aspect-[4/3] sm:aspect-[16/11] shrink-0 rounded-[2px] overflow-hidden bg-slate-100 shadow-xs"
                 >
                   <Image
                     src={article.image}

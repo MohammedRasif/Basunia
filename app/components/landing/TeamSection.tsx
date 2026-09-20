@@ -32,7 +32,7 @@ export default function TeamSection() {
 
   return (
     <section className="relative w-full bg-white pt-8 sm:pt-12 lg:pt-16 pb-16 sm:pb-20 lg:pb-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Top Header Section */}
         <div className="mb-8 ">
           {/* Subtitle: OUR TEAM */}
@@ -114,14 +114,14 @@ export default function TeamSection() {
         {/* Team Members Horizontal Carousel / Track */}
         <div
           ref={scrollContainerRef}
-          className="flex gap-5 sm:gap-6 overflow-x-auto scroll-smooth no-scrollbar select-none pb-4"
-          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          className="flex gap-4 sm:gap-6 overflow-x-auto scroll-smooth no-scrollbar select-none pb-4 snap-x snap-mandatory touch-pan-x"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}
         >
           {teamMembers.map((member, index) => (
             <Link
               key={`${member.id}-${index}`}
               href={`/properties/${member.id}`}
-              className="team-card w-[275px] sm:w-[290px] lg:w-[calc(25%-18px)] min-w-[265px] sm:min-w-[280px] lg:min-w-[285px] shrink-0 border border-[#E5E5E5] bg-white p-3.5 sm:p-4 transition-all duration-300 hover:shadow-lg hover:border-[#D0D0D0] group block cursor-pointer"
+              className="team-card w-[260px] xs:w-[280px] sm:w-[290px] lg:w-[calc(25%-18px)] min-w-[250px] xs:min-w-[270px] sm:min-w-[280px] lg:min-w-[285px] shrink-0 border border-[#E5E5E5] bg-white p-3.5 sm:p-4 transition-all duration-300 hover:shadow-lg hover:border-[#D0D0D0] group block cursor-pointer snap-start"
             >
               {/* Member Image Box */}
               <div className="relative w-full aspect-[1/1.08] bg-[#F2F3F5] overflow-hidden">

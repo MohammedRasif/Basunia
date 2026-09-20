@@ -35,7 +35,7 @@ export default function LawyerProfileSection({ member }: LawyerProfileSectionPro
 
   return (
     <section className="relative w-full bg-white pt-28 sm:pt-32 md:pt-36 pb-20 sm:pb-24 lg:pb-32 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         
         {/* ================= 1. Top Lawyer Profile Header ================= */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8 md:gap-10 lg:gap-12">

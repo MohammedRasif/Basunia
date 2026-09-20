@@ -7,7 +7,7 @@ import { FaXTwitter, FaFacebookF, FaYoutube } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="bg-black text-white pt-16 pb-12 border-t border-slate-900 font-arimo">
-      <div className="max-w-7xl mx-auto px-4 sm:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         
         {/* Main Footer Container: Single Horizontal Row on Desktop (lg) */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-8 pb-12 border-b border-slate-800/60">
@@ -186,11 +186,11 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="w-full text-xs sm:text-sm bg-transparent border border-slate-700 text-white px-4 py-3 focus:outline-none focus:border-[#8E1831] placeholder:text-slate-500 rounded-none min-w-[200px]"
+                className="min-w-0 flex-1 text-xs sm:text-sm bg-transparent border border-slate-700 text-white px-3 sm:px-4 py-2.5 sm:py-3 focus:outline-none focus:border-[#8E1831] placeholder:text-slate-500 rounded-none"
               />
               <button
                 type="submit"
-                className="bg-[#8E1831] hover:bg-[#721327] text-white font-semibold text-xs sm:text-sm px-6 py-3 transition-colors cursor-pointer shrink-0 rounded-none"
+                className="bg-[#8E1831] hover:bg-[#721327] text-white font-semibold text-xs sm:text-sm px-4 sm:px-6 py-2.5 sm:py-3 transition-colors cursor-pointer shrink-0 rounded-none"
               >
                 Subscribe
               </button>

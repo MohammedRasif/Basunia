@@ -22,7 +22,7 @@ export default function HeroSection() {
       </div>
 
       {/* Main Hero Content Area */}
-      <div className="relative flex-1 flex flex-col justify-center items-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
+      <div className="relative flex-1 flex flex-col justify-center items-center max-w-7xl w-full mx-auto px-4 sm:px-0 py-6 sm:py-10 lg:py-12">
         
         {/* Centered Main Hero Text Block */}
         <div className="relative z-20 max-w-2xl lg:max-w-3xl mx-auto text-center flex flex-col items-center justify-center">

@@ -18,7 +18,7 @@ export default function ContactHeroBanner({
         alt={title}
         fill
         priority
-        className=""
+        className="object-cover object-center"
       />
 
       {/* Hero Content */}

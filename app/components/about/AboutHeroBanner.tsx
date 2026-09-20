@@ -19,7 +19,7 @@ export default function AboutHeroBanner({
         alt={title}
         fill
         priority
-        className=""
+        className="object-cover object-center"
       />
 
       {/* Hero Content */}

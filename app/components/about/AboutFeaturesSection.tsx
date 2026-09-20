@@ -100,7 +100,7 @@ export default function AboutFeaturesSection({
 }: AboutFeaturesSectionProps) {
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* 3-Column Unified Feature Bar with Vertical Dividing Lines */}
         <div className="bg-[#FAFAFA] border border-[#ECECEC] grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5] rounded-[2px] overflow-hidden">
           {features.map((feature) => (

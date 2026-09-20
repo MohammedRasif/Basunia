@@ -47,7 +47,7 @@ export default function BlogCategoryGrid() {
 
   return (
     <section className="w-full bg-white py-12 sm:py-16 lg:py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Outer Bordered Grid Box matching user's exact design */}
         <div className="bg-[#FAFAFA] border border-[#E5E5E5] rounded-none shadow-none overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2">

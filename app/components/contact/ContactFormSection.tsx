@@ -25,7 +25,7 @@ export default function ContactFormSection({
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-8 py-16 sm:py-24">
+    <section className="max-w-7xl mx-auto px-4 sm:px-0 py-16 sm:py-24">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
         {/* Left Column: Contact Details (lg:col-span-6) */}
         <div className="lg:col-span-6 space-y-6">

@@ -43,7 +43,7 @@ export default function GalleryGridSection() {
 
   return (
     <section className="relative w-full bg-slate-50/60 py-12 sm:py-16 lg:py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         
         {/* Category Filter Navigation Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pb-8 mb-8 border-b border-slate-200">

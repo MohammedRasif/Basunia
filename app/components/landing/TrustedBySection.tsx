@@ -46,7 +46,7 @@ export default function TrustedBySection() {
 
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Top Header Row: Left Title + Right Description */}
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6 lg:gap-12 mb-8 sm:mb-10 lg:mb-12">
           {/* Left Title Area */}

@@ -19,7 +19,7 @@ export default function BlogHeroBanner({
         alt="Blogs Hero Banner"
         fill
         priority
-        className=""
+        className="object-cover object-center"
       />
 
       {/* Centered Main Headline */}

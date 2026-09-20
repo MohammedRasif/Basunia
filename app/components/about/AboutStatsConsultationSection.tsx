@@ -33,7 +33,7 @@ export default function AboutStatsConsultationSection({
 }: AboutStatsConsultationSectionProps) {
   return (
     <section className="relative w-full bg-[#FAFAFA] py-16 sm:py-20 lg:py-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 xl:gap-20 items-center">
           
           {/* Left Side: Copy & Consultation Button (7 cols) */}

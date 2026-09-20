@@ -18,7 +18,7 @@ export default function PracticeAreaSection() {
         key={item.uniqueKey}
         href={item.href}
         onMouseEnter={() => setActiveKey(item.uniqueKey)}
-        className="group relative flex items-center justify-between px-6 sm:px-8 md:px-10 lg:px-12 h-[155px] sm:h-[165px] lg:h-[175px] bg-[#FAFAFA] cursor-pointer overflow-hidden select-none"
+        className="group relative flex items-center justify-between px-4 sm:px-8 md:px-10 lg:px-12 min-h-[140px] sm:min-h-[160px] lg:min-h-[175px] py-4 sm:py-0 bg-[#FAFAFA] cursor-pointer overflow-hidden select-none"
       >
         {/* Gentle, Luxury Background Fade Layer */}
         <div
@@ -100,7 +100,7 @@ export default function PracticeAreaSection() {
 
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <span className="font-marcellus text-xs sm:text-sm md:text-[24px] tracking-[0.2em] text-[#333333] uppercase font-normal inline-block mb-3 sm:mb-4">
@@ -152,7 +152,7 @@ export default function PracticeAreaSection() {
           <div className="relative z-10 shrink-0">
             <Link
               href="/contact"
-              className="font-geist group inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 border border-[#8E1831]/30 bg-white/95 backdrop-blur-xs text-[#8E1831] text-xl sm:text-[15px] font-medium transition-all duration-300 hover:bg-[#8E1831] hover:text-white hover:border-[#8E1831] hover:shadow-md active:scale-[0.98]"
+              className="font-geist group inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 border border-[#8E1831]/30 bg-white/95 backdrop-blur-xs text-[#8E1831] text-sm sm:text-[15px] font-medium transition-all duration-300 hover:bg-[#8E1831] hover:text-white hover:border-[#8E1831] hover:shadow-md active:scale-[0.98] whitespace-nowrap"
             >
               <span>Contact us</span>
               <svg

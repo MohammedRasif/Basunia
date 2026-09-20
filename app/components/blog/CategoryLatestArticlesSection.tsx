@@ -19,7 +19,7 @@ export default function CategoryLatestArticlesSection({
 
   return (
     <section className="relative w-full bg-white pb-16 sm:pb-20 lg:pb-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         
         {/* Section Title */}
         <div className="mb-8 sm:mb-10 lg:mb-12">

@@ -22,7 +22,7 @@ export default function GalleryHeroBanner({
         alt="Gallery Hero Banner"
         fill
         priority
-        className=""
+        className="object-cover object-center"
       />
     
 

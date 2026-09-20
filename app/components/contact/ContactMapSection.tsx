@@ -10,7 +10,7 @@ export default function ContactMapSection({
   ratingText = "★ 4.9 (112 reviews)",
 }: ContactMapSectionProps) {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-8 pb-16 sm:pb-24">
+    <section className="max-w-7xl mx-auto px-4 sm:px-0 pb-16 sm:pb-24">
       <div className="relative w-full h-[400px] sm:h-[480px] rounded-2xl overflow-hidden shadow-xl border border-slate-200">
         {/* OpenStreetMap embed — Gulshan 1, Dhaka (23.7809°N, 90.4125°E), zoom 16 */}
         <iframe

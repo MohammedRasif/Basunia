@@ -54,7 +54,7 @@ export default function AboutSection() {
 
   return (
     <section className="relative w-full bg-white py-16 sm:py-20 lg:py-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         {/* Top Header: ABOUT US */}
         <div className="text-center mb-10 sm:mb-14 lg:mb-16">
           <h3 className="font-marcellus text-base sm:text-lg md:text-[24px] tracking-[0.08em] text-[#1e1e1e] uppercase font-normal">

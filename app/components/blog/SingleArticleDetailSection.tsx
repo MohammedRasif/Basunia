@@ -20,7 +20,7 @@ export default function SingleArticleDetailSection({
 
   return (
     <section className="w-full bg-white py-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-start">
           
           {/* 1. Left Main Column: Full Article Content from JSON (7 cols) */}
