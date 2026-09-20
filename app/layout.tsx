@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 import {
-  Marck_Script,
-  Marcellus,
-  Marcellus_SC,
-  Arimo,
-  Poppins,
-  DM_Serif_Text,
-  DM_Serif_Display,
-  Manrope,
-  Inter,
-  Plus_Jakarta_Sans,
-  Geist,
+    Arimo,
+    DM_Serif_Display,
+    DM_Serif_Text,
+    Geist,
+    Inter,
+    Manrope,
+    Marcellus,
+    Marcellus_SC,
+    Marck_Script,
+    Plus_Jakarta_Sans,
+    Poppins,
 } from "next/font/google";
-import "./globals.css";
-import ToastProvider from "./components/shared/ToastProvider";
-import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
+import Navbar from "./components/shared/Navbar";
+import ToastProvider from "./components/shared/ToastProvider";
+import "./globals.css";
 
 const marckScript = Marck_Script({
   weight: "400",

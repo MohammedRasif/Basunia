@@ -113,6 +113,12 @@
   scrollbar-width: none;
 }
 
+/* Instant suppression of scrollbar during initial welcome loader */
+html:not(.loader-seen),
+html:not(.loader-seen) body {
+  overflow: hidden !important;
+}
+
 /* Instant suppression of welcome loader if already seen in current session */
 html.loader-seen #welcome-loader-root {
   display: none !important;
