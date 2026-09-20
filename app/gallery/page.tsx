@@ -1,5 +1,5 @@
-import GalleryHeroBanner from "@/app/components/gallery/GalleryHeroBanner";
 import GalleryGridSection from "@/app/components/gallery/GalleryGridSection";
+import GalleryHeroBanner from "@/app/components/gallery/GalleryHeroBanner";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

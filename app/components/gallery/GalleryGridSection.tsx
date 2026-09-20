@@ -1,271 +1,676 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import { galleryCategories, galleryItems, GalleryItem } from "@/app/data/galleryData";
+import { useCallback, useEffect, useState } from "react";
+
+interface GalleryMosaicItem {
+  id: string;
+  src: string;
+  alt: string;
+  caption: string;
+  category?: string;
+  description?: string;
+}
 
 export default function GalleryGridSection() {
-  const [activeCategory, setActiveCategory] = useState("all");
-  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
+  const [selectedImage, setSelectedImage] = useState<GalleryMosaicItem | null>(null);
 
-  const filteredItems = activeCategory === "all"
-    ? galleryItems
-    : galleryItems.filter((item) => item.categorySlug === activeCategory);
+  // Set 1: Chambers & Legal Environment (Same 6 images as homepage)
+  const set1Images = {
+    col1Bottom: {
+      id: "set1-1",
+      src: "/assets/images/gallery/gallery-img-1.webp",
+      alt: "Legal consultation and document review in conference room",
+      caption: "Legal Consultation & Document Review",
+      category: "Consultations & Clients",
+      description: "In-depth case evaluation and client consultation session in our executive conference room.",
+    },
+    col2Top: {
+      id: "set1-2",
+      src: "/assets/images/gallery/gallery-img-2.webp",
+      alt: "Judicial strategy and case analysis on legal dossier",
+      caption: "Judicial Strategy & Case Analysis",
+      category: "Court & Strategy",
+      description: "Senior advocates strategizing litigation arguments and cross-referencing precedent records.",
+    },
+    col2Bottom: {
+      id: "set1-3",
+      src: "/assets/images/gallery/gallery-img-3.webp",
+      alt: "Commercial settlement and corporate agreement in law firm",
+      caption: "Commercial Settlement & Agreement",
+      category: "Chamber & Practice",
+      description: "Corporate law associates reviewing structured settlement terms and commercial contracts.",
+    },
+    col3Top: {
+      id: "set1-4",
+      src: "/assets/images/gallery/gallery-img-4.webp",
+      alt: "Law library with vintage legal volumes and reference books",
+      caption: "Comprehensive Legal Reference Library",
+      category: "Library & Research",
+      description: "Our historic legal reference library housing over 5,000 law reports and statutory compendiums.",
+    },
+    col3Bottom: {
+      id: "set1-5",
+      src: "/assets/images/gallery/gallery-img-5.webp",
+      alt: "Case strategy and legal document analysis session",
+      caption: "Case Strategy & Document Analysis",
+      category: "Court & Strategy",
+      description: "Collaborative litigation workshop examining judicial evidence and procedural timelines.",
+    },
+    col4Top: {
+      id: "set1-6",
+      src: "/assets/images/gallery/gallery-img-6.webp",
+      alt: "Scales of justice and judicial gavel on legal desk",
+      caption: "Professional Legal Representation",
+      category: "Chamber & Practice",
+      description: "Upholding judicial integrity, professional standards, and uncompromised client advocacy.",
+    },
+  };
 
-  const selectedImage = selectedImageIndex !== null ? filteredItems[selectedImageIndex] : null;
+  // Set 2: Courtroom Practice, Deals & Conferences (Set of 6 high-res moments)
+  const set2Images = {
+    col1Bottom: {
+      id: "set2-1",
+      src: "/assets/images/story-team.webp",
+      alt: "Appellate team brief preparation and legal research",
+      caption: "Appellate Team Brief Preparation",
+      category: "Court & Strategy",
+      description: "Legal researchers and advocates drafting appellate memorandums and legal submissions.",
+    },
+    col2Top: {
+      id: "set2-2",
+      src: "/assets/images/expertise-banner-meeting.webp",
+      alt: "Corporate legal advisory and boardroom consultation",
+      caption: "Corporate Advisory & Boardroom Counsel",
+      category: "Chamber & Practice",
+      description: "Advising enterprise stakeholders on regulatory compliance and corporate structuring.",
+    },
+    col2Bottom: {
+      id: "set2-3",
+      src: "/assets/images/gallery/gallery-img-8.webp",
+      alt: "International legal seminar and keynote address on arbitration",
+      caption: "International Legal Seminar & Keynote Address",
+      category: "Events & Seminars",
+      description: "Keynote presentation on arbitration frameworks and contemporary dispute resolution.",
+    },
+    col3Top: {
+      id: "set2-4",
+      src: "/assets/images/gallery/gallery-img-7.webp",
+      alt: "Supreme Court practice and chamber conference",
+      caption: "Supreme Court Practice & Chamber Conference",
+      category: "Court & Strategy",
+      description: "Partners and associates convening for a high-level briefing on upcoming appellate hearings.",
+    },
+    col3Bottom: {
+      id: "set2-5",
+      src: "/assets/images/gallery/gallery-img-9.webp",
+      alt: "High-value agreement execution and contract signing ceremony",
+      caption: "High-Value Agreement Execution & Signing",
+      category: "Consultations & Clients",
+      description: "Formal execution and closing ceremony for multinational commercial transactions.",
+    },
+    col4Top: {
+      id: "set2-6",
+      src: "/assets/images/whoweare.webp",
+      alt: "Chambers leadership and courtroom counsel",
+      caption: "Chambers Leadership & Courtroom Counsel",
+      category: "Chamber & Practice",
+      description: "Senior leadership setting strategic direction for firm practice and courtroom representation.",
+    },
+  };
+
+  const allImagesList: GalleryMosaicItem[] = [
+    set1Images.col1Bottom,
+    set1Images.col2Top,
+    set1Images.col2Bottom,
+    set1Images.col3Top,
+    set1Images.col3Bottom,
+    set1Images.col4Top,
+    set2Images.col1Bottom,
+    set2Images.col2Top,
+    set2Images.col2Bottom,
+    set2Images.col3Top,
+    set2Images.col3Bottom,
+    set2Images.col4Top,
+  ];
 
   const handleNext = useCallback(() => {
-    if (selectedImageIndex === null) return;
-    setSelectedImageIndex((prev) =>
-      prev !== null ? (prev + 1) % filteredItems.length : 0
-    );
-  }, [selectedImageIndex, filteredItems.length]);
+    if (!selectedImage) return;
+    const currentIndex = allImagesList.findIndex((item) => item.id === selectedImage.id);
+    const nextIndex = (currentIndex + 1) % allImagesList.length;
+    setSelectedImage(allImagesList[nextIndex]);
+  }, [selectedImage, allImagesList]);
 
   const handlePrev = useCallback(() => {
-    if (selectedImageIndex === null) return;
-    setSelectedImageIndex((prev) =>
-      prev !== null ? (prev - 1 + filteredItems.length) % filteredItems.length : 0
-    );
-  }, [selectedImageIndex, filteredItems.length]);
+    if (!selectedImage) return;
+    const currentIndex = allImagesList.findIndex((item) => item.id === selectedImage.id);
+    const prevIndex = (currentIndex - 1 + allImagesList.length) % allImagesList.length;
+    setSelectedImage(allImagesList[prevIndex]);
+  }, [selectedImage, allImagesList]);
 
   // Keyboard navigation for Lightbox
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (selectedImageIndex === null) return;
-      if (e.key === "Escape") setSelectedImageIndex(null);
+      if (!selectedImage) return;
+      if (e.key === "Escape") setSelectedImage(null);
       if (e.key === "ArrowRight") handleNext();
       if (e.key === "ArrowLeft") handlePrev();
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedImageIndex, handleNext, handlePrev]);
+  }, [selectedImage, handleNext, handlePrev]);
 
   return (
-    <section className="relative w-full bg-slate-50/60 py-12 sm:py-16 lg:py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-0">
-        
-        {/* Category Filter Navigation Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 pb-8 mb-8 border-b border-slate-200">
-          {/* Categories Tab Buttons */}
-          <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-2.5">
-            {galleryCategories.map((cat) => {
-              const isActive = activeCategory === cat.slug;
-              const count = cat.slug === "all"
-                ? galleryItems.length
-                : galleryItems.filter((i) => i.categorySlug === cat.slug).length;
+    <div className="w-full bg-white space-y-12 sm:space-y-16 lg:space-y-20 py-4 sm:py-6 lg:py-8">
+      
+      {/* ========================================================================= */}
+      {/* 1. FIRST MOSAIC BLOCK (Chambers & Legal Environment) */}
+      {/* ========================================================================= */}
+      <section className="relative w-full overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-0">
 
-              return (
-                <button
-                  key={cat.slug}
-                  onClick={() => {
-                    setActiveCategory(cat.slug);
-                    setSelectedImageIndex(null);
-                  }}
-                  className={`cursor-pointer px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 flex items-center gap-2 ${
-                    isActive
-                      ? "bg-[#8E1831] text-white shadow-md shadow-[#8E1831]/20 scale-102"
-                      : "bg-white text-slate-700 hover:bg-slate-100 hover:text-slate-900 border border-slate-200/80"
-                  }`}
-                >
-                  <span>{cat.name}</span>
-                  <span
-                    className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                      isActive ? "bg-white/25 text-white" : "bg-slate-100 text-slate-600"
-                    }`}
-                  >
-                    {count}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Item Count Display */}
-          <div className="text-xs sm:text-sm font-switzer text-slate-500 text-center md:text-right shrink-0">
-            Showing <strong className="text-slate-800 font-semibold">{filteredItems.length}</strong> photo{filteredItems.length !== 1 ? "s" : ""}
-          </div>
-        </div>
-
-        {/* Gallery Image Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 lg:gap-8">
-          {filteredItems.map((item, index) => (
+          {/* ===== DESKTOP COLLAGE (Big & Small Asymmetric Layout matching Homepage) ===== */}
+          <div className="hidden lg:block relative w-full aspect-[1024/536] select-none">
+            
+            {/* Image 1 (Col 1 Bottom: Two lawyers at table) */}
             <div
-              key={item.id}
-              onClick={() => setSelectedImageIndex(index)}
-              className="group relative bg-white rounded-xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer flex flex-col"
+              onClick={() => setSelectedImage(set1Images.col1Bottom)}
+              style={{ left: "0%", top: "29.85%", width: "24.22%" }}
+              className="absolute aspect-[248/234] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
             >
-              {/* Image Container */}
-              <div className="relative w-full aspect-[16/10] overflow-hidden bg-slate-100">
+              <Image
+                src={set1Images.col1Bottom.src}
+                alt={set1Images.col1Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="25vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 2 (Col 2 Top: 3 colleagues in breakroom) */}
+            <div
+              onClick={() => setSelectedImage(set1Images.col2Top)}
+              style={{ left: "26.07%", top: "20.15%", width: "23.63%" }}
+              className="absolute aspect-[242/170] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set1Images.col2Top.src}
+                alt={set1Images.col2Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="25vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 3 (Col 2 Bottom: Team reviewing contracts) */}
+            <div
+              onClick={() => setSelectedImage(set1Images.col2Bottom)}
+              style={{ left: "25.88%", top: "55.04%", width: "32.13%" }}
+              className="absolute aspect-[329/173] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set1Images.col2Bottom.src}
+                alt={set1Images.col2Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="33vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 4 (Col 3 Top: Law library bookshelf) */}
+            <div
+              onClick={() => setSelectedImage(set1Images.col3Top)}
+              style={{ left: "51.56%", top: "0%", width: "25.20%" }}
+              className="absolute aspect-[258/278] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set1Images.col3Top.src}
+                alt={set1Images.col3Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="26vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 5 (Col 3 Bottom: Boardroom meeting) */}
+            <div
+              onClick={() => setSelectedImage(set1Images.col3Bottom)}
+              style={{ left: "59.86%", top: "54.85%", width: "30.18%" }}
+              className="absolute aspect-[309/142] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set1Images.col3Bottom.src}
+                alt={set1Images.col3Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="31vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 6 (Col 4 Top: 3 lawyers in suits) */}
+            <div
+              onClick={() => setSelectedImage(set1Images.col4Top)}
+              style={{ left: "78.61%", top: "13.62%", width: "21.39%" }}
+              className="absolute aspect-[219/205] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set1Images.col4Top.src}
+                alt={set1Images.col4Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="22vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+          </div>
+
+          {/* ===== MOBILE & TABLET COLLAGE (< lg) ===== */}
+          <div className="block lg:hidden">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+              <div
+                onClick={() => setSelectedImage(set1Images.col1Bottom)}
+                className="relative aspect-[248/234] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
                 <Image
-                  src={item.src}
-                  alt={item.title}
+                  src={set1Images.col1Bottom.src}
+                  alt={set1Images.col1Bottom.alt}
                   fill
                   unoptimized
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
                 />
-
-                {/* Gradient Shade Overlay on Hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                  <div className="text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold uppercase tracking-wider bg-[#8E1831] px-2.5 py-0.5 rounded-md text-white shadow-sm mb-1.5">
-                      {item.tag || item.category}
-                    </span>
-                    <p className="text-xs text-slate-200 line-clamp-2">
-                      Click to view full photo
-                    </p>
-                  </div>
-                </div>
-
-                {/* Top Corner Category Badge & Zoom Indicator */}
-                <div className="absolute top-3 left-3 z-10">
-                  <span className="text-[11px] font-semibold bg-black/60 backdrop-blur-md text-white px-2.5 py-1 rounded-md shadow-sm">
-                    {item.category}
-                  </span>
-                </div>
-
-                <div className="absolute top-3 right-3 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-8 h-8 rounded-full bg-white/90 text-slate-800 flex items-center justify-center shadow-md">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                    </svg>
-                  </div>
-                </div>
               </div>
 
-              {/* Card Information Footer */}
-              <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between">
-                <div>
-                  <h3 className="font-dm-serif-text text-lg sm:text-xl text-slate-900 group-hover:text-[#8E1831] transition-colors line-clamp-1">
-                    {item.title}
-                  </h3>
-                  <p className="font-switzer text-xs sm:text-sm text-slate-600 mt-1.5 line-clamp-2 leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
+              <div
+                onClick={() => setSelectedImage(set1Images.col2Top)}
+                className="relative aspect-[242/170] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set1Images.col2Top.src}
+                  alt={set1Images.col2Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
 
-                <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-switzer">
-                  <span className="text-[#8E1831] font-semibold">{item.tag || "Basunia Chambers"}</span>
-                  {item.year && <span>{item.year}</span>}
-                </div>
+              <div
+                onClick={() => setSelectedImage(set1Images.col3Top)}
+                className="relative aspect-[258/278] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set1Images.col3Top.src}
+                  alt={set1Images.col3Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set1Images.col4Top)}
+                className="relative aspect-[219/205] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set1Images.col4Top.src}
+                  alt={set1Images.col4Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set1Images.col2Bottom)}
+                className="relative aspect-[329/173] overflow-hidden bg-[#F2F3F5] cursor-pointer group sm:col-span-2"
+              >
+                <Image
+                  src={set1Images.col2Bottom.src}
+                  alt={set1Images.col2Bottom.alt}
+                  fill
+                  unoptimized
+                  sizes="100vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set1Images.col3Bottom)}
+                className="relative aspect-[309/142] overflow-hidden bg-[#F2F3F5] cursor-pointer group sm:col-span-2"
+              >
+                <Image
+                  src={set1Images.col3Bottom.src}
+                  alt={set1Images.col3Bottom.alt}
+                  fill
+                  unoptimized
+                  sizes="100vw"
+                  className="object-cover"
+                />
               </div>
             </div>
-          ))}
-        </div>
-
-        {filteredItems.length === 0 && (
-          <div className="text-center py-16 bg-white rounded-2xl border border-slate-200 p-8">
-            <p className="text-slate-500 text-base">No photos found in this category.</p>
-            <button
-              onClick={() => setActiveCategory("all")}
-              className="mt-4 px-4 py-2 rounded-lg bg-[#8E1831] text-white text-sm font-semibold hover:bg-[#761328] transition-colors"
-            >
-              View All Photos
-            </button>
           </div>
-        )}
 
-      </div>
+        </div>
+      </section>
 
-      {/* Lightbox Modal for High-Definition Full View */}
+      {/* ========================================================================= */}
+      {/* 2. SECOND MOSAIC BLOCK (Courtroom Advocacy, Seminars & Deal Signings) */}
+      {/* ========================================================================= */}
+      <section className="relative w-full overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+
+          {/* ===== DESKTOP COLLAGE (Set 2 - Exact proportional non-overlapping formula) ===== */}
+          <div className="hidden lg:block relative w-full aspect-[1024/536] select-none">
+            
+            {/* Image 1 (Col 1 Bottom: story-team) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col1Bottom)}
+              style={{ left: "0%", top: "29.85%", width: "24.22%" }}
+              className="absolute aspect-[248/234] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col1Bottom.src}
+                alt={set2Images.col1Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="25vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 2 (Col 2 Top: expertise-banner-meeting) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col2Top)}
+              style={{ left: "26.07%", top: "20.15%", width: "23.63%" }}
+              className="absolute aspect-[242/170] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col2Top.src}
+                alt={set2Images.col2Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="25vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 3 (Col 2 Bottom: gallery-img-8 International seminar) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col2Bottom)}
+              style={{ left: "25.88%", top: "55.04%", width: "32.13%" }}
+              className="absolute aspect-[329/173] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col2Bottom.src}
+                alt={set2Images.col2Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="33vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 4 (Col 3 Top: gallery-img-7 Supreme Court conference) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col3Top)}
+              style={{ left: "51.56%", top: "0%", width: "25.20%" }}
+              className="absolute aspect-[258/278] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col3Top.src}
+                alt={set2Images.col3Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="26vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 5 (Col 3 Bottom: gallery-img-9 Agreement Signing) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col3Bottom)}
+              style={{ left: "59.86%", top: "54.85%", width: "30.18%" }}
+              className="absolute aspect-[309/142] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col3Bottom.src}
+                alt={set2Images.col3Bottom.alt}
+                fill
+                unoptimized
+                priority
+                sizes="31vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+            {/* Image 6 (Col 4 Top: whoweare Chambers Leadership) */}
+            <div
+              onClick={() => setSelectedImage(set2Images.col4Top)}
+              style={{ left: "78.61%", top: "13.62%", width: "21.39%" }}
+              className="absolute aspect-[219/205] overflow-hidden bg-[#F2F3F5] cursor-pointer group transition-all duration-300"
+            >
+              <Image
+                src={set2Images.col4Top.src}
+                alt={set2Images.col4Top.alt}
+                fill
+                unoptimized
+                priority
+                sizes="22vw"
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-300" />
+            </div>
+
+          </div>
+
+          {/* ===== MOBILE & TABLET COLLAGE (< lg) ===== */}
+          <div className="block lg:hidden">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+              <div
+                onClick={() => setSelectedImage(set2Images.col1Bottom)}
+                className="relative aspect-[248/234] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set2Images.col1Bottom.src}
+                  alt={set2Images.col1Bottom.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set2Images.col2Top)}
+                className="relative aspect-[242/170] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set2Images.col2Top.src}
+                  alt={set2Images.col2Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set2Images.col3Top)}
+                className="relative aspect-[258/278] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set2Images.col3Top.src}
+                  alt={set2Images.col3Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set2Images.col4Top)}
+                className="relative aspect-[219/205] overflow-hidden bg-[#F2F3F5] cursor-pointer group"
+              >
+                <Image
+                  src={set2Images.col4Top.src}
+                  alt={set2Images.col4Top.alt}
+                  fill
+                  unoptimized
+                  sizes="(max-width: 640px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set2Images.col2Bottom)}
+                className="relative aspect-[329/173] overflow-hidden bg-[#F2F3F5] cursor-pointer group sm:col-span-2"
+              >
+                <Image
+                  src={set2Images.col2Bottom.src}
+                  alt={set2Images.col2Bottom.alt}
+                  fill
+                  unoptimized
+                  sizes="100vw"
+                  className="object-cover"
+                />
+              </div>
+
+              <div
+                onClick={() => setSelectedImage(set2Images.col3Bottom)}
+                className="relative aspect-[309/142] overflow-hidden bg-[#F2F3F5] cursor-pointer group sm:col-span-2"
+              >
+                <Image
+                  src={set2Images.col3Bottom.src}
+                  alt={set2Images.col3Bottom.alt}
+                  fill
+                  unoptimized
+                  sizes="100vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ========================================================================= */}
+      {/* 3. LIGHTBOX MODAL FOR FULL-SCREEN HIGH RESOLUTION VIEW */}
+      {/* ========================================================================= */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-[9999] bg-black/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 transition-all duration-300"
-          onClick={() => setSelectedImageIndex(null)}
+          className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 md:p-8 transition-opacity duration-300 animate-fadeIn"
+          onClick={() => setSelectedImage(null)}
         >
           <div
-            className="relative max-w-5xl w-full bg-slate-950 rounded-2xl overflow-hidden shadow-2xl border border-slate-800 flex flex-col"
+            className="relative max-w-5xl w-full bg-white overflow-hidden shadow-2xl transition-all scale-100 rounded-sm"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Top Lightbox Header */}
-            <div className="p-4 px-5 bg-slate-900/90 border-b border-slate-800/80 flex items-center justify-between text-white z-10">
-              <div className="flex items-center gap-3">
-                <span className="px-2.5 py-0.5 rounded text-xs font-semibold bg-[#8E1831] text-white uppercase tracking-wider">
-                  {selectedImage.category}
-                </span>
-                <span className="text-xs text-slate-400 font-switzer">
-                  Photo {(selectedImageIndex || 0) + 1} of {filteredItems.length}
-                </span>
-              </div>
+            {/* Top Close Button */}
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-black/60 text-white hover:bg-black/90 flex items-center justify-center transition-colors cursor-pointer"
+              aria-label="Close modal"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
 
-              {/* Close Button */}
-              <button
-                onClick={() => setSelectedImageIndex(null)}
-                className="cursor-pointer w-9 h-9 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center transition-colors"
-                aria-label="Close modal"
-              >
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </button>
-            </div>
+            {/* Left Prev Navigation Arrow */}
+            <button
+              onClick={handlePrev}
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/50 text-white hover:bg-[#8E1831] flex items-center justify-center transition-all cursor-pointer shadow-lg"
+              aria-label="Previous photo"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
 
-            {/* Main Image Display with Prev/Next Controls */}
-            <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] md:aspect-[16/9] bg-black flex items-center justify-center">
+            {/* Right Next Navigation Arrow */}
+            <button
+              onClick={handleNext}
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/50 text-white hover:bg-[#8E1831] flex items-center justify-center transition-all cursor-pointer shadow-lg"
+              aria-label="Next photo"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </button>
+
+            {/* High-Res Photo Container */}
+            <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] bg-black">
               <Image
                 src={selectedImage.src}
-                alt={selectedImage.title}
+                alt={selectedImage.alt}
                 fill
                 unoptimized
                 className="object-contain"
-                sizes="(max-width: 1200px) 100vw, 1200px"
+                sizes="(max-width: 1200px) 100vw, 1100px"
               />
-
-              {/* Previous Navigation Button */}
-              {filteredItems.length > 1 && (
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handlePrev();
-                  }}
-                  className="cursor-pointer absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 w-10 sm:w-12 h-10 sm:h-12 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center transition-colors shadow-lg"
-                  aria-label="Previous image"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                  </svg>
-                </button>
-              )}
-
-              {/* Next Navigation Button */}
-              {filteredItems.length > 1 && (
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleNext();
-                  }}
-                  className="cursor-pointer absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 w-10 sm:w-12 h-10 sm:h-12 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center transition-colors shadow-lg"
-                  aria-label="Next image"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
-              )}
             </div>
 
-            {/* Bottom Caption & Details Bar */}
-            <div className="p-4 sm:p-5 bg-slate-900 border-t border-slate-800 text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            {/* Photo Metadata & Caption Footer */}
+            <div className="p-4 sm:p-6 bg-white border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
-                <h3 className="font-dm-serif-text text-lg sm:text-xl text-white">
-                  {selectedImage.title}
+                {selectedImage.category && (
+                  <span className="text-[11px] font-semibold uppercase tracking-wider text-[#8E1831] block mb-1">
+                    {selectedImage.category}
+                  </span>
+                )}
+                <h3 className="font-dm-serif-text text-lg sm:text-2xl text-[#141414]">
+                  {selectedImage.caption}
                 </h3>
-                <p className="font-switzer text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl leading-relaxed">
-                  {selectedImage.description}
-                </p>
+                {selectedImage.description && (
+                  <p className="font-switzer text-xs sm:text-sm text-[#525252] mt-1 max-w-2xl leading-relaxed">
+                    {selectedImage.description}
+                  </p>
+                )}
               </div>
 
-              <div className="shrink-0 flex items-center gap-3">
-                <span className="text-xs font-marcellus text-[#F5B5C2] uppercase tracking-wider">
-                  Basunia &amp; Associates
-                </span>
+              <div className="shrink-0 font-marcellus text-xs text-[#8E1831] uppercase tracking-wider font-semibold">
+                Basunia &amp; Associate
               </div>
             </div>
+
           </div>
         </div>
       )}
-    </section>
+
+    </div>
   );
 }
